@@ -1,0 +1,59 @@
+.new-logo-holder
+{
+	/*border: 1px solid #333;*/
+}
+	.new-logo-holder a
+	{
+		float: left;
+		background: none!important;
+	}
+			.new-logo-holder a:hover
+			{
+			}
+.nd
+{
+	padding: 7px 0!important;
+}
+.ryt
+{
+	margin-top: 20px;
+}
+@media screen and (max-width: 501px) {
+	.new-logo-holder
+	{
+		/*border: 1px solid #333;*/
+		text-align: center;
+	}
+	.new-logo-holder a
+	{
+		/*float: none;*/
+	}
+	.fxlogo
+	{
+		width: 200px;
+	}
+	.udlp-logo
+	{
+		width: 161px;
+	}
+}
+@media screen and (max-width: 392px) {
+	.fxlogo
+	{
+		width: 150px;
+	}
+	.udlp-logo
+	{
+		width: 150px;
+	}
+}
+@media screen and (max-width: 331px) {
+	.fxlogo
+	{
+		width: 144px;
+	}
+	.udlp-logo
+	{
+		width: 144px;
+	}
+}

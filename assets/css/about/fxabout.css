@@ -1,0 +1,230 @@
+a:hover, a:focus
+{
+	text-decoration: none;
+}
+.about-main-wrapper
+{
+	width: 100%;
+	background-image: url(../../images/about-main-bg.jpg);
+	background-attachment: fixed;
+    background-position: center -950px;  
+}
+.about-header-holder
+{
+	width: 100%;
+	background: url(../../images/about-header.jpg);
+	min-height: 412px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.about-header
+{
+	width: 100%;
+}
+	.about-header h2
+	{
+		font-family: Georgia;
+		font-size: 58px;
+		color: #fff;
+		margin-top: 220px;
+	}
+	.about-header p
+	{
+		font-family: Open Sans;
+		font-size: 20px;
+		color: #fff;
+	}
+.about-content-holder
+{
+	width: 100%;
+	background: #eff2f2;
+}
+	.about-content
+	{
+		width: 100%;
+		margin-top: 28px;
+	}
+		.about-content p
+		{
+			font-family: Open Sans;
+			font-size: 17px;
+			color: #000;
+			font-weight: 300;
+			line-height: 27px;
+		}
+			.about-content p b
+			{
+				color: #2988ca;
+			}
+	.about-content-img
+	{
+		margin-top: 30px;
+	}
+		.about-content-img img
+		{
+			width: 420px;
+			text-align: right!important;
+			float: right;
+		}
+.about-feat-holder
+{
+	min-height: 500px;
+	width: 100%;
+	background: rgba(26,34,47,0.71);
+	padding-top: 55px;
+	padding-bottom: 55px;  
+}
+	.about img
+	{
+		margin-top: 35px;
+	}
+	.about p
+	{
+		font-family: Georgia;
+		font-size: 20px;
+		color: #fff;
+		margin-top: 10px;
+		padding-top: 100px;
+
+	}
+	.about-regulation-holder
+	{
+		padding-right: 0px!important;
+	}
+		.about-regulation
+		{
+			background: url(../../images/about-regulation-img.png);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+			min-height: 243px;
+			text-align: center;
+		}
+	.about-awards-holder
+	{
+		padding-right: 0px!important;
+		padding-left: 0px!important;
+	}
+		.about-awards
+		{
+			background: url(../../images/about-awards-img.png);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+			min-height: 243px;
+			text-align: center;
+		}
+	.about-supp-holder
+	{
+		padding-left: 0px!important;
+	}
+		.about-supp
+		{
+			background: url(../../images/about-supp-img.png);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+			min-height: 243px;
+			text-align: center;
+		}
+	.about-bonus-holder
+	{
+		padding-right: 0px!important;
+	}
+		.about-bonus
+		{
+			background: url(../../images/about-bonus-img.png);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+			min-height: 243px;
+			text-align: center;
+		}
+	.about-wide-holder
+	{
+		padding-right: 0px!important;
+		padding-left: 0px!important;
+	}
+		.about-wide
+		{
+			background: url(../../images/about-wide-img.png);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+			min-height: 243px;
+			text-align: center;
+		}
+	.about-partner-holder
+	{
+		padding-left: 0px!important;
+	}
+		.about-partner
+		{
+			background: url(../../images/about-partner-img.png);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+			min-height: 243px;
+			text-align: center;
+		}
+.about-btn-holder
+{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+	.about-btn-holder a
+	{
+		background: #29a643;
+		color: #fff;
+		display: inline-block;
+		padding: 25px 40px;
+		font-family: Open Sans;
+		font-size: 22px;
+		transition: all ease 0.3s;
+	}
+	.about-btn-holder a:hover
+	{
+		text-decoration: none;
+		background: #3ECD5C;
+		transition: all ease 0.3s;
+	}
+
+@media screen and (max-width: 1199px){
+	.about-content p
+	{
+		font-size: 13px;
+		line-height: 23px;
+	}
+}
+@media screen and (max-width: 991px;){
+	.about-content-img
+	{
+		/*display: none!important;*/
+	}
+}
+@media screen and (max-width: 767px){
+	.about-content-img img
+	{
+		float: none;
+		margin: 0 auto;
+	}
+	.about
+	{
+		padding: 0!important;
+	}
+}
+@media screen and (max-width: 390px){
+	.about
+	{
+		width: 100%;
+	}
+}

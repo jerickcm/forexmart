@@ -1,0 +1,21 @@
+<?php
+$lang['lav-1']='Membuka dunia <b>peluang</b>';
+$lang['lav-2']='Meneroka <b>peluang</b> dengan <b>leveraj</b> yang tertinggi yang pernah wujud';
+$lang['lav-3']='<b class="bb">Pandu perjalanan</b> ke arah kejayaan';
+$lang['lav-4']="Dengan sokongan pelanggan yang hebat dan perkhidmatan yang berdaya saing, Forexmart menawarkan leveraj sehingga 1: 5000 untuk Standard dan Akaun Tanpa Spread. <br>Ia membolehkan anda:";
+$lang['lav-5']="Membuka tawaran dalam jumlah yang lebih besar dan meraih lebih banyak keuntungan";
+$lang['lav-6']="Mengurangkan keperluan margin dan menyimpan wang anda dengan selamat";
+$lang['lav-7']="Kurang pelaburan dalam setiap perdagangan dan buka lebih banyak posisi.";
+$lang['lav-8']="Mulakan <b>bedagang</b> hari ini!";
+$lang['lav-9']="<h2>LEVERAJ</h2> <br><h1> 1 : 5000</h1>";
+$lang['lav-10']="1 : 5000";
+$lang['lav-11']="Emel";
+$lang['lav-12']="Nama Penuh";
+$lang['lav-13']="Hantar";
+$lang['lav-14']="";
+$lang['lav-15']="Terma laveraj 1:5000";
+$lang['lav-16']="Laveraj 1:5000 disediakan untuk Pelanggan dengan baki akaun tidak melebihi 1000 USD.";
+$lang['lav-17']="Levaraj 1: 5000 tidak serasi dengan beberapa jenis bonus. Sila baca dengan teliti Perjanjian Bonus.";
+$lang['lav-18']="Leverage maksimum 1:5000 boleh dikurangkan kepada 1: 1000 oleh syarikat mengikut budi bicara mutlak syarikat.";
+$lang['lav-19']=" Dengan menggunakan laveraj 1:5000 pelanggan bersetuju dengan Syarat Perkhidmatan.";
+$lang['lav-20']="Terma perkhidmatan laveraj 1:5000";

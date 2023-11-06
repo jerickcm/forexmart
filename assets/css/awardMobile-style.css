@@ -1,0 +1,8 @@
+@media screen and (max-width: 991px){
+	.bg-awards{
+		display:none;
+	}
+	.mobileAward_container{
+		display:block;
+	}
+}

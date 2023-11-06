@@ -1,0 +1,5 @@
+<?php
+$lang['license_0']='Licença da CySEC da Tradomart ';
+$lang['license_01'] = 'A ForexMart está operando um broker de forex licenciado sob a Cyprus Securities and Exchange Commission ou <a href="http://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/71294/"><strong>CySEC</strong></a>.Ela está autorizada a prestar serviços de investimento para as empresas legais e indivíduos legítimos em troca da compensação correspondente. A ForexMart executa a sua tarefa dentro da jurisdição de regras e regulamentos aplicáveis e presta os seus serviços com as maiores convenções de segurança e protocolos de segurança. A empresa garante a sua adesão às leis pertinentes em que realiza negócios. Isto inclui salvaguardar os ativos de clientes através de segregação estratégica de recursos, manter a adequação de capital mínimo para as operações de negócios estáveis e implementar os mecanismos adequados para prevenir atividades ilegais, como lavagem de dinheiro, fraudes de investimento e outros crimes financeiros.';
+
+$lang['tit_lang'] = 'External License';

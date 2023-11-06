@@ -1,0 +1,164 @@
+/*modal/manage_accounts_live.php*/
+#modal-manage-account .modal-dialog {  width: 99%; }
+.ui-datepicker { z-index: 9999; }
+.btn-reset, .btn-save {background: #29A643 none repeat scroll 0% 0%;color: #FFF;padding: 10px 20px;border: medium none;transition: all 0.3s ease 0s;margin: 0px;}
+.btn-switch{background: #29A643 none repeat scroll 0% 0%;color: #FFF;padding: 10px 10px;border: medium none;transition: all 0.3s ease 0s;margin: 2px;}
+.btn-switch:hover{ color: #FFF; text-decoration: none; }
+a.btn-reset:hover, a.btn-save:hover{color: #FFF;text-decoration: none;}
+.row-alert {display: none;}
+#modal-manage-account .modal-footer {  text-align: center;  }
+.error{  color:red; }
+.col-with-tooltip { margin-right: -14px; padding-right: 30px; }
+#modal-manage-account .modal-content{ width: 100%; margin-top: 3%; }
+#modal-manage-account .modal-header { padding: 10px!important; }
+#modal-manage-account .modal-body{ padding: 10px!important; padding-bottom: 0px!IMPORTANT; }
+
+
+
+#modal-manage-account_corporate .modal-dialog {  width: 99%;  }
+.ui-datepicker {  z-index: 9999;  }
+.btn-reset, .btn-save { background: #29A643 none repeat scroll 0% 0%; color: #FFF; padding: 10px 50px; border: medium none; transition: all 0.3s ease 0s; margin: 2px; }
+a.btn-reset:hover, a.btn-save:hover{ color: #FFF; text-decoration: none;  }
+.row-alert { display: none; }
+#modal-manage-account_corporate .modal-footer { text-align: center; }
+#modal-manage-account_corporate .modal-content{ width: 100%; margin-top: 3%; }
+#modal-manage-account_corporate .modal-body{ padding-bottom:0!important;}
+.tab-content > .active { border:none!important}
+.mail-tab-holder{overflow-x: hidden;}  .cancel-holder .cancel-compose {background: #29A643 none repeat scroll 0% 0%;color: #FFF;padding: 10px 50px;border: medium none;transition: all 0.3s ease 0display: none;}
+#modal-manage-account_corporate .modal-header{
+    padding:5px!important;
+}
+#modal-manage-account_corporate .modal-body{
+    padding-top:5px!important;
+}
+/*#modal-manage-account .modal-dialog {*/
+    /*width: 99%;*/
+    /*border-radius: 0;*/
+/*}*/
+
+.ui-datepicker {
+    z-index: 9999;
+}
+
+.btn-reset, .btn-save {
+    background: #29A643 none repeat scroll 0% 0%;
+    color: #FFF;
+    padding: 10px 20px;
+    border: medium none;
+    transition: all 0.3s ease 0s;
+    margin: 2px;
+}
+.btn-switch{
+    background: #29A643 none repeat scroll 0% 0%;
+    color: #FFF;
+    padding: 10px 10px;
+    border: medium none;
+    transition: all 0.3s ease 0s;
+    margin: 2px;
+}
+.btn-switch:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+
+a.btn-reset:hover, a.btn-save:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.row-alert {
+    display: none;
+}
+
+#modal-manage-account .modal-footer {
+    text-align: center;
+}
+
+.error{
+    color:red;
+}
+
+.col-with-tooltip {
+    margin-right: -14px;
+    padding-right: 30px;
+}
+
+.tabNav .nav{
+    margin-bottom: 30px;
+}
+
+.tabNav .nav-tabs.nav-justified>.active>a, .tabNav .nav-tabs.nav-justified>.active>a:focus, .tabNav .nav-tabs.nav-justified>.active>a:hover{
+    border:none;
+    border-bottom:solid 3px #29A643;
+}
+
+.tabNav .nav li a{
+    font-weight: 600;
+    color: #333;
+    padding: 0px 15px 15px 15px;
+    text-transform: none;
+}
+
+.tabNav .nav-tabs li a:hover, .tabNav .nav-tabs li a:focus{
+    border:none;
+    background: transparent;
+    border-bottom: solid 3px #ddd;
+}
+
+
+/*sidelink*/
+.open-content{display: block}  .active-header1 , .active-header1:hover , .inactive-header1:hover { background:#0c6eb2; color: #fff; font-weight:normal; text-shadow:none; border-bottom:1px solid #085e9a; }  .open-content1{display: block}  .tab-input-form1 { padding: 7px 10px!important; }  .tab-input-form1 { color: #555; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); box-shadow: inset 0 1px 1px rgba(0,0,0,.075); }  .tab-input-form1, .tab-select-form { background-color: #fff; background-image: none; border: 1px solid #ccc; -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }  .main-wrapper{ background: #2988ca; }  .find{height: 100%;margin-left: 2px; padding: 7px;border: none; background: #29a643;color: #fff; }  .find:hover{background: #50df6e;}
+.arrow-left { width: 0; height: 0; border-top: 20px solid transparent; border-bottom: 20px solid transparent; border-right: 20px solid rgba(0, 0, 0, .2); margin-left: -20px; margin-top: -50px; }  .mod1 { float: none!important; margin-left: 290px!important; margin-top: 80px!important; width: 400px; }  .mod2{ border-bottom: none!important; }
+
+#accountUpdateHistory {
+    z-index: 9998;
+    margin-top: 1.3%;
+}
+#accountFieldUpdateHistory{
+    z-index: 9999;
+    margin-top: 1.3%;
+}
+
+
+
+
+
+
+
+
+
+#modal-all-records .modal-dialog{ width:99%;}
+#modal-all-records .modal-body { position: relative; padding: 5px!important; }
+#modal-all-records .modal-content{ width: 100%;  margin-top: 3%; }
+#modal-all-records .table-container-holder, .mini-form-container { margin: 10px auto; }
+#modal-all-records .table-container-margin, .mini-form-container {    margin-top: 0; }
+#modal-all-records .modal-header{  padding:10px!important; }
+#modal-all-records .modal-body .tab-title-header h1 {
+    font-size: 16px;
+    margin-top: 14px!important;
+}
+
+
+#modal-only-trades .modal-dialog{ width:99%;}
+#modal-only-trades .modal-body { position: relative; padding: 5px!important; }
+#modal-only-trades .modal-content{ width: 100%;margin-top: 3%; }
+#modal-only-trades .table-container-holder, .mini-form-container { margin: 10px auto; }
+#modal-only-trades .table-container-margin, .mini-form-container {    margin-top: 0; }
+#modal-only-trades .modal-body .tab-title-header h1 {
+    font-size: 16px;
+    margin-top: 14px!important;
+}
+
+#modal-balance-records .modal-dialog{ width:95%;}
+#modal-balance-records .modal-body { position: relative; padding: 5px!important; }
+#modal-balance-records .modal-content{ width: 100%; margin-top: 3%; }
+#modal-balance-records .table-container-holder, .mini-form-container { margin: 10px auto; }
+#modal-balance-records .table-container-margin, .mini-form-container {    margin-top: 0; }
+#modal-balance-records .modal-header{  padding:10px!important; }
+
+.all_tab_title {
+    color: #0a9ccc !important;
+    font-family: menu !important;
+    font-size: 24px !important;
+    margin-left: 30px !important;
+}

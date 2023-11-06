@@ -1,0 +1,36 @@
+.nav-fix
+        {
+            position: fixed;
+            top: 0;
+            z-index: 9999;
+            width: 100%;
+            transition: all ease 0.3s;
+        }
+        .fx-drp{
+            z-index: 99;
+        }
+    @media screen and (max-width: 1199px) and (min-width: 992px){
+        .search-ryt {
+            display: block;
+        }
+    }
+        @media screen and (min-width: 1401px) {
+            #searchfield:lang(ru){
+                width: 120px;
+            }
+        }
+
+    #owl-demo .item{
+        margin: 3px;
+        height: 140px!important;
+    }
+    #owl-demo .item img{
+        display: block;
+        margin:0 auto;
+        margin-top: 80px;
+    }
+
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }

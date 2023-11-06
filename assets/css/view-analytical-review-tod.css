@@ -1,0 +1,122 @@
+
+    .analytical-banner
+    {
+        background: url(../images/analytic-bg.png) repeat;
+        width: 100%;
+        padding: 30px;
+    }
+    .analytical-title
+    {
+        color: #fff;
+        font-family: Georgia;
+        font-size: 25px;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .analytical-text
+    {
+        font-size: 14px;
+        color: #fff;
+        font-family: Open Sans;
+    }
+    .analytical-main-holder
+    {
+        margin: 10px 0;
+    }
+    .reviews-date, .reviews-title, .reviews-content
+    {
+        margin: 0;
+        font-family: Open Sans;
+    }
+    .reviews-holder
+    {
+        padding: 20px 15px;
+        border-bottom: 1px solid #e0e0e0;
+        transition: all ease 0.3s;
+    }
+    .reviews-holder:hover
+    {
+        background: #eee;
+        transition: all ease 0.3s;
+    }
+    .reviews-holder:last-child
+    {
+        border-bottom: none;
+    }
+    .reviews-content
+    {
+        text-align: justify;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .reviews-date
+    {
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    .reviews-date span
+    {
+        color: #2988ca;
+    }
+    .reviews-title
+    {
+        font-size: 20px;
+        font-weight: 600;
+        color: #2988ca;
+    }
+    .reviews-title:hover
+    {
+        text-decoration: underline;
+        color: #2988ca;
+    }
+    .reviews-readmore
+    {
+        text-align: right;
+        display: block;
+        margin-top: 10px;
+        /*font-size:14px!important;*/
+        /*color: #337AB7!important;*/
+        width:100%!important;
+        font-family: Open Sans;
+
+    }
+    .review-avatar-holder img
+    {
+        border: 3px solid #ddd;
+    }
+    @media screen and (max-width: 481px) {
+        .col-avatar
+        {
+            width: 100%;
+        }
+        .review-avatar-holder
+        {
+            margin-bottom: 15px;
+        }
+        .review-avatar-holder img
+        {
+            width: 120px;
+            margin: 0 auto;
+            float: none;
+        }
+        .col-reviews
+        {
+            width: 100%;
+        }
+    }
+    .blockflag{ display: block}
+    .noneflag{ display: none}
+
+    #btn-yes{
+        background: #29a643;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        padding: 5px 10px;
+    }
+
+    #btn-yes:hover{
+        text-decoration: none;
+        background: #3ecd5c;
+    }

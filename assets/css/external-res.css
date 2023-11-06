@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+	.img-center
+	{
+		text-align: center;
+	}
+	.choose-sub
+	{
+		text-align: center;
+	}
+	.image-center
+	{
+		margin: 0 auto;
+		float: none;
+	}
+	.ec-date
+	{
+		text-align: left!important;
+	}
+}	
+
+@media screen and (max-width: 520px) {
+	.license-title
+	{
+		text-align: center!important;
+	}
+}
+
+@media screen and (max-width: 592px){
+	.legend1-holder
+	{
+		width: 100%;
+	}
+	.legend2
+	{
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 514px){
+	.queue-tab-list li
+	{
+		float: none!important;
+		border-bottom: 1px solid #1A6FAB;
+	}
+}

@@ -1,0 +1,45 @@
+/*Tue, 31 May 2016 13:44:18 +0000 */
+.sa-s-p{font-family:Open Sans;padding:0;font-weight:600;margin-top:10px;color:#333;text-align:right!important}
+.gray-line{border-top:1px solid #ADA6A6;margin-top:45px}
+.alignobject{float:right;margin-top:0!important}
+.form-inline{float:right!important}
+.form-inline:lang(sa){float:none!important}
+.valignlabel{text-align:left}
+.tradomart{margin-bottom:7px!important;padding:0!important}
+.fgl{padding:5px}
+.custom-pad{padding-left:10px}
+@media screen and (max-width:550px){
+    .gray-line:lang(sa){border-top:1px solid #ADA6A6!important;margin-top:120px!important}
+}
+@media screen and (max-width: 1024px){
+    .gray-line{border-top:1px solid #ADA6A6!important;margin-top:75px!important}
+}
+@media screen and (max-width: 800px){
+    .btn-real{padding:7px 42px}
+    .btn-real:lang(id){padding:7px 40px!important}
+    .btn-real:lang(bg){padding:7px 56px!important}
+    .btn-demo{padding:7px 50px!important}
+    .btn-demo:lang(de){padding:7px 50px!important}
+    .btn-demo:lang(fr){padding:7px 50px!important}
+    .btn-demo:lang(es){padding:7px 51px!important}
+}
+@media screen and (max-width:767px){
+    .sa-s-p{text-align:center!important}
+    .form-inline{float:none!important}
+    .btn-real:lang(id){padding:7px 64px!important}
+}
+.force-width{width:100%}
+.col-sm-4x:lang(sa){width:300px!important}
+@media screen and (max-width: 991px) and (min-width:768px){
+    .col-sm-8x:lang(sa){width:58%!important}
+}
+
+
+@media only screen and (max-width: 320px){
+    .floatCenter_for_arabic:lang(sa){
+        float: none!important;
+    }
+    .sa-right:lang(sa){
+        text-align: center!important;
+    }
+}

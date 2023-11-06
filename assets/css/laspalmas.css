@@ -1,0 +1,84 @@
+.laspalmas-text
+{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+    text-align: justify;
+}
+.laspalmas-gallery-holder
+{
+    background: url(../images/laspalmas-gallery.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.laspalmas-title
+{
+    font-family: Georgia;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+}
+.lp-vid-holder
+{
+    margin-top: 20px!important;
+    width: 75%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+}
+/*.laspalmas-header
+{
+    width:  100%;
+    min-height: 450px;
+    background: url(../images/laspalmas-header.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+.watch
+{
+    background: #29a643;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 7px; 
+    font-family: Open Sans;
+    font-size: 17px;
+    transition: all ease 0.3s;
+}
+    .watch:hover, .watch:focus
+    {
+        text-decoration: none;
+        background: #3ECD5C;
+        transition: all ease 0.3s;
+        color: #fff;
+    }
+.vid
+{
+    display: none;
+}
+.vid-front
+{
+}
+    .vid-front img
+    {
+        width: 100%;
+    }
+@media screen and (max-width: 1199px) {
+    .vid-front
+    {
+    }
+}
+
+.cf{
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+#player1:hover{cursor: pointer;}

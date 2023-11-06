@@ -1,0 +1,39 @@
+<?php
+
+// $lang['mae_00'] = 'ForexMart account details';
+// $lang['mae_01'] = 'Hi';
+// $lang['mae_02'] = 'Full Name';
+// $lang['mae_03'] = 'Email ID';
+// $lang['mae_04'] = 'User ID';
+// $lang['mae_05'] = 'Password';
+// $lang['mae_06'] = 'Login to Admin Panel';
+// $lang['mae_07'] = 'Alternatively, you may copy and paste the following link to your browser';
+// $lang['mae_08'] = 'Please store your login details safe and secure at all times';
+// $lang['mae_09'] = 'Note that your login and password will work Forexmart only';
+// $lang['mae_10'] = 'You may visit our';
+// $lang['mae_11'] = 'Frequently Asked Questions';
+// $lang['mae_12'] = 'for more technical information';
+// $lang['mae_13'] = 'For more information please do not hesitate to contact us at';
+// $lang['mae_14'] = 'support@forexmart.com';
+// $lang['mae_15'] = 'Thank you';
+// $lang['mae_16'] = 'With best regards';
+// $lang['mae_17'] = 'ForexMart Team';
+
+$lang['mae_00'] = 'ForexMarts Konto-Informationen';
+$lang['mae_01'] = 'Hallo';
+$lang['mae_02'] = 'Name';
+$lang['mae_03'] = 'Email ID';
+$lang['mae_04'] = 'Benutzer ID';
+$lang['mae_05'] = 'Kennwort';
+$lang['mae_06'] = 'Anmelden zum Admin-Panel';
+$lang['mae_07'] = 'Alternativ können Sie den folgenden Link in Ihren Browser kopieren und einfügen';
+$lang['mae_08'] = 'Halten Sie Ihre Kontodaten sicher.';
+$lang['mae_09'] = 'Beachten Sie bitte, dass Ihre Benutzername und Kennwort nur mit ForexMart funktionieren werden. ';
+$lang['mae_10'] = 'Sie können unsere ';
+$lang['mae_11'] = 'Häufig gestellte Fragen';
+$lang['mae_12'] = 'für mehr technische Information besuchen'; 
+$lang['mae_13'] = 'Für die weitere Information kontaktieren Sie uns bitte unter';
+$lang['mae_14'] = 'support@forexmart.com';
+$lang['mae_15'] = 'Vielen Dank';
+$lang['mae_16'] = 'Mit freundlichen Grüßen,';
+$lang['mae_17'] = 'ForexMart Team';

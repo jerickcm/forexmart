@@ -1,0 +1,85 @@
+
+#language option{padding-bottom:6px; padding-top:4px; cursor: pointer !important; }
+
+@media screen and (max-width: 350px) {
+    .form-control{width: 109% !important; font-size: 13px !important; }
+}
+
+@media screen and (max-width: 767px){.offset-buttons-holder{float:right!important}}
+@media screen and (max-width: 355px){#captcha{line-height:28px!important}
+    .offset-buttons-holder{float:none!important;margin-top:80px!important}}
+.h1head{margin-left:3%}#errorGet p:nth-last-child(odd){color:Red;float:left;font-weight:bold;margin-top:10px}
+@media screen and (max-width: 750px) and (-webkit-min-device-pixel-ratio:0){.mar-top{margin-top:30px!important}}
+@media screen and (max-width: 1083px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio:0){div#recaptcha_image{width:275px!important}}
+@-moz-document url-prefix() {
+    @media screen and (max-width: 1083px) and (max-width: 1600px){
+        div#recaptcha_image{width:275px!important}
+    }
+    @media screen and (max-width: 750px){
+        .mar-top{margin-top:30px!important}
+    }
+}
+
+@media screen and (max-width:680px){
+    #recaptcha_image{max-width: 230px;}
+    #recaptcha_challenge_image{width: 230px; float: left}
+    #captcha{ margin-left:3px !important;}
+}
+
+
+@media screen and (max-width:590px){
+    #captcha{ margin-left:3px !important;}
+    #recaptcha_image{max-width:190px;}
+    #recaptcha_challenge_image {
+        float: left;
+        margin-left: -15px;
+        width: 210px;
+    }
+
+}
+@media screen and (max-width:475px){
+    #captcha{ margin-left:3px !important;}
+    #recaptcha_image{max-width:150px;}
+    #recaptcha_challenge_image {
+        float: left;
+        margin-left: -15px;
+        width:170px;
+    }
+
+}
+
+@media screen and (max-width:384px){
+    #captcha{ margin-left:3px !important;}
+    #recaptcha_image{max-width:110px;}
+    #recaptcha_challenge_image {
+        float: left;
+        margin-left: -15px;
+        width:130px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .offset-buttons-holder {
+        float: none!important;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    .btn-submit {
+        float: none;
+    }
+}
+
+
+@media screen and (max-width: 420px){
+    .custome-cls{
+        width: 83.33333333%;
+    }
+    #recaptcha_response_field{
+        margin-left: 1% !important;
+        width: 125px !important;
+    }
+
+}

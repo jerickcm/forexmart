@@ -1,0 +1,16 @@
+<?php
+
+$lang['ceo_1'] = 'Pesanan daripada CEO';
+$lang['ceo_2'] = 'Savvas Patsalides';
+$lang['ceo_3'] = 'CEO  ';
+$lang['ceo_4'] = 'ForexMart';
+$lang['ceo_5'] = 'Pelanggan yang dihormati,';
+$lang['ceo_6'] = ' terus berusaha untuk mencapai kecemerlangan dan menawarkan kepuasan pelanggan yang sukar ditandingi. Kami gembira apabila kerja keras kami diiktiraf dengan penganugerahan baru-baru ini sebagai Broker Eropah Terbaru Terbaik 2016 dan Broker Terbaik di Eropah pada tahun 2015 oleh Majalah Kewangan Antarabangsa dan ShowFx World. Kami tidak henti-henti untuk mencari bagaimana cara untuk meningkatkan perkhidmatan kami melalui penyelidikan, output dan kerjasama daripada pekerja mahir kami serta pembelajaran yang tidak berkesudahan yangtelah melalui pelbagai pengalaman. Kami sentiasa memastikan keperluan pelanggan kami diutamakan serta memberi mereka sokongan penuh apabila diperlukan.';
+$lang['ceo_7'] = 'Kami memberi tumpuan dalam menyediakan perkhidmatan yang hebat untuk semua pelanggan kami. Oleh itu, kami dengan tegas mematuhi peraturan dan undang-undang yang disediakan oleh badan-badan yang mengawal seperti CySEC dan ESMA. Ia adalah kerana kami percaya bahawa kejayaan datang nombor dua selepas amalan perniagaan yang baik.';
+$lang['ceo_8'] = 'Saya amat berbesar hati kerana mempunyai peluang untuk mengucapkan jutaan terima kasih kepada semua pelanggan-pelanggan kami yang kami anggap sebagai rakan kongsi kami. Kami berterima kasih kerana anda memberikan kepercayaan kepada kami dan kami berharap untuk meneruskan hubungan perniagaan kami bersama anda yang baik pada masa akan datang.';
+$lang['ceo_9'] = 'Yang benar,';
+$lang['ceo_10'] = 'Mr Savvas mempunyai pengalaman luas dalam bidang Pematuhan serta latarbelakang yang mantap dalam bidang kewangan. Beliau telah berkhidmat dengan beberapa pertubuhan kewangan yang dikawal selia dan kukuh, mempunyai pengetahuan yang luas dalam perkhidmatan kewangan, yang terdiri daripada Pengurusan Portfolio, Nasihat Pelaburan, Kewangan Korporat, Penggabungan & Pengambilalihan, Penstrukturan Semula Hutang/Ekuiti, Perdagangan Forex dan Perbankan Komersil.';
+$lang['ceo_11'] = 'kelayakan akademik dan profesional beliau termasuk ijazah lanjutan dalam Organisasi Ekonomi dan Kewangan daripada London School of Economics & Political Science, Sijil Lanjutan daripada Cyprus Securities and Exchange Commission, dan telah melengkapkan National Commodity Futures Examination daripada CFTC.';
+$lang['ceo_12'] = 'Dalam tahun-tahun kebelakangan ini, beliau menumpukan pada pematuhan, Anti-Penggubahan Wang Haram dan Pengurusan Risiko, memastikan mematuhi badan-badan kawal selia yang berkaitan di seluruh dunia serta berurusan dengan keperluan pelesenan dan peraturan antarabangsa. Beliau telah mengetuai satu pasukan profesional, yang mempunyai latar belakang kewangan yang kukuh, perundangan dan pengawalseliaan, kesemuanya mempunyai pendedahan diperingkat antarabangsa dalam bidang masing-masing.';
+$lang['ceo_13'] = 'Untuk cadangan dan pertanyaan rakan kongsi, anda boleh menghubungi Encik Patsalides secara langsung melalui ';
+$lang['ceo_14'] = 'ceo@forexmart.com';

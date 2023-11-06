@@ -1,0 +1,94 @@
+.feedback-table
+{
+	/*border: none!important;*/
+}
+.feedback-table tr td
+{
+	/*border: none!important;*/
+}
+.feedback-scale-holder
+{
+	/*border: none!important;*/
+}
+.popfeedback
+{
+	z-index: 99999;
+}
+	.popfeedback .modal-dialog
+	{
+		top: 10px!important;
+	}
+.feedback-logo
+{
+	width: 320px;
+}
+.feedback-secondary-scale-holder p
+{
+	font-size: 12px;
+	color: #6a6a6a;
+	margin: 0;
+}
+.feedback-table
+{
+	margin-top: 10px;
+}
+
+/*new*/
+.feedback-rate-holder
+{
+	width: 100%;
+	margin-top: 5px;
+}
+	.feedback-rate-list
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		border: 1px solid #EAEAEA;
+		margin-top: 10px!important;
+	}
+		.feedback-rate-list li
+		{
+			float: left;
+			width: calc(100% / 10);
+			text-align: center;
+			display: block;
+			border-left: 1px solid #EAEAEA;
+		}
+			.feedback-rate-list li:first-child
+			{
+				border-left: none;
+			}
+			.feedback-rate-list li .rad
+			{
+				display: none;
+			}
+			.feedback-rate-list li label
+			{
+				padding: 5px;
+				font-size: 14px;
+				margin: 0;
+				background: #fafafa;
+				display: block;
+				color: #6a6a6a;
+				cursor: pointer;
+				transition: all ease 0.3s;
+			}
+				.feedback-rate-list li label:hover
+				{
+					background: #2988ca;
+					color: #fff;
+					transition: all ease 0.3s;
+				}
+			.feedback-rate-list li .rad:checked + label
+			{
+				background: #2988ca;
+				color: #fff;
+				transition: all ease 0.3s;
+			}
+.feedback-rate-holder p
+{
+	font-size: 12px;
+	color: #6a6a6a;
+	margin: 0;
+}

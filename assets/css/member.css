@@ -1,0 +1,45 @@
+.member-header-holder{width: 100%;min-height: 312px;background: url(../images/member-bg.jpg) no-repeat;	background-size: cover;	background-position: center center;	padding: 45px 0;}
+.member-header-cont{width: 100%;min-height: 10px;text-align: center;}
+.member-header-cont h2{font-family: Open Sans;font-size: 38px;font-weight: 600;color: #fff;text-align: center;	margin-top: 0;}
+.member-header-cont p{font-family: Open Sans;font-size: 17px;font-weight: 300;color: #fff;text-align: center;	margin-top: 25px;}
+.member-header-cont a {	display: inline-block;font-family: Open Sans;font-size: 20px;font-weight: 600;color: #fff;text-align: center;margin-top: 10px!important;transition: all ease 0.3s;}
+.member-header-cont a:hover{color:#337AB7;text-decoration: none;transition: all ease 0.3s;}
+.ceo-content-holder {padding:0!important;}
+.member-content-holder{width: 100%;padding: 30px 0;background: #fff;}
+.gray-bg{background: #f1f5f7!important;border-bottom: 1px solid #e1e9ee;border-top: 1px solid #e1e9ee;}
+.team-dept{font-family: Open Sans;font-size: 30px;font-weight: 300;color: #6a6a6a;	text-align: center;	margin-top: 0;}
+.team-line{margin: 0 auto;	float: none;}
+.member-holder{text-align: center;}
+.member-img-holder img{margin: 0 auto;	float: none;border: 1px solid #dadada;}
+.member-info-holder{margin-top: 20px;}
+.member-info-holder p{font-family: Open Sans;font-size: 16px;text-transform: uppercase;font-weight: 600;line-height: 20px;color: #6a6a6a;margin-bottom: 0!important;}
+.member-info-holder p small{display: block;	font-size: 14px;font-weight: 300;text-transform: none;}
+.building-member-img-holder img {border:1px solid #188cb5;margin-top:20px;}
+.building-bg  {	background:url(../images/team_member/building-bg.png);background-size:content;}
+.building-member-info-holder {margin-bottom:20px;}
+.building-member-info-holder p { color:#11508b;}
+.ceo-container-building {position:absolute;bottom:0;top:33px;}
+.ceo-content-holder .member-holder {position:relative!important;}
+.first-row-container {height:289px;width:100%;background:url(../images/team_member/building2.png);}
+.first-row-container .member-holder {margin:31px auto;}
+.first-row-container .member-holder img {border:1px solid #2680be;}
+.first-row-container .member-info-holder p {font-size:18px;color:#2680be;}
+@media screen and (max-width: 991px) {.top-margin-member {margin-top:20px;}}
+@media screen and (max-width: 600px) {.first-row-container {background:none;float:none;margin:0 auto;}.top-member-holder {width:100%;float:none;margin:0 auto;}}
+@media screen and (max-width: 450px) {.member-info-holder p {font-size:12px;}}
+@media screen and (max-width: 320px) {.member-info-holder p {font-size:10px;}.member-info-holder p small {font-size:11px;}}
+@media screen and (max-width: 568px) {
+    .first-row-container .member-holder{
+        width: 100%;
+    }
+}
+.career-text{
+    display: inline-block;
+    font-family: Open Sans!important;
+    font-size: 20px!important;
+    font-weight: 600!important;
+    color: #fff!important;
+    text-align: center!important;
+    margin-top: 10px!important;
+    transition: all ease 0.3s;
+}

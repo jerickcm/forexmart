@@ -1,0 +1,73 @@
+  .prizes-holder:lang(sa){
+        margin-left: 30%;
+        margin-right: 5px;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: 998px) and (max-width: 4000px) {
+        .clmn3:lang(sa){
+            padding: 0!important;
+            width: 40%!important;
+        }
+        .clmn2:lang(sa){
+            padding: 0!important;
+            width: 30%!important;
+        }
+        .clmn1:lang(sa){
+            padding: 0!important;
+            width: 28%!important;
+        }
+    }
+    @-moz-document url-prefix() {
+        @media screen and (min-width: 998px) and (max-width: 4000px) {
+            .clmn3:lang(sa){
+                padding: 0!important;
+                width: 40%!important;
+            }
+            .clmn2:lang(sa){
+                padding: 0!important;
+                width: 30%!important;
+            }
+            .clmn1:lang(sa){
+                padding: 0!important;
+                width: 29% !important;
+            }
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0)  and (max-width: 767px){
+        .main-specs-content:lang(sa) {
+            margin: 0 auto;
+            margin-top: 18%;
+            display: table;
+        }
+    }
+
+    @media screen  and (-webkit-min-device-pixel-ratio:0)  and (max-width: 767px){
+        .wide-screen:lang(sa){
+            margin-right: 5%;
+        }
+        .main-specs-content:lang(sa){
+            margin-right: 5%;
+        }
+    }
+    @-moz-document url-prefix() {
+        @media screen   and (max-width: 767px){
+            .wide-screen:lang(sa){
+                margin-right: 5%;
+            }
+            .main-specs-content:lang(sa){
+                margin-right: 8%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 559px){
+        .prizes-holder:lang(sa){
+            width:100%!important;
+        }
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 559px) {
+        .main-specs-content:lang(sa) {
+            margin-top: 5%;
+        }
+    }

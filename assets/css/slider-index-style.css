@@ -1,0 +1,91 @@
+
+
+.slider-button-holder {
+	bottom:60px;
+	position:absolute;
+	width:50%;
+	left:20px;
+}
+
+.get-bonus-now-button , .learn-more-button {
+	text-align:center;
+	float:left;
+	color:#fff;
+	font-size:16px;
+	margin:2px 0 2px 51px;
+	text-decoration:none;
+}
+
+.get-bonus-now-button:hover , .learn-more-button:hover {
+	color:#fff;
+	text-decoration:none;
+	transition: all ease 0.3s;
+}
+
+.get-bonus-now-button {
+	background:#2988ca;
+	padding:11px 30px;
+}
+
+.get-bonus-now-button:hover {
+	background:#319ae3;
+}
+
+.learn-more-button {
+	background:#29a643;
+	padding:11px 46px;
+}
+
+.learn-more-button:hover {
+	background:#3ecd5c;
+}
+
+.third-slide-second-img {
+	display:none!important;
+}
+
+.third-ads-item {
+	margin-top: -30px!important;
+}
+
+@media screen and (max-width: 1199px) {
+
+	.third-slide-second-img {
+		display:block!important;
+	}
+
+	.third-slide-first-img {
+		display:none!important;
+	}
+
+	.slider-button-holder {
+		width:auto!important;
+		bottom:0;
+		display:table;
+		margin:0 auto!important;
+		position:relative!important;
+		left:0!important;
+	}
+
+	.get-bonus-now-button {
+		margin:2px 2px 0 0;
+	}
+
+	.learn-more-button {
+		margin:2px 0 0 2px;
+	}
+}
+
+@media screen and (max-width: 398px) {
+
+	.slider-button-holder {
+		width:100%!important;
+	}
+
+	.get-bonus-now-button , .learn-more-button {
+		float:none!important;
+		margin:2px auto;
+		display:block;
+	}
+
+}

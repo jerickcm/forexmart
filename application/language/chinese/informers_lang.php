@@ -1,0 +1,105 @@
+<?php
+$lang['inf_1'] = 'ForexMart 资讯型广告';
+$lang['inf_2'] = '资讯型广告类型';
+$lang['inf_3'] = '经济日历';
+$lang['inf_4'] = '专业外汇';
+$lang['inf_5'] = '货币转换器';
+$lang['inf_6'] = '外汇计算器';
+$lang['inf_7'] = '公司新闻/分析';
+$lang['inf_8'] = 'ForexMart支持';
+$lang['inf_9'] = '安装专业外汇';
+$lang['inf_10'] = '设置';
+$lang['inf_11'] = '宽度:';
+$lang['inf_12'] = '选择:';
+$lang['inf_13'] = 'EURUSD';
+$lang['inf_14'] = 'GBPUSD';
+$lang['inf_15'] = 'USDJPY';
+$lang['inf_16'] = 'USDCHF';
+$lang['inf_17'] = 'USDCAD';
+$lang['inf_18'] = 'EURJPY';
+$lang['inf_19'] = 'EURCHF';
+$lang['inf_20'] = 'GBPJPY';
+$lang['inf_21'] = 'GBPCHF';
+$lang['inf_22'] = '头部背景颜色:';
+$lang['inf_23'] = '头部字体:';
+$lang['inf_24'] = '行字体:';
+$lang['inf_25'] = '申请';
+$lang['inf_26'] = '资讯型广告预览';
+$lang['inf_27'] = '插入代码';
+$lang['inf_28'] = '报价每30秒自动更新.<br>示例代码. 插入到页面正文之间( < body >  < /body >)';
+$lang['inf_29'] = '内联框架版本';
+$lang['inf_30'] = '例子';
+$lang['inf_31'] = '安装经济日历';
+$lang['inf_32'] = '时区:';
+$lang['inf_33'] = '新闻文章的数目:';
+$lang['inf_34'] = '边框:';
+$lang['inf_35'] = 'Rounding:';
+$lang['inf_36'] = '头部背景:';
+$lang['inf_37'] = '新闻主体背景:';
+$lang['inf_38'] = '页脚背景:';
+$lang['inf_39'] = '事件详情:';
+$lang['inf_40'] = '背景颜色:';
+$lang['inf_41'] = '头部文本:';
+$lang['inf_42'] = '页脚文本:';
+$lang['inf_43'] = '正文文本:';
+$lang['inf_44'] = '安装货币转换器';
+$lang['inf_45'] = '高度:';
+$lang['inf_46'] = '字体:';
+$lang['inf_47'] = '颜色:';
+$lang['inf_48'] = '箭头:';
+$lang['inf_49'] = '头部';
+$lang['inf_50'] = '安装ForexMart计算器';
+$lang['inf_51'] = '正常';
+$lang['inf_52'] = '阴影:';
+$lang['inf_53'] = '文本字体:';
+$lang['inf_54'] = '字体颜色:';
+$lang['inf_55'] = '背景:';
+$lang['inf_56'] = '字体大小:';
+$lang['inf_57'] = 'ForexMart新闻';
+$lang['inf_58'] = '公司新闻';
+$lang['inf_59'] = '安装公司新闻';
+$lang['inf_60'] = '新闻日期:';
+$lang['inf_61'] = '新闻文本:';
+$lang['inf_62'] = '阅读更多';
+$lang['inf_63'] = '事件示例';
+$lang['inf_64'] = '最新发布';
+$lang['inf_65'] = '实际';
+$lang['inf_66'] = '预测';
+$lang['inf_67'] = '先前';
+$lang['inf_68'] = '重要性:';
+$lang['inf_69'] = '国家:';
+$lang['inf_70'] = '货币:';
+$lang['inf_71'] = '来源:';
+$lang['inf_72'] = '发布日期';
+$lang['inf_73'] = '时间';
+$lang['inf_74'] = '每页显示记录的条数';
+$lang['inf_75'] = '执行';
+
+//forex informers
+$lang['inf_76'] = '客户账户';
+$lang['inf_77'] = '个人账户';
+$lang['inf_78'] = '账户';
+$lang['inf_79'] = '图表';
+$lang['inf_80'] = '净值';
+$lang['inf_81'] = '余额';
+$lang['inf_82'] = '佣金';
+$lang['inf_83'] = 'Showing _START_ to _END_ of _TOTAL_ entries'; //note: Do not translate the _START_ , _END_ and _TOTAL_
+$lang['inf_84'] = '安装ForexMart资讯型广告';
+
+//economic calendar
+$lang['ecn_cal_2'] = '日期';
+$lang['ecn_cal_3'] = '事件';
+$lang['ecn_cal_4'] = '值';
+$lang['ecn_cal_15'] = '链接:';
+$lang['ecn_cal_16'] = '颜色线:';
+$lang['ecn_cal_17'] = '头部文本:';
+$lang['ecn_cal_18'] = '新闻日期:';
+$lang['ecn_cal_19'] = '新闻文本:';
+$lang['ecn_cal_20'] = '页脚文本:';
+$lang['ecn_cal_21'] = '阴影:';
+
+//currency converter
+$lang['cur_conv_12'] = '背景颜色:';
+
+//Company News
+$lang['cmpny_news_6'] = '新闻文章的数目:';

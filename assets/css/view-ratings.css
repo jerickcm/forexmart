@@ -1,0 +1,191 @@
+  .btn-contest-reg{
+        padding: 19px 33px;
+    }
+    a.btn-contest-reg:hover{
+        color: #FFF;
+        text-decoration: none;
+    }
+    a.btn-contest-reg:link{
+        color: #FFF;
+        text-decoration: none;
+    }
+    a.btn-contest-reg:visited{
+        color: #FFF;
+        text-decoration: none;
+    }
+    a.btn-contest-reg:active{
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .ab:hover{
+
+        text-decoration: none;
+    }
+    .ab:link{
+
+        text-decoration: none;
+    }
+    .ab:visited{
+
+        text-decoration: none;
+    }
+
+
+    .ab:active{
+        text-decoration: none;
+    }
+
+    .mob-screen {
+        display: none;
+    }
+
+    .btn-contest:lang(bg) {
+        width: 218px!important;
+    }
+    @-moz-document url-prefix() {
+
+        @media screen and (min-width: 1018px) and (max-width: 1800px){
+            .clmn1{
+                width:20%
+            }
+            .clmn2{
+                width:20%
+            }
+            .clmn3{
+                width:30%
+            }
+
+            .clmn1:lang(fr){
+                width:20%
+            }
+            .clmn2:lang(fr){
+                width:20%
+            }
+            .clmn3:lang(fr){
+                width:30%
+            }
+
+        }
+        @media screen and (max-width: 1017px){
+            .clmn1{
+                width:100%
+            }
+            .clmn2{
+                width:100%
+            }
+            .clmn3{
+                width:100%
+            }
+            .clmn1:lang(fr){
+                width:100%
+            }
+            .clmn2:lang(fr){
+                width:100%
+            }
+            .clmn3:lang(fr){
+                width:100%
+            }
+        }
+        .main-specs-content{
+            margin: 0 14px;
+            margin-top: 4px;
+            display: table;
+        }
+        .btn-contest-reg{
+            padding: 4px 33px;
+            margin-bottom: 25px;
+        }
+
+        .btn-contest:lang(id){
+            padding: 7px 2px !important;
+        }
+        @media screen and (min-width: 750px) and (max-width: 966px){
+            .btn-contest-reg{
+                margin-top: 32px!important;
+            }
+        }
+
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        @media screen and (min-width: 999px) and (max-width: 100%) {
+            .clmn1 {
+                width: 20%;
+                padding: 0px;
+            }
+
+            .clmn2 {
+                width: 20%;
+                padding: 0px;
+            }
+
+            .clmn3 {
+                width: 30%;
+                padding: 0px;
+            }
+        }
+        @media screen and (max-width: 998px){
+            .clmn3 {
+                width: 100%;
+                padding: 0px;
+            }
+            .clmn1 {
+                padding: 0px;
+            }
+            .clmn2 {
+                padding: 0px;
+            }
+        }
+        @media screen and (min-width: 995px) and (max-width: 1194px){
+            .btn-contest-reg{
+                margin-top: 131px!important;
+            }
+        }
+
+
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: 998px) and (max-width: 4000px) {
+        .clmn3{
+            padding: 0!important;
+            width: 30%;
+        }
+        .clmn2{
+            padding: 0!important;
+            width: 20%;
+        }
+        .clmn1{
+            padding: 0!important;
+            width: 20%;
+        }
+    }
+    .my6th:lang(fr){
+        font-size: 14px;
+
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .ccr:lang(id){
+            font-size: 13px;
+            padding: 8px 20px;
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        .contest-btn-holder:lang(bg) {
+            margin-top: 0!important;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 671px) {
+        .btn-contest:lang(bg) {
+            float: none!important;
+            margin: 5px auto;
+            display: block!important;
+        }
+    }
+    @media screen and (max-width: 350px) {
+        .pagination > li > a, .pagination > li > span {
+            padding: 6px 8px !important;
+        }
+    }
+    .ins-notes {
+        margin: 5px 0 30px 5px !important;
+    }

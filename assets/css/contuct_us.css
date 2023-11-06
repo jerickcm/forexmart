@@ -1,0 +1,162 @@
+
+.contact-info-holder
+{
+	font-family: Open Sans;
+	margin-bottom: 20px;
+}
+	.contact-info-title
+	{
+		font-family: Open Sans;
+		font-size: 14px;
+		color: #333;
+		font-weight: 600;
+	}
+	.contact-info-text
+	{
+		font-size: 14px;
+	}
+		.contact-info-text span
+		{
+			font-weight: 600;
+			color: #2988ca;
+		}
+.div-line
+{
+	border-top: 1px solid #2988ca;
+}
+.contact-map-img
+{
+	margin-top: 30px;
+}
+.contact-map-holder
+{
+	margin-bottom: -450px;
+}
+.cyprus-loc
+{
+	position: absolute;
+	right: 43.3%;
+	top: 36.5%;
+}
+.cyprus-loc p
+{
+	color: #ff0000;
+	font-family: Georgia;
+}
+.cyprus-text 
+{
+}
+
+.cyprus-text p
+{
+    color: #555;
+    font-size: 12px;
+    font-family: Open Sans;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.cyprus-info-holder
+{
+	margin-bottom: 5px;
+	width: 200px;
+	background: #fff;
+	padding: 5px;
+	box-sixing: border-box;
+	border: 1px solid #e0e0e0;
+	position: absolute;
+	display: none;
+	margin-top: -200px;
+}
+	.cyprus-info-holder img
+	{
+		width: 100%;
+	}
+    
+    
+@media screen and (max-width: 1199px) {
+	.contact-map-holder
+	{
+		margin-bottom: -370px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.contact-map-holder
+	{
+		margin-bottom: 10px;
+	}
+	.cyprus-loc
+	{
+		right: 42.3%;
+		top: 32.3%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.img-center
+	{
+		text-align: center;
+	}
+	.choose-sub
+	{
+		text-align: center;
+	}
+	.image-center
+	{
+		margin: 0 auto;
+		float: none;
+	}
+	.ec-date
+	{
+		text-align: left!important;
+	}
+}	
+
+@media screen and (max-width: 520px) {
+	.license-title
+	{
+		text-align: center!important;
+	}
+}
+
+@media screen and (max-width: 592px){
+	.legend1-holder
+	{
+		width: 100%;
+	}
+	.legend2
+	{
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 514px){
+	.queue-tab-list li
+	{
+		float: none!important;
+		border-bottom: 1px solid #1A6FAB;
+	}
+}
+@media screen and (max-width: 481px) {
+
+	.cyprus-loc
+	{
+		right: 40.3%;
+		top: 26.3%;
+	}
+}
+@media screen and (max-width: 360px) {
+
+	.cyprus-loc
+	{
+		right: 39.3%;
+		top: 21.3%;
+	}
+}
+@media screen and (max-width: 320px) {
+
+	.cyprus-loc
+	{
+		right: 38.3%;
+		top: 16.3%;
+	}
+}    
+    
+    

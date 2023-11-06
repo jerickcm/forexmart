@@ -1,0 +1,86 @@
+.vps-title-sub{
+        font-family: Georgia;
+        font-size: 20px;
+        font-weight: 400;
+        color: #2988ca;
+        margin-top: 10px;
+    }
+    .vps-check{
+        float: left;
+        width: 20px;
+        margin: 1px 10px 0 7px;
+    }
+    .bul_lst{
+        float: left;
+        width: 80%;
+    }
+    .vps-check:lang(sa){
+        float: none;
+    }
+    .bul_lst:lang(sa){
+        width: 90%;
+    }
+
+    .ext-arabic-vps-feats{
+        text-align: center;
+    }
+
+    .feats-icon {
+        margin: 0px auto !important;
+    }
+
+
+    @media screen and (max-width:412px ){
+        .bul_lst:lang(sa){
+            width: 80%;
+        }
+    }
+    @media screen and (max-width: 767px){
+        .ext-arabic-vps-feats:lang(sa){
+            width: 100% !important;
+        }
+    }
+    @-moz-document url-prefix() {
+        @media screen and (max-width:4000px) and (min-width: 1310px) {
+            .sa-vps-list:lang(sa){
+                float: left;
+                width: 85%;
+                margin-top: 0px;
+            }
+        }
+        @media screen and (max-width:1309px) and (min-width: 992px) {
+            .sa-vps-list:lang(sa){
+                float: left;
+                width: 80%;
+                margin-top: 0px;
+            }
+        }
+        @media screen and (max-width:991px) and (min-width: 768px) {
+            .sa-vps-list:lang(sa){
+                float: left;
+                width: 80%;
+                margin-top: -30px;
+            }
+        }
+    }
+
+    @media screen and  (-webkit-min-device-pixel-ratio:0)   and (max-width:4000px) and (min-width: 1310px) {
+        .sa-vps-list:lang(sa){
+            float: left;
+            width: 85%;
+        }
+    }
+    @media screen and  (-webkit-min-device-pixel-ratio:0)  and (max-width:1309px) and (min-width: 992px) {
+        .sa-vps-list:lang(sa){
+            float: left;
+            width: 80%;
+            margin-top: 9px;
+        }
+    }
+    @media screen and  (-webkit-min-device-pixel-ratio:0)  and (max-width:991px) and (min-width: 768px) {
+        .sa-vps-list:lang(sa){
+            float: left;
+            width: 80%;
+            margin-top: -30px;
+        }
+    }

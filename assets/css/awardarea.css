@@ -1,0 +1,144 @@
+/* --> AWARDS SECTION <-- */	
+.awards-container{
+    background: url('../images/award-bg2.jpg') repeat;
+    border-top: 7px solid #ccc;
+    border-bottom: 7px solid #ccc;
+    background-position: center center;
+    width:100%;
+    min-height:294px;
+    text-align: left;
+}
+.left-container-text{
+    display:inline-table;
+    width:70%;
+    height:50px;
+    margin-top: 10px;
+    padding-right: 30px;
+    border-right: 2px solid #ddd;
+}
+.right-container-text{
+    display:inline-table;
+    vertical-align: middle;
+    width:28%;
+    padding-left: 10px;
+    float:right;
+ }
+ .gap-3{
+         clear:both;
+ }
+.awards-container h4 {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Open Sans;
+    color: #222;
+    letter-spacing: -1px;
+    text-align: left;
+ }
+.awards-container h4 b{
+    font-size: 48px;
+    color: #808080;
+    font-weight: bold;
+    font-family: 'Playball', cursive;
+    letter-spacing: -1px;
+    text-align: left;
+ }
+.awards-container h5{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Open Sans;
+    color: #222;
+}
+.award-holder{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.award-holder img {
+        margin:0 auto;
+}
+.award-sponsor img{
+    max-width:50%;
+    text-align: center;
+    margin: 0 auto;
+}
+/* --> ADD SECTION <-- */   
+.no-margin{         
+    margin: 0;
+}
+.no-padding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.no-border{
+    border: 1px solid transparent;
+}
+        
+.text-center{
+    text-align: center;
+}
+.center{
+    margin:0 auto;
+}
+.flat{
+    text-align: justify;
+}
+ .gap{
+    height:20px;
+}
+.gap2{
+    height:10px;
+}
+b {
+    font-weight: 700;
+    color: #2988ca;
+}
+.bb {
+    color: #29a643 !important;
+}
+.bbc {
+    color: #fbc902 !important;
+}
+@media (max-width:1280px){
+.awards-container{
+    background-size: cover;
+    min-height:250px;
+}
+}
+
+@media (max-width:767px){
+.awards-container h4 {
+	margin-top: 10px;
+    font-size: 24px;
+ }
+.awards-container h4 b{
+    font-size: 24px;
+ }
+.awards-container h5{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.awards-container{
+    background-size: cover;
+    min-height:220px;
+}
+} 
+
+@media screen and (max-width: 600px) { 
+
+.left-container-text{
+    width:100%;
+    padding-right: 0px;
+    border-right: none;
+}
+.right-container-text{
+    width:100%;
+    padding-left: 0px;
+    float:left;
+    border-bottom: 2px solid #ddd;
+ }
+ .award-sponsor img{
+    max-width:100%;
+}
+}

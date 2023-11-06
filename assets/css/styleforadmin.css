@@ -1,0 +1,157 @@
+* , html , body  {
+	margin:0;
+	padding:0;
+}
+
+html , body , .wrapper , .child-holder-container {
+	width:100%;
+}
+
+.main-login-container {
+	max-width:400px;
+}
+
+html , body , .wrapper {
+	height:100%;
+}
+
+.wrapper {
+	background:url(../images/background.jpg)no-repeat center center;
+	background-size:cover;
+	position:relative;
+	min-height:570px;
+}
+
+.title-login-child {
+	margin:0 auto;
+}
+
+.main-login-container {
+	margin:0 auto;
+	position:absolute;
+	left:0;
+	right:0;
+	top:20%;
+}
+
+.top-logo img {
+	margin:10px auto;
+}
+
+.main-login-child {
+	margin:20px auto;
+}
+
+.main-login-container {
+	vertical-align: middle;
+}
+
+.main-login-child label {
+	margin-bottom:0;
+}
+
+.top-logo {
+	margin-top:0;
+}
+
+.top-logo img {
+	padding-top:0;
+}
+
+.main-login-container {
+	padding:5px;
+}
+
+.child-holder-container {
+	padding:0 20px;
+}
+
+.main-login-child button {
+	padding:7px 25px;
+}
+
+.top-logo img , .child-holder-container {
+	display:table;
+}
+
+.main-login-child input[type=text] , .main-login-child label {
+	display:block;
+}
+
+.top-logo {
+	border-bottom:1px solid #eaeaea;
+}
+
+.main-login-child input[type=text] {
+	border-radius:0;
+}
+
+.main-login-child button {
+	border:none;
+}
+
+.main-login-child button {
+	outline:none;
+}
+
+.main-login-container {
+	opacity: 1;
+	visibility: visible;
+	background: rgba(0,0,0,.3);
+}
+
+.main-login-child button {
+	background:#2988ca;
+}
+
+.main-login-child button:hover {
+	background:#49aff5;
+}
+
+.child-holder-container {
+	background:#fff;
+}
+
+.main-login-container h1 {
+	text-align:center;
+}
+
+.main-login-child button {
+	color:#fff;
+}
+
+.main-login-container h1 , .main-login-child label {
+	color:#5a5a5a;
+}
+
+.required {
+	color:#ff0000;
+}
+
+.main-login-container h1 {
+	font-size:23px;
+}
+
+.main-login-child , .title-login-child {
+	float:none;
+}
+
+.main-login-child button {
+	float:right;
+}
+
+.main-login-child button {
+	transition: background-color 0.5s ease;
+}
+
+.main-login-child a {
+	line-height:34px;
+}
+
+@media screen and (max-width: 429px) {
+
+	.main-login-container {
+		width:95%!important;
+	}
+
+}

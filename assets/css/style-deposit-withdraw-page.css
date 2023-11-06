@@ -1,0 +1,78 @@
+@media only screen and (max-width: 375px) {
+    .open-trading{
+        padding: 7px 20px;
+    }
+
+    .minimum-dep-holder-h{
+        float: left;
+        padding: 10px 0px !important;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.minimum-dep-holder-h{
+    float: left;
+    padding: 5px 60px 10px 30px;
+}
+
+.minimum-tab-holder{
+    max-width: 300px !important;
+}
+.custome-td-class,.custome-cls{
+    min-width: 134px !important;
+}
+@media screen and (max-width: 650px){
+    .minimum-dep-holder h1:lang(ru){
+        text-align: center;
+        width: 100%;
+    }
+    .minimum-tab-holder:lang(ru){
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 376px) and (max-width: 600px)  {
+    .open-trading:lang(sa){
+        padding:7px 30px;
+    }
+}
+@media screen and (max-width: 500px){
+    .withdrawal-tab tr td:nth-child(2):lang(ru) {
+        max-width:250px;
+    }
+    .open-trading:lang(ru){
+        padding:7px 25px;
+    }
+    .table-ru{
+        overflow:auto;
+    }
+    
+    .no-padding-mobile:lang(sa){
+        padding: 0px !important;
+    }
+    .padding-mobile:lang(sa){
+        padding: 0px 20px !important;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .open-dw:lang(ru) {
+        padding: 10px 7px;
+        font-size: 12px;
+    }
+
+    .withdrawal-tab tr td:lang(ru){
+        padding: 5px;
+    }
+    .withdrawal-tab tr td:nth-child(2):lang(ru) {
+        font-size: 13px;
+    }
+    .padding-mobile:lang(sa){
+        padding: 0px 50px !important;
+    }
+    .table-ru{
+        padding: 0px 30px;
+    }
+}
+table.minimum-tab{margin-bottom:0!important}.cstm_btn:hover{text-decoration:none!important}.cstm_btn:link{text-decoration:none!important}.cstm_btn:visited{text-decoration:none!important}.cstm_btn:active{text-decoration:none!important}@media screen and (max-width: 320px){.open-dw{padding:7px 14px;font-size:12px}.open-dw:lang(en){padding:7px 12px}.open-dw:lang(de){padding:7px 14px}.open-dw:lang(fr){padding:7px 14px}}

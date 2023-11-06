@@ -1,0 +1,37 @@
+﻿.TradePanel{width:220px;height:25px;z-index:10;opacity:0.6;top:5px;margin:0 auto;position:absolute;}
+.TradePanelEditMode{opacity:1;}
+.TradePanelEditMode > .Sell{height:43px;}
+.TradePanelEditMode > .Buy{height:43px;}
+.SpinnerHolder{width:110px;position:absolute;top:25px;left:51px;display:none;}
+input#VolumeSpinner{width:105px;height:15px;}
+.Sell{width:105px;height:25px;background:red;float:left;border-radius:5px;}
+.Sell div{height:23px;width:20px;margin-left:5px;float:left;}
+.Sell span{display:inline-block;width:76px;height:21px;font-size:15px;color:white;text-align:center;padding-top:3px;}
+.Sell label{color:white;font-size:15px;padding-left:14px;display:none;cursor:pointer;}
+.Sell:hover{cursor:pointer;}
+.Buy{width:105px;height:25px;background:green;float:left;border-radius:5px;margin-left:2px;}
+.Buy div{height:23px;width:20px;margin-left:5px;float:left;}
+.Buy span{display:inline-block;width:76px;height:21px;font-size:15px;text-align:center;float:left;padding-top:3px;color:white;vertical-align:middle;}
+.Buy label{color:white;font-size:15px;padding-left:68px;display:none;cursor:pointer;}
+.Buy:hover{cursor:pointer;}
+.ArrowUp{width:100px;height:100px;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAYAAACaq43EAAAB2UlEQVRIx72Tu4saURSHZWFIsfMvWKQIpNgy/TYbIxFFEVGwsBMLQZFBCEKwEkELGyurGAj4CFqKiogIwhIQDD4YRZRBMOIE1hUEJTn5uZBmycXH3s3AxweXM/MxB66GiDSPOfRg5goEwJsjZv+J5pzwdDr9jDmaTCZfIeG/hHe7nXe73f6Gac96vZaePbzZbN7N5/MlTH9ZLBZ3sOnZwqvV6uVwOPwG02NGo9F3+DX38HK5vBgMBp9gYtHr9bLwC65hRVH8s9mMDjEejz9wC+Nj7zudzk+YDtHtdu9hy5PD/X7/VbPZbMN0LJjvwVdnh9vttlCtVr/AdCqVSqUAX54VbjQaUqvVonOp1WofTw7X6/XrTCYzLhQKBFM2m6VSqUQ4Z1Iulymfzz/M79/L5XIKzm9O/eNr0AQ/wEQQBEWSpN0+ziIajf7SarUP82AObsHNk66Tw+EQw+GwXCwWiUUsFlNdLtdbrvfYZrOJoVBI3q+RRSQSUZ1OJ9+wxWIRg8GgnE6niQU2otrtdr5hk8kk+v1+OZVKEQtsRLVarXzDBoNB9Hq9cjKZJBbYiGo2m/mG9Xq96PF45EQiQSwCgYBqNBr5hnU6neh2u+V4PE4sfD6fis0cHf4Dq1Im2VOPPNkAAAAASUVORK5CYII=');background-position:-6px 2px;background-repeat:no-repeat;}
+.ArrowDown{width:100px;height:100px;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAYAAACaq43EAAACBUlEQVRIx62Vv6vaUBSAQ6VWbBb/AwsGKhQnwUkCail0qFZnF8FBEBSNiigKgj8GRRcn5YEWBJVSQRTBDg6CKKJDoUIGKTyEFkyhdnCQ9vTEoYOY956+e+CDcHNOPpJ7Ti4FANQpp4FrcuQG7o7PCHOm9izUQ8SJRILu9/v84XAAKSaTiZDNZl8TFcfjcbrb7fL7/R6kGI/HQjqdJiuORqN0p9Phd7sdSDEajYRUKkVWHA6H6Xa7zW+3W5BiOBwKyWSSrDgYDNKNRoPfbDYgRa/XE2KxGFmxz+eja7Uav16vQQrcCiESiZAVe71eulqt8qvVCqRotVoCx3GPEy+XSxYZIz+Qb4vF4nY6nR7wGqSYzWZ/5vP5MR/5jswQy6VvzLrd7jXOJlyLx+O5xedcLKYUCgUXCATEMbkY3GtQqVSJa/f4qVarbeRyORgMBg+mUCiATqf7hPXPH9NcDMuyy0qlInbtvWDng9ls/op1r0h09Vur1fqz2WzCfdjt9t+Y/57YOMlkMr/T6YR6vS6Jy+UCpVIZJTrHGE/UanXN7/eD+NlPCYVCoNFoWpj3jLRYjBd6vX6OBwGUy+X/ZDIZMBgMX/D+y3NFJMRivDGZTNtisQilUumIxWL5hevvpApIiY9/UJvN9jefz4PD4QC5XM7dlUxSTDEM88FoNALO+Udx3q8R/wNs1BwQoNUKXQAAAABJRU5ErkJggg==');background-position:-6px 2px;background-repeat:no-repeat;}
+.ScrollLeftArrow{background-position:-123px -115px;background-image:url("images/mCSB_buttons.png");background-repeat:no-repeat;opacity:0.4;cursor:pointer;}
+.ScrollLeftArrow:hover{opacity:0.65;}
+.ScrollLeftArrow:active{opacity:0.90;}
+.ScrollRightArrow{background-position:-117px -131px;background-image:url("images/mCSB_buttons.png");background-repeat:no-repeat;opacity:0.4;cursor:pointer;}
+.ScrollRightArrow:hover{opacity:0.65;}
+.ScrollRightArrow:active{opacity:0.90;}
+.ChartMenu{background-color:#e6e7ea;}
+.EditModeVisible label{display:inline-block;}
+.EditModeVisible{display:inline-block;}
+canvas{image-rendering:optimizeSpeed;image-rendering:-moz-crisp-edges;image-rendering:-webkit-optimize-contrast;image-rendering:-o-crisp-edges;image-rendering:pixelated;-ms-interpolation-mode:nearest-neighbor;}
+.LegendHolder{visibility:visible;left:522px;top:384px;position:absolute;min-width:130px;z-index:6;display:none;}
+.DateHolder{text-align:center;opacity:0.9;padding:3px 0px;color:white;background:rgb(0, 128, 0);}
+.OpenHolder,
+.HighHolder,
+.LowHolder,
+.CloseHolder,
+.VolumeHolder{opacity:0.7;padding:3px 0px;color:white;background:rgb(0, 128, 0);}
+.OHLCLegend{display:inline-block;text-align:left;margin-bottom:2px;padding-left:11px;padding-right:15px;}
+.OHLCLegendData{display:inline-block;text-align:left;margin-bottom:2px;padding-left:11px;padding-right:15px;float:right;}

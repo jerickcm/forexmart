@@ -1,0 +1,370 @@
+/* Wed, 06 Apr 2016 12:09:46 +0000 */
+.bot-nav li a{padding:15px 6px}.trademart{margin-bottom:3px;padding:0!important}.CUFB{float:right!important}.CUFB:lang(sa){float:left!important}.mar0pad0{margin:0;padding:0}
+
+.mar50{margin:5px 0}.mar0{margin:0}.mar0500{margin:0 5px 0 0}#fee_ba:lang(es){font-size:12px}#con_us:lang(es){font-size:12px}#fee_ba:lang(de){font-size:12px}#con_us:lang(de){font-size:12px}.foot-bullet{float:left}.bul_lst2{min-width:99px !important;padding-left:.1em;text-indent:.1em;padding-top:6px}@media screen and (min-width: 768px){.footer-hide-menu{display:none}.footer-hide-menu:lang(id){display:none!important}}p.pw{color:white!important}@media screen and (min-width: 1175px){.footer-hide-menu:lang(id){display:none!important}.footer-toggle:lang(id){display:none!important}.bot-nav:lang(id){display:block!important}}@media screen and (max-width: 1174px){.bot-nav:lang(id{display:none!important}.ver-line:lang(id){padding:15px 0!important}.bot-nav li a:lang(id){padding:15px 0!important}}@media screen and (min-width: 1175px){.footer-hide-menu:lang(it){display:none!important}.footer-toggle:lang(it){display:none!important}.bot-nav:lang(it){display:block!important}}@media screen and (max-width: 1174px){.footer-toggle:lang(it){display:block!important}.bot-nav:lang(it){display:none!important}.ver-line:lang(it){padding:15px 0!important}.bot-nav li a:lang(it){padding:15px 0!important}}@media screen and (min-width: 1175px){.footer-hide-menu:lang(de){display:none!important}.footer-toggle:lang(de){display:none!important}.bot-nav:lang(de){display:block!important}}@media screen and (max-width: 1174px){.footer-toggle:lang(de){display:block!important}.bot-nav:lang(de){display:none!important}.ver-line:lang(de){padding:15px 0!important}.bot-nav li a:lang(de){padding:15px 0!important}}@media screen and (min-width: 1175px){.footer-hide-menu:lang(es){display:none!important}.footer-toggle:lang(es){display:none!important}.bot-nav:lang(es){display:block!important}}@media screen and (max-width: 1174px){.footer-toggle:lang(es){display:block!important}.bot-nav:lang(es){display:none!important}.ver-line:lang(es){padding:15px 0!important}.bot-nav li a:lang(es){padding:15px 0!important}}@media screen and (min-width: 1175px){.footer-hide-menu:lang(pt){display:none!important}.footer-toggle:lang(pt){display:none!important}.bot-nav:lang(pt){display:block!important}}@media screen and (max-width: 1174px){.footer-toggle:lang(pt){display:block!important}.bot-nav:lang(pt){display:none!important}.ver-line:lang(pt){padding:15px 0!important}.bot-nav li a:lang(pt){padding:15px 0!important}}.ver-line:lang(bg){padding:15px 2px;}
+
+/*Monday 08 Aug 2016*/#fee_ba:focus{outline:none!important;}.footer-menu-holder{padding-left:0px;}
+@media screen and (max-width: 767px) {
+    .pad-l {
+        margin-left: 16px;
+    }
+    .footer-hide-menu ul li{
+        margin-left: 9px;
+    }
+    .mar-t{
+        margin-top: 40px;
+    }
+    .mar-r{
+        margin-bottom: 4px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .connect li a:lang(ru) {
+        padding: 9px !important;
+    }
+}
+@media screen and (max-width: 320px) {
+    .connect li a i:lang(ru) {
+        font-size: 13px;
+    }
+    .bul_lst2:lang(ru) {
+        font-size: 13px;
+        padding-top: 3px;
+    }
+    .customfeedback4190:lang(ru) {
+        width: 23px;
+        height: 23px;
+    }
+    .connect li a img:lang(ru) {
+        width: 14px;
+    }
+    .spn-4190:lang(ru) {
+        padding-top: 0 !important;
+        font-size: 13px;
+    }
+    .uk-flag-img:lang(ru){
+        width: 25px !important;
+        height: 30px ;
+    }
+}
+@media only screen and ( min-width:270px) and (max-width: 418px){
+    .custome-min-width,.custome-min-width-2,.custome-min-width-3{
+        min-width: 200px !important;
+        margin-top: -15px !important;
+
+    }
+    .custome-min-width-3{
+        min-width: 200px !important;
+        margin-top: -12px !important;
+    }
+
+    #con_us{
+        padding-top: 5px !important;
+    }
+    .bul_lst2 {
+        margin: 0 0 0px !important;
+    }
+
+}
+
+@media only screen and ( min-width:412px) and (max-width: 630px){
+    .custome-min-width,.custome-min-width-2,.custome-min-width-3{
+        min-width: 300px !important;
+        margin-top: -15px !important;
+
+    }
+    .custome-min-width-3{
+        min-width: 300px !important;
+        margin-top: -12px !important;
+    }
+    .custome-min-width:lang(sa),.custome-min-width-2:lang(sa),.custome-min-width-3:lang(sa){
+        min-width: 100px ;
+        margin-top: -15px ;
+
+    }
+    #con_us{
+        padding-top: 5px !important;
+    }
+    .bul_lst2 {
+        margin: 0 0 0px !important;
+    }
+    .bul_lst2:lang(sa) {
+        text-indent: 7.1em;
+    }
+}
+@media only screen and ( min-width:631px) and (max-width: 766px){
+    .custome-min-width,.custome-min-width-2,.custome-min-width-3{
+        min-width: 300px !important;
+        margin-top: -15px !important;
+
+    }
+    .custome-min-width-3{
+        /*min-width: 300px !important;*/
+        margin-top: -12px !important;
+    }
+
+    .custome-min-width:lang(sa),.custome-min-width-2:lang(sa),.custome-min-width-3:lang(sa){
+        min-width: 100px ;
+        margin-top: -15px;
+
+    }
+    #con_us{
+        padding-top: 5px !important;
+    }
+    .connect {
+        float: initial !important;
+        list-style: outside none none;
+        margin: 0 0 0 0px !important;
+        padding: 0;
+        width: 200px;
+    }
+    .CUFB {
+        float: left !important;
+        width: 100% !important;
+    }
+    .bul_lst2:lang(sa) {
+        text-indent: 1.1em;
+    }
+    .bul_lst2 {
+        margin: 0 0 0px !important;
+    }
+
+    .bul_lst2:lang(sa) {
+        text-indent: 7.1em;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 998px) {
+    .bul_lst2:lang(sa) {
+        text-indent: 7.1em;
+    }
+
+
+    .ext-arabic-footer-menu-holder:lang(ru) {
+        margin-top: 12px;
+
+    }
+    .ext-arabic-footer-menu-holder{
+        margin-top: 33px;
+    }
+    .custome-min-width,.custome-min-width-2,.custome-min-width-3{
+        min-width:300px !important;
+    }
+
+    #fee_ba{
+        margin-top: -15px !important;
+    }
+
+    #con_us{
+        padding-top: 10px !important;
+        margin-top: -23px !important;
+    }
+
+    .connect li .a1,.connect li .a2{
+        min-width: 167px !important;
+        float: right !important;
+    }
+
+    .connect li .a3{
+        min-width: 162px !important;
+        float: right !important;
+        margin-left: 10px;
+    }
+
+    .connect li{
+        float: none !important;
+    }
+
+    .bot-nav-left-wide{
+        width: 65% !important;
+    }
+
+    .bot-nav-right-wide{
+        width: 35% !important;
+    }
+
+}
+
+
+.uk-flag-img{
+    margin-right: 0px !important;
+}
+
+@media only screen and (max-width: 766px) {
+    .ext-arabic-footer-menu-holder{
+        margin-top: 35px;
+    }
+    .spn-4190{
+        padding-left: 3px;
+    }
+    .pp{
+        padding-left: 5px;
+    }
+    .img-uk{
+        margin-left: -4px;
+    }
+    .mar-r{
+        margin-left: 7px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1278px){
+
+    .bot-nav-left-wide:lang(ru){
+        width: 80% !important;
+    }
+    .bot-nav-right-wide:lang(ru){
+        width: 20% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .ru-russia-list2:lang(ru){
+        min-width: 147px !important;
+    }
+    .connect li a:lang(ru) {
+        padding: 0px 3px 0 !important;
+    }
+    .ext-arabic-footer-menu-holder:lang(ru) {
+        margin-top: 30px;
+    }
+    .ru-russia-list2:lang(ru){
+        min-width: 147px !important;
+    }
+
+    .bul_lst2_p:lang(ru){
+        margin: 0 0 3px !important;
+    }
+    .connect:lang(ru){
+        padding-bottom: 6px !important;
+    }
+}
+@media only screen and (min-width: 1024px){
+
+    .connect li a {
+        padding: 10px 10px 0px 10px !important;
+    }
+    .bul_lst2_p{
+        padding-top: 0px !important;
+    }
+    .bul_lst2{
+        min-width: 108px !important;
+    }
+    .connect li a i {
+        margin-right: 2px;
+    }
+    /*.bot-nav-left-wide:lang(ru){*/
+    /*width: 60% !important;*/
+    /*}*/
+    /*.bot-nav-right-wide:lang(ru){*/
+    /*width: 40% !important;*/
+    /*padding-left: 0px !important;*/
+    /*padding-right: 0px !important;*/
+    /*}*/
+    .ru-russia-list2:lang(ru){
+        min-width: 147px !important;
+    }
+    /*.connect li a:lang(ru) {*/
+    /*padding: 10px 3px 0 !important;*/
+    /*}*/
+
+}
+@media only screen and (min-width: 1280px){
+
+    .connect li a {
+        padding: 10px 10px 0px 10px !important;
+    }
+    .bul_lst2_p{
+        padding-top: 0px !important;
+    }
+    .bul_lst2{
+        min-width: 108px !important;
+    }
+    .connect li a i {
+        margin-right: 2px;
+    }
+    .bot-nav-left-wide:lang(ru){
+        width: 60% !important;
+    }
+    .bot-nav-right-wide:lang(ru){
+        width: 40% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .ru-russia-list2:lang(ru){
+        min-width: 147px !important;
+    }
+    .connect li a:lang(ru) {
+        padding: 10px 3px 0 !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .ext-arabic-footer-menu-holder {
+        margin-top: 5px;
+    }
+}
+
+.con-num:hover{
+    text-decoration: none !important;
+}
+
+p.pp{
+    padding-left: 30px;
+}
+
+@media screen and (min-width: 270px) and (max-width: 330px) {
+    .bul_lst2:lang(sa) {
+        text-indent: 8.1em !important;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 410px) {
+    .bul_lst2:lang(sa) {
+        text-indent: 7.1em !important;
+    }
+}
+@media screen and (min-width: 412px) and (max-width: 630px) {
+    .bul_lst2:lang(sa) {
+        text-indent: 1.1em !important;
+    }
+}
+.bul_lst2_p:lang(sa){
+    direction: ltr !important;
+}
+
+
+@media only screen and (max-width: 766px) {
+    .mar-r {
+        margin-left: 0px!important;
+    }
+
+    .connect {
+        width: 200px!important;
+    }
+}
+
+@media only screen and (max-width: 766px) and (min-width: 631px){
+    .custome-min{
+        min-width: 100%!important;
+    }
+}
+
+@media only screen and (max-width: 631px) {
+    .mar-r {
+        margin-left: 0px!important;
+    }
+
+    .connect {
+        width: 200px!important;
+    }
+}
+
+@media only screen and ( min-width:412px) and (max-width: 630px){
+    .custome-min{
+        min-width: 100%!important;
+    }
+
+}

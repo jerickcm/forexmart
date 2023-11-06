@@ -1,0 +1,196 @@
+.cmpage{
+    height: 500px;
+}
+.adjtop{
+    margin-top:5%
+}
+.canvasjs-chart-credit{
+    display: none!important;
+}
+.up_controll{
+    width: 100%;
+}
+input.datepick{
+
+    text-align: center;
+}
+.broker-info-holder
+{
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.broker-info
+{
+    width: calc(100% / 3);
+    float: left;
+}
+.acct-monitoring-links
+{
+    width: 66.666667%;
+    float: left;
+}
+.chart-control-holder
+{
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+}
+.chart-control
+{
+    width: calc(100% / 2);
+    float: left;
+    padding: 15px;
+}
+
+.monitoring-chart-holder
+{
+    background: #f3f3f3;
+}
+.monitoring-chart
+{
+    width: 66.66667%;
+}
+.fg
+{
+    margin: 0;
+    padding: 0;
+}
+.chart-apply
+{
+    padding: 7px 10px;
+    border: none;
+    background: #29a643;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    font-family: Open Sans;
+    margin-top: 15px;
+    transition: all ease 0.3s;
+}
+.chart-apply:hover
+{
+    background: #4CE56C;
+    transition: all ease 0.3s;
+}
+.chart-reset
+{
+    padding: 7px 10px;
+    border: none;
+    background: #aaa;
+    color: #fff;
+    font-size: 14px;
+    font-family: Open Sans;
+    width: 100%;
+    margin-top: 15px;
+    transition: all ease 0.3s;
+}
+.chart-reset:hover
+{
+    background: #888;
+    transition: all ease 0.3s;
+}
+.trades-tab-holder
+{
+    margin-top: 0;
+}
+.trades-table
+{
+    font-family: Open Sans;
+    font-size: 13px;
+    border-top-color: #2988ca!important;
+}
+.trades-table thead tr th
+{
+    text-align: center;
+    vertical-align: middle;
+    background: #2988ca;
+    color: #fff;
+    border-color: #217cbb;
+}
+.trades-table tbody tr td
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.duration
+{
+    padding: 4px 15px!important;
+    text-align: left!important;
+    background: #eee;
+    font-size: 11px;
+}
+.total td
+{
+    color: #2988ca;
+    font-weight: 600;
+}
+.broker-info
+{
+    padding: 10px;
+    border-right: 1px solid #ddd;
+}
+.broker-info-text
+{
+    width: 100%;
+}
+.broker-info-text p
+{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #333;
+    width: 100%;
+    font-weight: 600;
+}
+.broker-info-text p span
+{
+    clear: both;
+    font-weight: 600;
+    color: #2988CA;
+}
+.monitoring-links-holder
+{
+    padding: 10px;
+    width: 100%;
+}
+.monitoring-links-holder ul
+{
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+    text-align: center;
+}
+.monitoring-links-holder ul li
+{
+    padding: 0;
+    display: inline-block;
+}
+.monitoring-links-holder ul li a
+{
+    padding: 7px 10px;
+    display: block;
+    color: #29a643;
+    border: 1px solid #29a643;
+    font-family: Open Sans;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: all ease 0.3s;
+}
+.monitoring-links-holder ul li a:hover
+{
+    transition: all ease 0.3s;
+    text-decoration: none;
+    background: #29a643;
+    color: #fff;
+}
+@media screen and (max-width: 991px) {
+    .monitoring-links-holder ul li a {
+        padding: 7px 7px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .monitoring-links-holder ul li  {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

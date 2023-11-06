@@ -1,0 +1,272 @@
+body{
+	background: #fff;
+}
+.fsheader
+    {
+        height: 550px;
+    }
+.forexsignals
+    {
+        width: 100%;
+        position:relative;
+    }
+ .forexsignals#bgheader
+    {
+      height: 550px;
+      background-image: url(../images/bigtopimage.jpg);
+      background-repeat: no-repeat;
+   	  background-size: cover;
+      background-position: center center;
+      color: white;
+      z-index: -1;
+    }
+.fxsignal-wrapper{
+	overflow: hidden;
+	display: block;
+	padding:15px 15px;
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.forexsignals-holder{
+	background:rgba(0,0,0,0.7);
+	padding:15px 15px;
+	margin-right: 25px;
+	margin-top: 60px;
+	width: 50%;
+}
+.forexsignals h4 {
+	font-family: Open Sans;
+	margin-top: 30px;
+	font-weight: 700;
+	font-size: 24px;
+	color: #222;
+	text-align: justify;
+	padding:0;
+}
+.forexsignals h5 b{
+	font-family: Open Sans;
+	margin-top: 30px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #0c58f5;
+	text-align: justify;
+	padding:0;
+}
+.forexsignals h6 {
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 14px;
+	color: #222;
+	text-align: justify;
+	padding:0;
+}
+.forexsignals h6 b{
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 14px;
+	color: #0c58f5;
+	text-align: justify;
+	padding:0;
+}
+.forexsignals p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 300;
+	font-size: 14x;
+	color: #222;
+	text-align: justify;
+	padding:0;
+}
+.forexsignals img{
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.more{
+	color: #0c58f5;
+	text-align: right;
+}
+.kurs-table {
+    font-family: Open Sans;
+    font-size: 16px;
+}
+.kurs-table thead tr th {
+    vertical-align: middle;                      
+ }
+.kurs-table tbody tr td {
+    vertical-align: middle;
+}
+.kurs-table table{
+	margin-top: 15px;
+	font-size: 16px;
+}
+ tr:nth-child(odd){
+  background:#eee; 
+}
+tr:nth-child(even){
+  background:#fff; 
+}
+ tr{
+  border-bottom: 1px solid #ddd;
+}
+.kurs{
+	line-height: 30px;
+	text-align: center;
+}
+.kurs img{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0 auto;
+}
+.button-sell{
+    display: inline-table;
+    background: #2988ca;
+    color:#fff;
+    font-size: 16px;
+    line-height: 30px;
+    width:100%;
+    font-weight: 600;
+}
+.button-sell:hover{
+    background: #0260fe;
+    cursor: pointer;
+}
+.button-buy{
+    display: inline-table;
+    background: #bf1e2e;
+    color:#fff;
+    font-size: 16px;
+    line-height: 30px;
+    width:100%;
+    font-weight: 600;
+}
+.button-buy:hover{
+    background: #fe0201;
+    cursor: pointer;
+}
+.gap{
+	height:30px;
+}
+@media screen  and (max-width: 1611px){
+.forexsignals#bgheader,.fsheader
+    {
+        height: 550px;
+    }
+}
+@media screen  and (max-width: 1490px){
+.forexsignals#bgheader,.fsheader
+    {
+        height: 510px;
+    }
+}
+@media screen  and (max-width: 1300px){
+.forexsignals#bgheader,.fsheader
+    {
+        height: 460px;
+    }
+}
+
+@media screen  and (max-width: 1078px){
+.forexsignals#bgheader,.fsheader
+    {
+        height: 400px;
+    }
+}
+@media (max-width:1024px){
+.forexsignals p {
+	font-size: 15px;
+
+}
+.forexsignals ul {	
+	font-size: 17px;
+}
+}
+@media screen and (max-width: 991px) {
+.forexsignals#bgheader
+{
+    background-image: url(../images/bigtopimage_b.jpg);
+    background-position: center;
+}
+
+@media screen and (max-width: 800px) {      
+.forexsignals p {
+	margin-top: 20px;
+}
+}
+@media (max-width:767px){
+.forexsignals p {
+	font-size: 14px;
+
+}
+.kurs-table {
+    font-size: 14px;
+}
+.button-sell{
+    font-size: 14px;
+}
+.button-buy{
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 600px) {      
+.forexsignals#bgheader, .fsheader
+     {
+        height: 416px;
+    }
+.forexsignals#bgheader
+    {
+         background-position: 50%;
+     }
+.kurs-table {
+    font-size: 12px;
+}
+.button-sell{
+    font-size: 12px;
+    min-width:50px;
+}
+.button-buy{
+    font-size: 12px;
+    min-width:50px;
+}
+}
+@media screen and (max-width: 467px){
+.forexsignals#bgheader, .fsheader
+    {
+        height: 300px;
+    }
+.kurs-table {
+    font-size: 11px;
+}
+.button-sell{
+    font-size: 11px;
+	min-width:50px;
+}
+.button-buy{
+    font-size: 11px;
+ 	min-width:50px;
+}
+}
+@media screen and (max-width: 373px){
+.forexsignals#bgheader, .fsheader
+    {
+        height: 260px;
+    }
+.kurs-table {
+    font-size: 10px;
+}
+.button-sell{
+    font-size: 10px;
+	min-width:50px;
+}
+.button-buy{
+    font-size: 10px;
+ 	min-width:50px;
+}
+}
+@media screen  and (max-width: 346px){  
+.forexsignals#bgheader, .fsheader
+    {
+        height: 216px;
+    }
+}

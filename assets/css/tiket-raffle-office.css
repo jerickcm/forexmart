@@ -1,0 +1,134 @@
+.vip-main-holder
+        {
+            width: 100%;
+            min-height: 496px;
+            background: url(images/vip-bg-2.png) repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .vip-title
+        {
+            font-family: Georgia;
+            color: #333;
+            font-size: 25px;
+        }
+        .winner-img-holder, .vip-winner-text
+        {
+            margin-top: 15px;
+        }
+        .winner-img-holder .winner-img
+        {
+            border: 5px solid #fff;
+            box-sixing: border-box;
+            box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.25);
+        }
+
+        .vip-winner-text p
+        {
+            color: #333;
+            font-family: Open Sans;
+            font-size: 17px;
+            font-weight: 300;
+            font-style: italic;
+            text-align: justify;
+            line-height: 27px;
+            background: rgba(255,255,255, 0.25);
+            padding: 20px;
+        }
+        .vip-winner-text p span
+        {
+            display: block;
+            text-align: right;
+            margin-top: 11px;
+            font-weight: 600;
+            font-style: normal;
+        }
+        .vip-logos
+        {
+            /*margin: 0 auto;
+            float: none;*/
+            /*opacity: 0.6;*/
+            float: none;
+            margin-right: 70px!importantp;
+            margin: 0 auto;
+        }
+        .vip-text .span1
+        {
+            color: #2988ca;
+            font-weight: 600;
+        }
+        .vip-text .span2
+        {
+            color: #fad000;
+            font-weight: 600;
+        }
+        .btn-vip-trading
+        {
+            font-family: Open Sans;
+            font-size: 20px;
+            padding: 20px;
+            color: #fff;
+            background: #29a643;
+            display: block;
+            width: 300px;
+            text-align: center;
+            margin-top: 40px!important;
+            margin: 0 auto;
+            transition: all ease 0.3s;
+        }
+        .btn-vip-trading:hover
+        {
+            text-decoration: none;
+            background: #3ecd5c;
+            transition: all ease 0.3s;
+            color: #fff;
+        }
+        .vip-msg
+        {
+            font-family: Open Sans;
+            font-size: 29px;
+            color: #fff;
+            font-weight: 300;
+            margin-top: 70px;
+            text-align: justify;
+        }
+        .vip-msg .span1
+        {
+            font-weight: 600;
+            color: #fad001;
+        }
+        .vip-msg .span2
+        {
+            font-weight: 600;
+            color: #2988ca;
+        }
+        .valeron-img
+        {
+            margin-top: 30px;
+        }
+        .vip-content-holder
+        {
+            padding-bottom: 20px;
+            background: url(images/vip-content-bg.png) repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        @media screen and (max-width: 991px) {
+            .valeron-img
+            {
+                display: none;
+            }
+            .vip-msg
+            {
+                text-align: justify;
+            }
+            .btn-vip-trading
+            {
+                margin-bottom: 15px!important;
+                margin: 0 auto;
+            }
+        }

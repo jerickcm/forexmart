@@ -1,0 +1,51 @@
+#collapse2{
+    padding-bottom: 15px;
+}
+#col1, #col-a1, #col-b1, #col-c1 {
+    display: none;
+}
+
+.nav-fix {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    transition: all ease 0.3s;
+}
+@media only screen and (max-width: 767px){
+    .new-division-informer .informer-tabs {
+        width: calc(100% /3)!important;
+    }
+
+
+}
+@media only screen and (max-width: 556px){
+    .new-division-informer .informer-tabs {
+        width: calc(100%/2)!important;
+    }
+}
+@media only screen and (max-width: 556px){
+    .informer-tab-holder .informer-tabs a span {
+        font-size: 16px!important;
+    }
+}
+@media only screen and (max-width: 767px){
+    .informer-tab-holder .informer-tabs a span {
+        font-size: 14px!important;
+    }
+}
+@media only screen and (max-width: 991px){
+    .informer-tab-holder .informer-tabs a span {
+        font-size: 11px!important;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .informer-tab-holder .informer-tabs a span {
+        font-size: 14px!important;
+    }
+}
+@media only screen and (max-width: 320px){
+    .col-xs-2{
+        margin-left: -9px;
+    }
+}

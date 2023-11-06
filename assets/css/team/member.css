@@ -1,0 +1,147 @@
+
+.member-header-cont
+{
+	width: 100%;
+	min-height: 10px;
+	text-align: center;
+}
+	.member-header-cont h2
+	{
+		font-family: Open Sans;
+		font-size: 38px;
+		font-weight: 600;
+		color: #fff;
+		text-align: center;
+		margin-top: 0;
+	}
+	.member-header-cont p
+	{
+		font-family: Open Sans;
+		font-size: 17px;
+		font-weight: 300;
+		color: #fff;
+		text-align: justify;
+		margin-top: 25px;
+	}
+	.member-header-cont span
+	{
+		font-family: Open Sans;
+		font-size: 17px;
+		font-weight: 300;
+		color: #fff;
+		text-align: center;
+		margin-top: 20px!important;
+	}
+	.member-header-cont a
+	{
+		display: inline-block;
+		font-family: Open Sans;
+		font-size: 20px;
+		font-weight: 300;
+		color: #fff;
+		text-align: center;
+		margin-top: 10px!important;
+		transition: all ease 0.3s;
+	}
+		.member-header-cont a:hover
+		{
+			text-decoration: none;
+			color: #2988ca;
+			transition: all ease 0.3s;
+		}
+	/*.member-header-cont a
+	{
+		background: #29a643;
+		font-family: Open Sans;
+		font-size: 17px;
+		font-weight: 400;
+		color: #fff;
+		padding: 15px;
+		display: inline-block;
+		width: 200px;
+		margin-top: 30px;
+		transition: all ease 0.3s;
+	}
+		.member-header-cont a:hover
+		{
+			background: #12D83B;
+			text-decoration: none;
+			transition: all ease 0.3s;	
+		}*/
+.member-content-holder
+{
+	width: 100%;
+	padding: 30px 0;
+	background: #fff;
+}
+	.gray-bg
+	{
+		background: #f1f5f7!important;
+		border-bottom: 1px solid #e1e9ee;
+		border-top: 1px solid #e1e9ee;
+	}
+.team-dept
+{
+	font-family: Open Sans;
+	font-size: 30px;
+	font-weight: 300;
+	color: #6a6a6a;
+	text-align: center;
+	margin-top: 0;
+}
+.team-line
+{
+	margin: 0 auto;
+	float: none;
+}
+.member-holder
+{
+	margin-top: 50px;
+	text-align: center;
+}
+.ceo-col-holder
+{
+	margin: 100px auto 0;
+	float: none;
+}
+
+@media screen and (max-width: 450px) {
+    .ceo-col-holder
+    {
+        margin: 30px auto 0 !important;
+    }
+}
+
+
+.member-img-holder img
+{
+	display: inline;
+}
+.member-info-holder
+{
+	margin-top: 20px;
+}
+	.member-info-holder p
+	{
+		font-family: Open Sans;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: 600;
+		line-height: 20px;
+		color: #6a6a6a;
+		margin-bottom: 0!important;
+	}
+		.member-info-holder p small
+		{
+			display: block;
+			font-size: 14px;
+			font-weight: 300;
+			text-transform: none;
+		}
+.header-img
+{
+	float: none;
+	margin: 0 auto;
+	width: 200px;
+	margin-top: 20px;
+}

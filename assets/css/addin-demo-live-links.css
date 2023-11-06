@@ -1,0 +1,302 @@
+.risk-warning:lang(pl){
+    font-size:12px!important;
+}
+
+@-moz-document url-prefix() {
+    @media screen and (max-width: 766px){
+
+        .btn-real_custom{
+            padding: 7px 30px;
+        }
+        .btn-demo_custom{
+            padding: 7px 0px;
+        }
+        .btn-real_custom:lang(en){
+            /*padding: 7px 30px;*/
+            padding: 7px 0 !important;
+            display: block;
+            width: 240px !important;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        .btn-demo_custom:lang(en){
+            /*padding: 7px 0px!important;*/
+            padding: 7px 18px 7px 11px !important;
+        }
+
+        .btn-real_custom:lang(ru){
+            padding: 7px 20px;
+        }
+
+        .btn-demo_custom:lang(ru){
+            padding: 7px 22px !important;
+        }
+
+        .btn-real_custom:lang(jp){
+            padding: 5px 25px;
+        }
+        .btn-demo_custom:lang(jp){
+            padding: 5px 0px !important;
+        }
+
+        .btn-real_custom:lang(id){
+            padding: 7px 25px;
+        }
+        /*        .btn-demo_custom:lang(id){
+                    padding: 7px 0px !important;
+                }*/
+
+        .btn-real_custom:lang(de){
+            padding: 7px 25px;
+        }
+        .btn-demo_custom:lang(de){
+            padding: 7px 12px 7px 13px !important;
+        }
+
+
+        .btn-real_custom:lang(fr){
+            padding: 7px 20px;
+        }
+        .btn-demo_custom:lang(fr){
+            padding: 7px 0px !important;
+        }
+
+
+        .btn-real_custom:lang(it){
+            padding: 7px 25px;
+        }
+        .btn-demo_custom:lang(it){
+            padding: 7px 0px !important;
+        }
+
+        .btn-real_custom:lang(sa){
+            padding: 7px 25px;
+        }
+        .btn-demo_custom:lang(sa){
+            padding: 7px 0px !important;
+        }
+
+
+        .btn-real_custom:lang(pt){
+            padding: 7px 25px;
+        }
+        .btn-demo_custom:lang(pt){
+            padding: 7px 0px !important;
+        }
+
+        .btn-real_custom:lang(bg){
+            padding: 7px 25px;
+        }
+        .btn-demo_custom:lang(bg){
+            padding: 7px 0px !important;
+        }
+
+        .btn-real_custom:lang(my){
+            padding: 7px 25px;
+        }
+        .btn-demo_custom:lang(my){
+            padding: 7px 0px !important;
+        }
+    }
+    @media screen and (min-width: 320px) {
+        .btn-demo_custom:lang(en) {
+            padding: 7px 18px 7px 11px !important;
+        }
+    }
+}
+@media screen and (max-width: 766px) and (-webkit-min-device-pixel-ratio:0){
+    .btn-real_custom{
+        padding: 7px 30px;
+    }
+    .btn-demo_custom{
+        padding: 7px 0px;
+    }
+    .btn-real_custom:lang(en){
+        padding: 7px 30px;
+    }
+    .btn-demo_custom:lang(en){
+        padding: 7px 0px!important;
+    }
+
+    .btn-real_custom:lang(ru){
+        padding: 7px 20px;
+    }
+
+    .btn-demo_custom:lang(ru){
+        padding: 7px 0px !important;
+    }
+
+
+    .btn-real_custom:lang(jp){
+        padding: 7px 25px;
+    }
+    .btn-demo_custom:lang(jp){
+        padding: 7px 0px !important;
+    }
+
+    .btn-real_custom:lang(id){
+        padding: 7px 25px;
+    }
+    .btn-demo_custom:lang(id){
+        padding: 7px 0px !important;
+    }
+
+    .btn-real_custom:lang(de){
+        padding: 7px 25px;
+    }
+    .btn-demo_custom:lang(de){
+        padding: 7px 0px !important;
+    }
+
+
+    .btn-real_custom:lang(fr){
+        padding: 7px 20px;
+    }
+    .btn-demo_custom:lang(fr){
+        padding: 7px 0px !important;
+    }
+
+
+    .btn-real_custom:lang(it){
+        padding: 7px 25px;
+    }
+    .btn-demo_custom:lang(it){
+        padding: 7px 0px !important;
+    }
+
+    .btn-real_custom:lang(sa){
+        padding: 7px 25px;
+    }
+    .btn-demo_custom:lang(sa){
+        padding: 7px 0px !important;
+    }
+
+    .btn-real_custom:lang(es){
+        padding: 7px 25px;
+    }
+    .btn-demo_custom:lang(es){
+        padding: 7px 0px !important;
+    }
+
+    .btn-real_custom:lang(pt){
+        padding: 7px 25px;
+    }
+    .btn-demo_custom:lang(pt){
+        padding: 7px 0px !important;
+    }
+
+    .btn-real_custom:lang(bg){
+        padding: 7px 25px;
+    }
+    .btn-demo_custom:lang(bg){
+        padding: 7px 0px !important;
+    }
+
+    .btn-real_custom:lang(my){
+        padding: 7px 25px;
+    }
+    .btn-demo_custom:lang(my){
+        padding: 7px 0px !important;
+    }
+}
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio:0){
+    .btns, .btns1, .btns:lang(sa), .btns1:lang(sa){
+        margin: 0 auto!important;
+    }
+}
+@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio:0){
+    /*.btn-demo_custom:lang(id){
+        padding: 7px 69px !important;
+    }*/
+    .btn-demo_custom, .btn-real_custom, .btn-demo_custom:lang(sa), .btn-real_custom:lang(sa){
+        width: 100%!important;
+        display: block;
+        padding: 10px!important;
+        height: 38px;
+        overflow: hidden;
+    }
+    .btns, .btns1, .btns:lang(sa), .btns1:lang(sa){
+        width: 50%!important;
+        margin: 0 auto!important;
+    }
+    .addSpaceTop:lang(sa){
+        margin-top: 5px!important;
+    }
+    .btns1{
+        margin-top: 5px!important;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .btns, .btns1{
+        width:100%!important;
+    }
+
+    .btn-real_custom:lang(es) {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 7px 0 !important;
+        width: 240px !important;
+    }
+    .btn-demo_custom:lang(es) {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 7px 0 !important;
+        width: 240px !important;
+    }
+    .btn-real_custom:lang(cs) {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 7px 0 !important;
+        width: 240px !important;
+    }
+    .btn-demo_custom {
+        padding: 7px 0!important;
+        width: 240px!important;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .btn-real_custom:lang(id) {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 7px 0 !important;
+        width: 250px !important;
+    }
+    .btn-demo_custom:lang(id) {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 7px 0 !important;
+        width: 250px !important;
+    }
+    .btn-real_custom:lang(pl) {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 7px 0 !important;
+        width: 240px !important;
+    }
+    .btn-demo_custom:lang(pl) {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 7px 0 !important;
+        width: 240px !important;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .addSpaceTop{
+        margin-top: 5px!important;
+    }
+}
+@media only screen and (max-width: 320px){
+    .paddingForBg:lang(bg){
+        padding: 7px 20px!important;
+    }
+}

@@ -1,0 +1,350 @@
+#owl-demo .item
+{
+    padding: 15px;
+    min-height: 140px!important;
+    width: 100%!important;
+}
+#owl-demo .item img
+{
+    display: block;
+    margin: 0 auto!important;
+
+}
+.owl-controls
+{
+    display: none!important;
+}
+/*.owl-news
+{
+	padding-left: 30px;
+}*/
+.economicnews-banner
+{
+    width: 100%;
+    background: url(../images/economic-news-bg.jpg) no-repeat;
+    min-height: 200px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.economicnews-title
+{
+    color: #fff;
+    font-family: Georgia;
+    font-size: 25px;
+    padding: 10px 0;
+    margin: 0;
+    margin-top: 30px;
+}
+.economicnews-text
+{
+    font-size: 14px;
+    color: #fff;
+    font-family: Open Sans;
+    margin-bottom: 30px;
+}
+.economicnews-page-title
+{
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 400;
+    color: #6a6a6a;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 3px solid #f0f0f0;
+    margin-bottom: 10px!important;
+}
+.latest-economicnews-holder
+{
+    /*border-bottom: 3px solid #f0f0f0;*/
+    margin-bottom: 10px;
+}
+.latest-news-line
+{
+    border-bottom: 3px solid #f0f0f0;
+    /*margin: 0px 15px;*/
+    /*width: 100%;*/
+}
+.news-img
+{
+    margin-bottom: 10px;
+    height: 310px!important;
+}
+.news-img img
+{
+    width: 100%;
+    height: 310px!important;
+    object-fit: cover;
+    border: 7px solid #fff;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.17);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.17);
+}
+.news-content-holder
+{
+    width: 100%;
+}
+.news-content-holder h2
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #2988ca;
+    margin: 0;
+    margin-top: 10px!important;
+}
+.news-content-holder small
+{
+    font-family: Open Sans;
+}
+.news-content-holder p
+{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+    text-align: justify;
+}
+.news-content-holder a
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2988ca;
+}
+.economic-news-thumbnail
+{
+    border-radius: 0px!important;
+
+}
+.economic-news-thumbnail .caption
+{
+    height: 112px;
+}
+.economic-news-thumbnail .thumbnail-img-holder
+{
+    height: 200px;
+    overflow: hidden;
+    background: #eee;
+}
+.economic-news-thumbnail .thumbnail-img-holder img
+{
+    width: 100%;
+    height: 200px!important;
+    object-fit: cover;
+}
+.economic-news-thumbnail h3
+{
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #2988ca;
+    margin: 0;
+    font-size: 17px;
+}
+.economic-news-thumbnail h3 a:hover
+{
+    text-decoration: none;
+}
+.economic-news-thumbnail small
+{
+    font-family: Open Sans;
+}
+.economic-news-thumbnail p
+{
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 400;
+    color: #6a6a6a;
+    text-align: justify;
+    margin-top: 10px;
+}
+.btn-prev-holder
+{
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.btn-prev-holder .btn-prev-news
+{
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 17px;
+    color: #2988ca;
+    border: 1px solid #2988ca;
+    background: #fff;
+    padding: 10px 30px;
+    transition: all ease 0.3s;
+}
+.btn-prev-holder .btn-prev-news:hover
+{
+    background: #2988ca;
+    color: #fff;
+    transition: all ease 0.3s;
+    text-decoration: none;
+}
+.btn-next-holder
+{
+    text-align: right;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.btn-next-holder .btn-next-news
+{
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 17px;
+    color: #2988ca;
+    border: 1px solid #2988ca;
+    background: #fff;
+    padding: 10px 30px;
+    transition: all ease 0.3s;
+}
+.btn-next-holder .btn-next-news:hover
+{
+    background: #2988ca;
+    color: #fff;
+    transition: all ease 0.3s;
+    text-decoration: none;
+}
+.more-economicnews-holder
+{
+    margin-top: 10px;
+}
+.all-news-holder
+{
+    margin-bottom: 15px;
+}
+.border-bot
+{
+    border-bottom: 3px solid #f0f0f0;
+    margin: 15px 0;
+}
+.all-news-content-holder
+{
+    width: 100%;
+}
+.all-news-content-holder h2
+{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2988ca;
+    margin: 0;
+    margin-top: 10px!important;
+}
+.all-news-content-holder small
+{
+    font-family: Open Sans;
+    display: block
+}
+.all-news-content-holder p
+{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+    text-align: justify;
+}
+.all-news-img
+{
+    height: 147px;
+    overflow: hidden;
+    background: #eee;
+}
+.all-news-img img
+{
+    width: 100%;
+    height: 147px!important;
+    object-fit: cover;
+    border: 7px solid #fff;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.17);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.17);
+}
+
+.news-img-holder
+{
+    overflow: scroll;
+}
+.all-news-row
+{
+    height: 196px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1199px) {
+    .economic-news-thumbnail .caption {
+        height: 235px!important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .all-news-row
+    {
+        height: auto!important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .economic-news-thumbnail .thumbnail-img-holder
+    {
+        height: auto!important;
+        background: #eee;
+    }
+    .economic-news-thumbnail .thumbnail-img-holder img
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    .economic-news-thumbnail .caption {
+        height: 165px!important;
+    }
+}
+@media screen and (max-width: 635px) {
+    .economic-news-thumbnail .caption {
+        height: 212px!important;
+    }
+}
+@media screen and (max-width: 530px) {
+    .economic-news-thumbnail .caption {
+        height: 240px!important;
+    }
+}
+@media screen and (max-width: 500px){
+    .all-img-col {
+        width: 100%!important;
+    }
+    .all-news-img{
+        height: 300px!important;
+    }
+    .all-news-img img
+    {
+        height: 300px!important;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+@media screen and (max-width: 479px) {
+    .economic-news-thumbnail .caption {
+        height: auto!important;
+    }
+}
+@media screen and (max-width: 375px){
+    .all-img-col {
+        width: 100%!important;
+    }
+    .all-news-img{
+        height: 200px!important;
+    }
+    .all-news-img img
+    {
+        height: 200px!important;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}

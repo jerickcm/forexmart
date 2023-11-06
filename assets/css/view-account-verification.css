@@ -1,0 +1,22 @@
+    @-moz-document url-prefix() {.license-sub{margin-top:65px!important}}@media screen and (-webkit-min-device-pixel-ratio:0){.license-sub{margin-top:75px!important}}.acct-verification-text{color:#29A643;font-family:Open Sans;text-align:justify}.acct-verification-text span{color:#333}.img-acc-ver-holder{margin-top:20px}.img-acc-ver-holder img{float:none;margin:0 auto;display:block;max-width:100%;height:auto}
+    .marg-bot{
+        margin-bottom:20px;
+    }
+    @media screen and (max-width: 767px){
+        .marg-bot{
+            margin-bottom:-60px;
+        }
+    }
+     @media screen and (min-width: 768px) and (max-width: 990px){
+        .marg-bot{
+            margin-bottom: 0px;
+        }
+     }
+    @media screen and (max-width: 767px){
+        .btns1:lang(ru){
+            width: 241px!important;
+        }
+        .btn-real_custom:lang(ru){
+            display: block;
+        }
+    }

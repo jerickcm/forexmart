@@ -1,0 +1,101 @@
+.formshow{
+    visibility: visible;
+    display: block;
+}
+.formhide{
+    visibility: hidden;
+    display: none;
+}
+div.bg-danger {
+    background-color: #f2dede;
+    padding: 5px;
+    font-size: 12px;
+    color: rgb(174, 21, 21) !important;
+    text-align: center;
+    border: 1px solid;
+    margin: 20px;
+
+}
+
+div.bg-danger p {
+    margin: 10px 10px!important;
+    text-align: center !important;
+    font-size: 12px !important;
+    color: rgb(174, 21, 21) !important;
+    line-height: 17px;
+}
+.modal-body1{
+    padding: 0 15px;
+}
+@media (max-width: @screen-xs-min) {
+    .modal-xs { width: @modal-sm; }
+}
+@media only screen and (min-width: 0px)  and (max-width: 600px) {
+    .fmodal{
+        width: 300px!important;
+    }
+}
+@media only screen and (min-width: 0px)  and (max-width: 400px) {
+    .fmodal{
+        width: 100px!important;
+    }
+}
+
+.feedback-rate-holder
+{
+    width: 100%;
+    margin-top: 5px;
+}
+.feedback-rate-list
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #EAEAEA;
+    margin-top: 10px!important;
+}
+.feedback-rate-list li
+{
+    float: left;
+    width: calc(100% / 10);
+    text-align: center;
+    display: block;
+    border-left: 1px solid #EAEAEA;
+}
+.feedback-rate-list li:first-child
+{
+    border-left: none;
+}
+.feedback-rate-list li .rad
+{
+    display: none;
+}
+.feedback-rate-list li label
+{
+    padding: 5px;
+    font-size: 14px;
+    margin: 0;
+    background: #fafafa;
+    display: block;
+    color: #6a6a6a;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.feedback-rate-list li label:hover
+{
+    background: #2988ca;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+.feedback-rate-list li .rad:checked + label
+{
+    background: #2988ca;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+.feedback-rate-holder p
+{
+    font-size: 12px;
+    color: #6a6a6a;
+    margin: 0;
+}

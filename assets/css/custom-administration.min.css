@@ -1,0 +1,133 @@
+.lg1{
+    background-image:  url(../images/watermark/logo-1.png);
+}
+.lg3{
+    background-image:  url(../images/watermark/logo-2.png);
+}
+.lg3{
+    background-image:  url(../images/watermark/logo-3.png);
+}
+.watermark1{
+    background-image:  url(../images/watermark/watermark-sample1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.watermark2{
+    background-image:  url(../images/watermark/watermark-sample2.png);
+}
+.watermark3{
+    background-image:  url(../images/watermark/watermark-sample3.png);
+}
+.watermark4{
+    background-image:  url(../images/watermark/watermark-sample4.png);
+}
+.watermark5{
+    background-image:  url(../images/watermark/watermark-sample5.png);
+}
+.watermark6{
+    background-image:  url(../images/watermark/watermark-sample6.png);
+}
+.display-n{
+    display: none!important;
+}
+
+.avlabel{
+    float:left!important;
+}
+
+.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: rgba(86, 171, 232, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+.no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .cd-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+
+
+.loader-holder {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.loader
+{
+    margin-left: 47%;
+    margin-top: 20%;
+}
+
+.add-scheme-holder2{
+    margin-bottom: 10px !important;
+}
+.display-n{
+    display: none;
+}
+.display-y{
+    display: block;
+}
+.hit:hover{
+
+    text-decoration: none!important;
+}
+.hit:link{
+
+    text-decoration: none!important;
+}
+.hit:visited{
+
+    text-decoration: none!important;
+}
+.hit:active{
+
+    text-decoration: none!important;
+}

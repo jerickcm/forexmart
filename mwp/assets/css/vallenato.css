@@ -1,0 +1,85 @@
+.accordion-header {
+	font-size: 13px;
+	font-weight:normal;
+	padding: 10px 5px;
+	cursor: pointer;
+	margin:0;
+	color: #fff;
+	border-bottom: 1px solid #2b7db6;
+	border-top:1px solid #3e98d7;
+}
+
+.accordion-header:first-child {
+	border-top:none;
+}
+
+.active-header , .active-header:hover , .inactive-header:hover {
+	background:#0c6eb2;
+	color: #fff;
+	font-weight:normal;
+	text-shadow:none;
+	border-bottom:1px solid #085e9a;
+}
+
+.accordion-content {
+	width:100%!important;
+	display: none;
+	background:#63afeb;
+	border-bottom:1px solid #1969a1;
+}
+
+.accordion-arrow {
+	width:16px;
+	height:16px;
+	margin:1px 0;
+	float:right;
+}
+
+.inactive-header .accordion-arrow {
+	background:url(../images/arrow-down.png);
+}
+
+.active-header .accordion-arrow {
+	background:url(../images/arrow-up.png);
+}
+
+.accordion-header label {
+	width:18px;
+	height:18px;
+	display:block;
+	float:left;
+	margin-left:3px;
+	margin-right:7px;
+}
+
+.accordion-account {
+	background:url(../images/account.png);
+}
+
+.accordion-quick-jump {
+	background:url(../images/quick-jump.png);
+}
+
+.accordion-finance {
+	background:url(../images/finance.png);
+}
+
+.accordion-orders {
+	background:url(../images/orders.png);
+}
+
+.accordion-verify {
+	background:url(../images/verify.png);
+}
+
+.accordion-partners {
+	background:url(../images/partners.png);
+}
+
+.accordion-marketing {
+	background:url(../images/marketing.png);
+}
+
+.accordion-total-information {
+	background:url(../images/total-information.png);
+}

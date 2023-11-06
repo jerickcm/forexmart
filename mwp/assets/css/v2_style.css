@@ -1,0 +1,812 @@
+
+html , body {
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Open Sans', helvetica, sans-serif;
+}
+
+/*----- LOGIN -----*/
+
+.default-login-background {
+    background:url(../img/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.style-form-main-container {
+    height:100%;
+}
+
+.style-form-container {
+    width:35%;
+    height:auto;
+    padding:10px;
+    margin:18% auto;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.style-form-box {
+    width:100%;
+    background:#fff;
+    display:table;
+    height:400px;
+}
+
+.style-form-top-img {
+    width:100%;
+    display:table;
+    background:url(../img/top-image.png) no-repeat;
+}
+
+.style-form-top-img img {
+    width:100%;
+    padding:10px;
+    margin:0 auto;
+}
+
+.style-form-mid-content {
+    margin:0 auto;
+    display:block;
+    padding:20px 10px;
+    padding-bottom:0;
+}
+
+.style-form-mid-content h1 {
+    font-size:23px;
+    color:#2988ca;
+    text-align:center;
+    padding:0;
+    margin:0 0 20px 0;
+    text-transform:uppercase;
+}
+
+.style-form-input {
+    border:none;
+    border-bottom:1px solid #2988ca;
+}
+
+.style-form-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size:13px;
+    color:#a4a4a4;
+}
+.style-form-input::-moz-placeholder { /* Firefox 19+ */
+    font-size:13px;
+    color:#a4a4a4;
+}
+.style-form-input:-ms-input-placeholder { /* IE 10+ */
+    font-size:13px;
+    color:#a4a4a4;
+}
+.style-form-input:-moz-placeholder { /* Firefox 18- */
+    font-size:13px;
+    color:#a4a4a4;
+}
+
+.style-form-input-holder {
+    position:relative;
+}
+
+.style-form-icon img {
+    margin-right:5px;
+}
+
+.form-holder-bottom {
+    display:block;
+}
+
+.form-holder-bottom label , .form-holder-bottom a {
+    font-size:13px;
+}
+
+.form-holder-bottom a {
+    text-align:right;
+    float:right;
+    color:#2988ca;
+    margin-top:4px;
+}
+
+.form-buttons-holder button {
+    display:block;
+    width:100%;
+    padding:10px 0;
+    color:#fff;
+    margin:10px auto;
+    transition: all ease 0.3s;
+}
+
+.form-cancel-button {
+    background:#2988ca;
+
+}
+
+.form-cancel-button:hover {
+    background:#319ae3;
+}
+
+.form-login-button {
+    background:#29a643;
+}
+
+.form-login-button:hover {
+    background:#00ae00;
+}
+
+/*----- INDEX -----*/
+.style-notification-warning {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    text-align: center;
+    font-size: 11px;
+    padding: 5px;
+    line-height: .9;
+    border-radius:2px;
+    background:#e5002b;
+}
+
+.style-profile-button a , .style-form-search-button , .style-back-button a , .style-table-in-button , .style-update-button a ,
+.datepicker-search-button a , .saldo-calculate-button a , .style-referrals-box button , .personal-reset-password button {
+    color: #fff!important;
+    margin:0 auto;
+    transition: all ease 0.3s;
+    background: #29a643;
+    border:none;
+}
+
+.style-form-search-button , .datepicker-search-button a , .style-referrals-box button , .personal-reset-password button {
+    padding:7px;
+    margin-left:5px;
+    outline:none;
+}
+
+.style-form-search-button {
+    display:inline-block;
+}
+
+.datepicker-search-button {
+    display:table;
+    float:left;
+    margin-top:25px;
+}
+
+.saldo-calculate-button a {
+    display:block;
+    width:50%;
+    margin:20px auto;
+    padding:12px 10px;
+    text-align:center;
+    outline:none;
+}
+
+.style-form-search-button {
+    float:right;
+}
+
+.style-right-holder-btn {
+    position:absolute;
+    right:0;
+    float:right;
+    z-index:1000;
+}
+
+.style-back-button , .style-update-button {
+    display:inline-block;
+    margin:0 1px;
+}
+
+.style-back-button a , .style-table-in-button , .style-update-button a {
+    padding:7px 15px;
+    cursor:pointer;
+}
+
+.style-back-button a , .style-update-button a {
+    display:block;
+}
+
+.style-table-in-button {
+    display:inline-block;
+    margin:0 auto;
+}
+
+.style-profile-button a {
+    display:block;
+    margin:0 auto;
+    padding:15px;
+}
+
+.style-profile-button a:hover , .style-form-search-button:hover , .style-back-button a:hover ,
+.style-table-in-button:hover , .style-update-button a:hover , .datepicker-search-button a:hover , .saldo-calculate-button a:hover ,
+.style-referrals-box button:hover , .personal-reset-password button:hover {
+    background: #00ae00!important;
+}
+
+.style-menu-notification li:hover {
+    background:#eaeaea;
+}
+
+.style-menu-notification li a {
+    font-size:13px;
+}
+
+.style-menu-notification li span {
+    display:block;
+}
+
+.style-login-name {
+    color:#0098d0;
+    font-weight:600;
+}
+
+.style-login-date {
+    color:#a7a7a7;
+    font-weight:600;
+}
+
+.style-login-date label {
+    color:#555;
+    font-weight:300;
+}
+
+.style-box {
+    padding:20px;
+}
+
+.style-box-initial-info {
+    padding:0!important;
+    margin-bottom:20px;
+}
+
+.style-box-profile-details {
+    padding:0;
+    margin-top:5px;
+    float:left;
+}
+
+.style-box-profile-details ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.style-box-profile-details ul li {
+    padding:5px 0;
+}
+
+.style-box-profile-details ul li span {
+    display:block;
+}
+
+.style-box-profile-details ul li label {
+    margin-bottom:0;
+}
+
+.style-box-profile-img {
+    float:left;
+    margin-bottom:10px;
+    margin-right:20px;
+}
+
+.style-box-profile-img img {
+    padding:10px;
+    display:table;
+    border:4px solid #eaeaea;
+    width:160px;
+    height:160px;
+}
+
+.style-box-personal-container {
+    padding:15px 5px;
+}
+
+.style-box-personal-information {
+    list-style-type:none;
+    padding:0;
+}
+
+.style-box-personal-information li {
+    padding:5px;
+    font-size:13px;
+}
+
+.style-box-personal-information li:nth-child(odd) {
+    background:#f6f6f6;
+}
+
+.verified-indicator , .incomplete-indicator {
+    font-weight:bold;
+}
+
+.verified-indicator {
+    color:#29a643;
+}
+
+.incomplete-indicator {
+    color:#e5002b;
+}
+
+.style-form-input-inside {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.style-form-input-inside:focus {
+    border-color: #3c8dbc!important;
+}
+
+.style-table-link:hover {
+    text-decoration:underline;
+}
+
+table.style-form-table {
+    border-collapse:collapse!important;
+    border:1px solid #d0ecf6;
+}
+
+.style-form-table thead tr th , .style-form-table tbody tr td {
+    text-align:center;
+    vertical-align:middle;
+    border:1px solid #d0ecf6;
+}
+
+.style-form-table thead tr th , .style-form-table thead tr th:focus {
+    outline:none;
+}
+
+.style-form-table tbody tr:nth-child(odd) td {
+    background:#eff9ff;
+}
+
+.mid-table-head thead tr th , .last-mid-table-head thead tr th:last-child {
+    padding-right:0!important;
+}
+
+.style-form-select-image {
+    display:table;
+    margin:5px auto;
+    z-index:1000;
+}
+
+.style-personal-tabs {
+    margin:20px auto;
+    margin-bottom:0;
+}
+
+.style-customized-navigation-tab .nav-tabs .active {
+    border-top:0;
+}
+
+.style-customized-navigation-tab .nav-tabs li:hover a {
+    color:#000;
+}
+
+.style-customized-navigation-tab .nav-tabs .active a {
+    background:#2fb24a!important;
+    color:#fff!important;
+}
+
+.style-customized-navigation-tab .nav-tabs>li.active>a,
+.style-customized-navigation-tab .nav-tabs>li.active>a:focus,
+.style-customized-navigation-tab .nav-tabs>li.active>a:hover {
+    border:0;
+}
+
+.style-form-table-responsive {
+    margin:10px auto;
+}
+
+.mid-paragraph-content {
+    padding:10px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.style-calendar-box {
+    display:table;
+    margin:10px 0 20px 0;
+}
+
+.style-calendar-child {
+    width:40%;
+    padding:0;
+    float:left;
+}
+
+.style-calendar-child:first-child {
+    margin-right:10px;
+}
+
+.style-calendar-child:last-child {
+    margin-right:10px;
+}
+
+.datepicker-search-button a {
+    float:left;
+}
+
+.style-calendar-hidden {
+    display:none;
+}
+
+.total-saldo-footer , .table-saldo-right-text tbody tr td:last-child {
+    text-align:right;
+}
+
+.style-saldo-content {
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:30px;
+    float:none;
+}
+
+.style-saldo-content .form-group span {
+    color:#ff0000;
+    font-size:12px;
+}
+
+.style-saldo-picker {
+    width:100%;
+    display:table;
+}
+
+.saldo-datepicker {
+    width:48%;
+}
+
+.saldo-datepicker:first-child {
+    float:left;
+}
+
+.saldo-datepicker:first-child {
+    float:right;
+}
+
+.style-referrals-box {
+    display:table;
+    margin:10px 0 20px 0;
+}
+
+.style-referrals-box select , .style-referrals-box input[type=text] {
+    float:left;
+    width:200px;
+}
+
+.style-referrals-box input[type=text] {
+    margin:0 10px;
+}
+
+.quick-jump-filter {
+    display:table;
+    float:right;
+}
+
+.select-quick-jump {
+    float:left;
+    display:table;
+    width:auto;
+}
+
+/*----- MODAL -----*/
+.style-customized-modal-body {
+    display:table;
+    width:100%;
+}
+
+.modal-form-details {
+    float:none!important;
+    margin:20px auto;
+}
+
+.modal-form-details .form-group label {
+    margin-bottom:0;
+}
+
+.modal-form-details .form-group label span {
+    color:#ff0000;
+}
+
+.modal-add-button {
+    float:right;
+    font-size:13px;
+}
+
+.modal-add-button:hover {
+    text-decoration:underline;
+}
+
+.modal-form-details .form-group input[type=checkbox] {
+    float:left;
+    margin-top:4px;
+    margin-right:5px;
+}
+
+.modal-span-label-align {
+    margin-left:5px;
+}
+
+/*----- MEDIA QUERIES -----*/
+
+@media screen and (max-width: 1124px) {
+
+    .style-form-table-responsive {
+        overflow-x:auto;
+    }
+
+}
+
+@media screen and (max-width: 1017px) {
+
+    .style-form-mid-content h1 {
+        font-size:20px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .style-form-container {
+        width:45%;
+        margin:8% auto;
+    }
+
+    .style-box-personal-container {
+        padding:5px;
+    }
+
+    .style-customized-navigation-tab .tab-content {
+        padding:0!important;
+    }
+
+    .only-trades-search {
+        margin-top:10px;
+    }
+
+    .style-form-sort-entries , .style-form-search-input , .style-form-pagination {
+        display:table;
+        margin:5px auto;
+        float:none;
+        width:auto;
+    }
+
+    .style-referrals-box {
+        display:table;
+        margin:10px auto;
+        margin-bottom:20px;
+    }
+
+    .style-referrals-box select , .style-referrals-box input[type=text] {
+        float:none;
+        margin:5px auto;
+    }
+
+    .style-referrals-box button {
+        display:block;
+        width:100%;
+        margin-left:0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .style-form-container {
+        width:50%;
+        margin:8% auto;
+    }
+
+    .style-form-sort-entries {
+        margin-top:10px;
+    }
+
+    .only-trades-search {
+        display:table;
+        float:none!important;
+        margin:10px auto;
+        margin-bottom:0;
+        width:auto!important;
+    }
+
+}
+
+@media screen and (max-width: 659px) {
+
+    .style-form-container {
+        width:60%;
+        margin:9% auto;
+    }
+
+}
+
+@media screen and (max-width: 606px) {
+
+    .style-customized-modal-body {
+        display:table;
+        margin-top:10px;
+        border:none;
+    }
+
+    .modal-style-navigation-tab {
+        box-shadow:none;
+        margin-bottom:0;
+    }
+
+    .modal-style-navigation-tab .nav-tabs li {
+        display:block!important;
+        width:100%;
+    }
+
+    .modal-style-navigation-tab .nav-tabs li {
+        border-bottom:1px solid #f9f9f9;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .style-form-container {
+        width:80%;
+        margin:18% auto;
+    }
+
+    .style-box-profile-img {
+        margin-top:50px;
+    }
+
+    .style-box-profile-details {
+        margin-top:62px;
+    }
+
+}
+
+@media screen and (max-width: 525px) {
+
+    .quick-jump-filter {
+        float:none;
+        margin:5px auto;
+    }
+
+    .select-quick-jump {
+        float:none;
+        width:100%;
+        display:block;
+        margin:5px auto;
+    }
+
+    .quick-jump-filter input[type=search] {
+        margin-left:0;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    .style-form-container {
+        width:70%;
+        margin:12% auto;
+    }
+
+}
+
+@media screen and (max-width: 453px) {
+
+    .style-box-profile-img , .style-box-profile-details {
+        float:none;
+        display:table;
+        margin:0 auto;
+    }
+
+    .style-box-profile-details {
+        margin:10px auto;
+        text-align: center;
+    }
+
+    .style-box-profile-details ul li span {
+        display:inline-block;
+    }
+
+    .style-right-holder-btn {
+        float:none!important;
+        position:relative;
+        right:0;
+        width:170px;
+        text-align:center;
+        margin:10px auto;
+        display:table;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .style-calendar-shown {
+        display:none;
+    }
+
+    .style-calendar-hidden , .style-calendar-box {
+        display:block;
+        width:100%;
+    }
+
+    .daterangepicker {
+        width:240px!important;
+    }
+
+}
+
+@media screen and (max-width: 447px) {
+
+    .style-customized-navigation-tab .nav-tabs li {
+        display:block;
+        float:none;
+        margin:0 auto;
+        border-bottom:1px solid #eaeaea;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .pagination>li>a, .pagination>li>span {
+        padding:6px;
+    }
+
+    .style-box {
+        padding:10px;
+    }
+
+    .box-body {
+        padding:0 10px!important;
+    }
+
+}
+
+@media screen and (max-width: 402px) {
+
+    .only-trades-search .style-form-search-button {
+        margin:10px auto;
+        float:none;
+        margin-top:0;
+    }
+
+    .style-form-search-button {
+        display:block;
+        width:100%;
+    }
+
+    .quick-jump-filter input[type=search] {
+        width:100%;
+        margin:5px auto;
+        margin-top:0;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .style-form-mid-content h1 {
+        font-size:18px;
+    }
+
+    .form-buttons-holder button {
+        margin:5px auto;
+    }
+
+    .style-personal-tabs {
+        padding:0;
+    }
+
+    .mid-style-pagination , .mid-style-search {
+        margin:0 auto;
+        float:none!important;
+    }
+
+}

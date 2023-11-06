@@ -1,0 +1,21 @@
+<?php
+$lang['lav-1']='Offnen Sie die Welt der <b>Moglichkeiten</b>';
+$lang['lav-2']='Entdecken Sie unbegrenzten <b>Moglichkeiten</b> mit dem <b>hochsten</b> Leverage';
+$lang['lav-3']='<b class="bb">Navigieren Sie Ihren Weg </b> zum Erfolg';
+$lang['lav-4']="Mit unserer effizienten Kunden-Support und wettbewerbsfahige Dienstleistungen bietet Forexmart 1:5000 Leverage in Standard- und Null Spread-Konten an. <br>Dadurch konnen Sie:";
+$lang['lav-5']="Machen Sie groß volumige Deals und erhalten mehr Gewinn";
+$lang['lav-6']="Minimieren Sie die Margin-Anforderungen und halten Sie Ihr Geld sicher";
+$lang['lav-7']="Investieren Sie in jedem Handel weniger und offnen mehr Positionen";
+$lang['lav-8']="Beginnen Sie den <b>Handel</b> schon heute!";
+$lang['lav-9']="<h2>LEVERAGE<h2> <br><h1> 1 : 5000</h1>";
+$lang['lav-10']="1 : 5000";
+$lang['lav-11']="Email";
+$lang['lav-12']="Name";
+$lang['lav-13']="Einreichen";
+$lang['lav-14']="";
+$lang['lav-15']="Hebelbedingungen 1:5000 ";
+$lang['lav-16']="1:5000 Hebel ist nur für die Kunden verfügbar, deren Billanz 1000 USD nicht übersteigt. ";
+$lang['lav-17']="1:5000 Hebel ist nicht kompatibel mit manchen Typen von Boni. Lesen Sie bitte die Boni-Vereinbarung.";
+$lang['lav-18']="Der maximale Hebel 1:5000 kann bis 1:1000 von dem Unternehmen nach eigenem Ermessen reduziert werden.";
+$lang['lav-19']="Durch die Nutzung des 1:5000 Hebels stimmt der Kunde mit den allgemeinen Nutzungsbedingungen zu.";
+$lang['lav-20']="Bedingungen von Service-Hebel 1:5000";

@@ -1,0 +1,109 @@
+
+
+.sponsorship-wrapper {
+	background:url(../images/sponsorship-bg.png) no-repeat;
+	background-size:cover;
+}
+
+.sponsorship-container {
+	margin:0 auto;
+	display:block;
+	padding:60px 0 140px 0;
+}
+
+.sponsorship-title {
+	margin:30px auto;
+	width:100%;
+	text-align:center;
+	font-size:25px;
+	font-family:Georgia,'Times New Roman',serif;
+}
+
+.sponsorship-title h1 {
+	color: #333;
+	margin:0 auto;
+}
+
+.sponsorship-title p {
+	font-size:17px;
+	line-height:25px;
+	font-family: Open Sans;
+	color:#000;
+	margin-top:30px;
+}
+
+.sponsorship-content {
+	width:100%;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+
+.sponsorship-content img {
+	padding:5px;
+	display:block;
+	margin:0 auto;
+	background:#fff;
+	border:1px solid #eaeaea;
+	transition: all ease 0.3s;
+}
+
+
+.sponsorship-content p {
+	text-align: justify;
+	line-height:30px;
+	font-size:16px;
+	margin:15px auto;
+	color:#000;
+	min-height:250px;
+}
+
+.sponsorship-content a {
+	background: #29a643;
+    color: #fff;
+    padding: 20px 15px;
+    font-size: 15px;
+    font-family: Open Sans;
+    width:200px;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+.sponsorship-content a:hover {
+	background:#50df6e;
+}
+
+@media screen and (max-width: 991px) {
+
+	.sponsorship-container {
+		width:auto!important;
+	} 
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.sponsorship-content p {
+		min-height:auto;
+	}
+
+	.sponsorship-content {
+		margin-bottom:50px;
+	}
+
+}
+
+.nav-fix
+{
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	transition: all ease 0.3s;
+}
+.awardtitle{
+	font-family: Georgia;
+	color: #333;
+}

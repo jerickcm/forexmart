@@ -1,0 +1,20 @@
+   @media only screen and (min-width: 550px) and (max-width: 1280px){
+        .p_l {
+            min-width: 500px !important;
+        }
+    }
+	     .error{
+            color:red;
+            font-size: 14px;
+            font-weight: normal;
+            text-align: left;
+        }
+        .custome-text-center{
+            text-align: center !important;
+        }
+        @media screen and (max-width: 320px){
+            .p_l {
+                width: 270px;
+            }
+        }
+		@-moz-document url-prefix() {@media screen and (min-width: 768px) and (max-width: 4000px){.submit:lang(sa){margin-right:32%}}@media screen and (max-width: 767px){.submit:lang(sa){margin-right:32%}}}#btn_submit:lang(sa){margin-right:16.66666667%}@media screen and (min-width: 768px) and (max-width: 4000px) and (-webkit-min-device-pixel-ratio:0){.submit:lang(sa){margin-right:32%}}@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio:0){.submit:lang(sa){margin-right:32%}}.nav-fix{position:inherit!important}.icon-check{float:left}.icon-check:lang(sa){float:right}.bul_lst{padding-left:2.2em;text-indent:.1em}.bul_lst:lang(sa){padding-right:2.4em;}.pull-l{float:left!important}.pull-r{float:right!important}#oada{margin:30px 5px!important;padding:0!important}@media screen and (max-width: 1001px){.p_l{width:500px}.setw{width:100%}#oada{text-align:left}.form-holder{text-align:left}.col-sm-2{width:16.66666667%}}@media screen and (max-width: 1000px){.p_l{width:300px}.setw{width:100%}}@media screen and (min-width: 768px) and (max-width: 991px){#lbl-email:lang(it),#lbl-fn:lang(it){width:25%}#div-email:lang(it),#div-fn:lang(it){width:50%}}@media screen and (max-width: 767px){.col-sm-2{width:40%}.col-sm-2:lang(sa){width:16.66666667%}}label[name=lbl_password]:lang(fr){padding:5px 9px}div[name=pwd_holder]:lang(fr){padding:0 2px}

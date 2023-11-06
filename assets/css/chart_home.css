@@ -1,0 +1,272 @@
+.charttitle h3{
+    font-family: Open Sans;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    color:#222;
+}
+.bottomline{
+    border: 1px solid #222;
+}
+.tabs {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+}
+.tabs nav {
+    text-align: center;
+}
+.tabs nav ul {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    -ms-box-pack: center;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+.tabs nav ul li {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0;
+    text-align: center;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.tabs nav a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.5;
+}
+.tabs nav a span {
+    vertical-align: middle;
+    font-size: 1em;
+}
+.tabs nav li.tab-current a {
+    color: #74777b;
+}
+.tabs nav a:focus {
+    outline: none;
+}
+.tabs-style-line nav ul {
+    max-width: none;
+}
+.tabs-style-line nav ul li{
+    border: 1px solid #ccc;
+    list-style: none;
+}
+.tabs-style-line nav a {
+    padding: 0.7em 0.4em;
+    color: #222;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    list-style: none;
+}
+.tabs-style-line nav li.tab-current a {
+    border-bottom: 4px solid #2988ca  !important;
+    border-top:1px solid #c70928;
+    color: #2988ca;
+}
+.content-wrap {
+    position: relative;
+}
+.content-wrap section {
+    display: none;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1200px;
+    text-align: center;
+}
+.content-wrap section.content-current {
+    display: block;
+}
+.content-wrap section p {
+    margin: 0;
+    padding: 2em 0;
+    color: rgba(40,44,42,0.05);
+    font-weight: 900;
+    font-size: 5em;
+    line-height: 1;
+}
+tr, td {
+    border-bottom: 1px solid #222;
+    border-top: 1px solid #222 !important;
+    height: 65px !important;
+    vertical-align: middle !important;
+}
+.kurs{
+    font-family: Open Sans;
+    color:#222;
+    font-size: 20px;
+    font-weight:bold;   
+}
+.uptext{
+    color:#2988ca;
+}
+.downtext{
+    color:#bf1e2e;
+}
+.uplevel{
+    display: inline-block;
+    background: #2988ca;
+    color:#fff;
+    font-size: 16px;
+    padding: 10px 10px;
+    width:100%;
+    font-weight: normal;
+}
+.uplevel:before {
+    content: "\f062";
+    padding-right: 10px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.downlevel{
+    display: inline-block;
+    background: #bf1e2e;
+    color:#fff;
+    font-size: 16px;
+    padding: 10px 10px;
+    width:100%;
+    font-weight: normal;
+}
+.downlevel:before {
+    content: "\f063";
+    padding-right: 10px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.kursbetween{
+    font-family: Open Sans;
+    font-size: 43px;
+    font-weight: 700;
+    color:#222;
+    text-align: left;
+}
+.kursvalue{
+    font-family: Open Sans;
+    font-size: 43px;
+    font-weight: 700;
+    color:#2988ca;
+    text-align: left;
+}
+.bluelevel{
+    background: #2988ca;
+    font-family: Open Sans;
+    font-size: 36px;
+    color:#fff;
+    font-weight: 600;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+.greylevel{
+    background: #ddd;
+    font-family: Open Sans;
+    font-size: 22px;
+    color:#222;
+    font-weight: 500;
+    padding: 2px 2px;
+}
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.gap-2 {
+    height:3em;
+}
+
+@media screen and (max-width: 1200px){
+tr, td {
+    height: 50px !important;
+}
+.kurs{
+    font-size: 18px;  
+}
+.uplevel{
+    font-size: 14px;
+}
+.downlevel{
+    font-size: 14px;
+}
+.kursbetween{
+    font-size: 33px;
+}
+.kursvalue{
+    font-size: 33px;
+}
+.bluelevel{
+    font-size: 26px;
+}
+.greylevel{
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 767px) {
+.tabs-style-line nav ul {
+    display: block;
+    box-shadow: none;
+}
+.tabs-style-line nav ul li {
+    display: block;
+    -webkit-flex: none;
+    flex: none;
+}
+.tabs nav a.icon span {
+    display: none;
+}
+.tabs nav a:before {
+    margin-right: 0;
+}
+tr, td {
+    height: 40px !important;
+}
+.kurs{
+    font-size: 14px;  
+}
+.uplevel{
+    font-size: 10px;
+}
+.downlevel{
+    font-size: 10px;
+}
+.kursbetween{
+    font-size: 18px;
+}
+.kursvalue{
+    font-size: 18px;
+}
+.bluelevel{
+    font-size: 16px;
+}
+.greylevel{
+    font-size: 12px;
+}
+}

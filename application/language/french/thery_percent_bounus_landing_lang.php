@@ -1,0 +1,141 @@
+<?php
+$lang['title']='ForexMart | 30% Bonus';
+$lang['hd_1']='Courtier Forex International réglementé UE ';
+$lang['hd_2']='Forex broker';
+$lang['hd_fd']='Rétroaction';
+$lang['slide_1']='Get Your Bonus';
+$lang['slide_2']='Register Now';
+$lang['slide_3']='Conditions for Trading';
+$lang['slide_4']='Partnership with UD Las Palmas';
+$lang['slide_5']='ForexMart is RPJ racing sponsor';
+$lang['slide_6']="ForexMart World's Recognition";
+$lang['slide_7']="Start risk-free Forex Trading";
+$lang['page_1_1']="IL EST TEMPS DE GAGNER DE L’ARGENT REEL";
+$lang['page_1_2']="BONUS FOREX";
+$lang['page_1_3']="+ 30% de bonus sur chacun de vos dépôts effectués";
+$lang['page_1_4']="Inscription rapide sans vérification";
+$lang['page_1_5']="Compte de trading en live";
+$lang['page_1_6']="Fonds éligibles au retrait";
+$lang['page_1_7']="Service à la clientèle hors pair";
+$lang['page_1_8']="OBTENEZ VOTRE BONUS MAINTENANT";
+$lang['page_1_9']="Faire défiler la page vers le bas";
+
+$lang['page_2_1']="Il ne prendra pas plus de 15 secondes";
+$lang['page_2_2']="Entrez votre nom";
+$lang['page_2_3']="Email";
+$lang['page_2_4']="OPEN AN ACCOUNT ";
+$lang['page_2_5']="Je suis d'accord avec les ";
+$lang['page_2_6']="termes et conditions";
+$lang['page_2_7']="Obtenez + 30% sur";
+$lang['page_2_8']="your eachvotre chaque<br> dépôt";
+$lang['page_2_9']="";
+$lang['page_2_10']="Ouvrez un compte, faites un dépôt";
+$lang['page_2_11']=" et nous allons ajouter + 30% à votre compte ";
+$lang['page_2_12']="Dépôt initial:";
+$lang['page_2_13']="$100";
+$lang['page_2_14']="Bonus ForexMart:";
+$lang['page_2_15']="$30";
+$lang['page_2_16']=" Solde total crédité:";
+$lang['page_2_17']="$130";
+$lang['page_2_18']="Enter your name";
+$lang['page_2_19']="Email";
+
+
+$lang['page_3_1']="Сonditions abordables pour faire du trading: ";
+$lang['page_3_2']="Plus de 80 000 clients nous ont choisi pour les conditions commerciales offertes et un service de haute qualité";
+$lang['page_3_3']="Sécurité d'un grand broker";
+$lang['page_3_4']="Meilleure politique d'exécution des ordres";
+$lang['page_3_5']="Effet de levier jusqu'à 1: 5000";
+$lang['page_3_6']="Compensation de tous les frais";
+$lang['page_3_7']="Compte zéro spread ";
+$lang['page_3_8']="  Dépôt minimum <br>1 USD / 1 EUR / GBP 1";
+$lang['page_3_9']="Hébergement VPS gratuit";
+$lang['page_3_10']="All popular trading instruments";
+
+$lang['page_4_1']="ForexMart est le partenaire officiel du CF '' UD Las Palmas ''";
+// $lang['page_4_1']="ForexMart is the official partner FC «UD Las Palmas»";
+$lang['page_4_2']="'' Nous avons choisi la Ligue espagnole de football, le club '' UD Las Palmas'', notre partenaire, pour les mêmes raisons que les traders  nous choisissent''";
+$lang['page_4_3']="Croissance rapide";
+$lang['page_4_4']="Engagement qualité";
+$lang['page_4_5']="Réalisations";
+$lang['page_4_6']="Equipe professionnelle";
+$lang['page_4_7']="et plus...";
+$lang['page_4_8']='«Avec beaucoup d\'enthousiasme, nous lançons cette coopération passionnante en tant que partenaires officiels de UD Las Palmas. Cette année, signale une nouvelle page de l\'histoire de Las Palmas et un événement marquant pour ForexMart»';
+$lang['page_4_9']="Savvas Patsalides,";
+$lang['page_4_10']="CEO ForexMart";
+$lang['page_5_1']="ForexMart est le sponsor officiel de RPJ racing.";
+$lang['page_5_2']="De même que <span>notre partenaire</span>  nous  <span>apprécions la maîtrise</span> of <span>des compétences, la vitesse</span> et le drive et nous serons heureux d'aller côte à côte avec RPJ racing en découvrant de nouvelles opportunités et la conquête de nouveaux sommets.";
+
+$lang['page_6_1']=" Reconnaissance mondiale";
+$lang['page_6_2']="ShowFx World a décerné à ForxMart le prix";
+$lang['page_6_3']="Le Meilleur Courtier en Europe 2015";
+$lang['page_6_4']="International Finance Magazine a reconnu ForexMart";
+$lang['page_6_5']="Le Meilleur Nouveau Courtier d’Europe 2016";
+$lang['page_6_6']="ShowFx World a élu ForxMart";
+$lang['page_6_7']="Le Courtier le plus prometteur en Asie</br>2015";
+$lang['page_6_8']="ShowFx World est une compagnie qui soutient les acteurs du marché et les institutions financières en organisant divers événements thématiques tels que des conférences, des expositions et des séminaires dans le monde entier. Créée en 2009, son objectif principal est de promouvoir les grandes entreprises, d'améliorer la qualité des services, de diffuser les dernières nouvelles et les développements au sujet de l'industrie et de présenter des opportunités de trading à tous ses membres";
+
+$lang['page_7_1']="Il ne prendra pas plus de 15 secondes";
+$lang['page_7_2']="Entrez votre nom";
+$lang['page_7_3']="Email";
+$lang['page_7_4']="OPEN AN ACCOUNT ";
+$lang['page_7_5']="Je suis d'accord avec les ";
+$lang['page_7_6']="termes et conditions";
+$lang['page_7_7']="Get +30% to";
+$lang['page_7_8']=" your each<br>deposit";
+$lang['page_7_9']="";
+$lang['page_7_10']="Open an account, make any deposit, ";
+$lang['page_7_11']="and we will add +30% to your account ";
+$lang['page_7_12']="Dépôt initial:";
+$lang['page_7_13']="$100";
+$lang['page_7_14']="Bonus ForexMart:";
+$lang['page_7_15']="$30";
+$lang['page_7_16']="Solde total crédité:";
+$lang['page_7_17']="$130";
+$lang['page_7_18']="Enter your name";
+$lang['page_7_19']="Email";
+
+$lang['page_8_1']="&copy; 2015-2016. Tradomart Ltd";
+$lang['page_8_2']="Politique de confidentialité";
+$lang['page_8_3']="Avertissement sur les risques: Le marché des changes est hautement spéculatif et de nature complexe et peut ne pas convenir à tous profils d’investisseurs. Le trading sur le Forex peut entraîner dans un gain ou peut compoter un risque de pertes substantielles. Par conséquent, il est déconseillé d'investir de l'argent que vous ne pourriez vous permettre de perdre. Avant de commencer à bénéficier des services de ForexMart, veuillez évaluer et accepter les risques encourus en faisant du commerce sur Forex. Profitez des conseils financiers indépendants, si nécessaire.";
+
+$lang['page_fedb_1']="Good day! We&#39;d love to hear your feedback about your Account.";
+$lang['page_fedb_2']="How would you rate your experience on a scale of 1-10?";
+$lang['page_fedb_3']="1 - Poor";
+$lang['page_fedb_4']="10 - Excellent";
+$lang['page_fedb_5']="Should you have any specific feedback, please select a category below.(optional)";
+$lang['page_fedb_6']="Category";
+$lang['page_fedb_7']="Problem";
+$lang['page_fedb_8']="Suggestion";
+$lang['page_fedb_9']="Compliment";
+$lang['page_fedb_10']="Other";
+$lang['page_fedb_11']="Cancel";
+$lang['page_fedb_12']="Send Feedback";
+$lang['page_fedb_13']="Thanks for the Feedback";
+$lang['page_fedb_14']="Thank  you very much, your feedback has been successfully submitted.";
+$lang['page_fedb_15']="If you'd like us to follow up on your feedback, please enter your email address below. <br> Rest assured your email will never be used for any other purpose.";
+$lang['page_fedb_16']="Email";
+$lang['page_fedb_17']="Submit email address";
+$lang['page_fedb_18']="Close";
+
+$lang['page_mgs_1']="Only letters and spaces are allowed.";
+$lang['page_mgs_2']="Please use a valid email address.";
+$lang['page_mgs_3']="The email address is already in use.";
+$lang['page_mgs_4']="Please use a valid email address.";
+$lang['page_mgs_5']="Enter your full name.";
+$lang['page_mgs_6']="Enter your email.";
+$lang['page_mgs_7']="Please enter your valid email address.";
+$lang['page_mgs_8']="Please select the rate.";
+$lang['page_mgs_9']="Sending failed please try again";
+$lang['page_mgs_10']="Enter your email.";
+$lang['page_mgs_11']="Registration failed please try again.";
+
+$lang['page_mob_1']="In order to proceed, please enter your mobile number";
+$lang['page_mob_2']="Phone number";
+$lang['page_mob_3']="Cancel";
+$lang['page_mob_4']="Submit";
+
+$lang['page_tol_1']="Submit";
+$lang['fb_email_1']="bonuses@forexmart.com";
+
+ $lang['page_7_1-1']="Example:";

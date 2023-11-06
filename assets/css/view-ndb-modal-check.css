@@ -1,0 +1,32 @@
+    .checkmodal{
+        z-index: 10000;
+    }
+    .checkmodal-content{
+        top: 50%;
+        width: 80%;
+    }
+    .checkmodal-modal-dialog{
+        top: 20%;
+    }
+    .check-btn-explore{
+        margin-top: 0px!important;
+        padding: 10px 80px;
+    }
+    .check-p{
+        text-align: center;
+    }
+    .check-modal-body{
+        padding: 26px 65px 10px 65px;
+    }
+    .check-mrgntp{
+        margin-top:60px;
+    }
+    .check-h3{
+        font-weight: bold;
+        font-family: times;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .check-ps{
+      font-size: 16px;
+    }

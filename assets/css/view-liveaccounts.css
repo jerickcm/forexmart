@@ -1,0 +1,23 @@
+    .nav-fix
+    {
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        width: 100%;
+        transition: all ease 0.3s;
+    }
+    .ecn-header-wrapper1 {
+        background:url(../images/live_account/ecn-standard-header.jpg)repeat;
+    }
+    .ecn-header-wrapper2 {
+        background:url(../images/live_account/ecn-zerospread-header.jpg)repeat;
+    }
+    .ecn-header-wrapper3 {
+        background:url(../images/live_account/micro-account-header.jpg) repeat;
+    }
+    .ecn-header-wrapper {
+        width: 100%;
+        min-height: 224px;
+        top:0px;
+        padding-right: 20px;
+    }

@@ -1,0 +1,63 @@
+/*financial instrument new tab 3/15/16*/
+.instrument-tabs
+{
+	width: 100%;
+	padding: 0;
+	margin-top: 40px;
+}
+	.instrument-tabs ul
+	{
+		list-style: none;
+		padding: 0;
+	}
+		.instrument-tabs ul li
+		{
+			float: left;
+			width: calc(100% / 4); /*new changes 02/29/2016*/
+			text-align: center;
+			border-right: 1px solid #fff;
+		}
+			.instrument-tabs ul li a
+			{
+				padding: 8px 10px;
+				display: block;
+				font-size: 15px;
+				background: #f5f5f5;
+				font-family: Open Sans;
+				font-weight: 600;
+				color: #333;
+				transition: all ease 0.3s;
+			}
+				.instrument-tabs ul li a:hover
+				{
+					background: #2988ca;
+					text-decoration: none;
+					color: #fff;
+					transition: all ease 0.3s;
+				}
+					.instrument-tabs ul li a:focus
+					{
+						background: #2988ca;
+						text-decoration: none;
+						color: #fff;
+					}
+					.instrument-active
+					{
+						background: #2988ca!important;
+						text-decoration: none;
+						color: #fff!important;
+					}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 735px){
+	.instrument-tabs ul li
+	{
+		width: 100%;
+		border-right: none;
+		border-top: 1px solid #fff;
+	}
+		.instrument-tabs ul li a
+		{
+			text-align: left;
+		}
+}

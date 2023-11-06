@@ -1,0 +1,362 @@
+
+.micro-account  {
+	display: block;
+	border-left:1px solid #ccc;
+}
+.ecn-detail{
+	padding-left: 0px;
+	padding-top: 10px;
+}
+.ecn-detail ul li {
+	display: block;
+	font-family: Open Sans;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 14px;
+	color: #222;
+	padding:5px 5px;
+	list-style-type: none;
+}
+.ecn-detail ul li span {
+	display: inline-block;
+	font-family: Open Sans;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 14px;
+	padding-left: 20px;
+	float: right;
+}
+.micro-account p {
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 14px;
+	color: #222;
+	padding:0 5px;
+}
+.desc-area-wrapper{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+}
+.desc-area{
+	display: block;
+	line-height:35px;
+	border-top:1px solid #ccc;
+	margin-right: 15px;
+}
+.desc-area:last-child{
+	border-bottom:1px solid #ccc;
+}
+
+.form-area{
+	display: block;
+	float: right;
+}
+.fa {
+	padding-right: 10px;
+	color:#222;
+}
+.micro-account-title{
+	padding-left: 40px;
+	padding-top: 50px;
+}
+
+b {
+	font-weight: 700;
+	color: #2988ca;
+}
+
+.micro-account-title h2 {	
+	font-family: Open Sans;
+	font-weight: 500;
+	color: #222 !important;
+	font-size: 34px;
+	margin-bottom: 15px;
+	letter-spacing: -1px;
+}
+
+.micro-account-title h4 {	
+	font-family: Open Sans;
+	font-weight: 500;
+	color: #222 !important;
+	font-size: 18px;
+	letter-spacing: -1px;
+}
+.ecn-main-title-holder{
+	display: block;
+}
+.ecn-form-title{
+	display: block;
+	padding: 10px 0;
+	width: 460px;
+	float: right;
+}
+.black{
+	color:#222;
+}
+.ecn-title-desc{
+	display: block;
+	padding: 10px 0px;
+	margin-bottom: 30px;
+}
+.registered-title {
+	font-family: Open Sans;
+	font-weight: 300;
+	color: #222 !important;
+	font-size: 30px;
+}
+.sign-area{
+	width: 460px;
+	float: right;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+.sign-area h5 {	
+	font-family: Open Sans;
+	font-weight: 400;
+	color: #222 !important;
+	font-size: 16px;
+	letter-spacing: -1px;
+}
+.micro-account-title h5 {	
+	font-family: Open Sans;
+	font-weight: 400;
+	color: #222 !important;
+	font-size: 20px;
+	letter-spacing: -1px;
+}
+.micro-account-title h3 a {
+	color: #222;
+	transition: all 0.5s ease;
+}
+.micro-account-title h3 a:hover {	
+	color: #2988ca;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.micro-account-form-holder
+{
+	padding-top: 5px;
+	border: 1px solid #ccc;
+	min-width: 460px;
+	margin-bottom: 20px;
+	float: right;
+}
+.micro-account-form
+{
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+.micro-account-label
+{
+	color: #222;
+	text-align: right;
+}
+.btn-submit{
+	background:#327ce5;
+	transition: all 0.5s ease;
+}
+.btn-submit:hover{
+	background:#0b93f2;
+	transition: all 0.5s ease;
+}
+.btn-signin{
+	font-family: Open Sans;
+	font-weight: 400;
+	font-size: 14px;
+	color:#0260fe;
+	background: none;
+	width:140px;
+	display: block;
+	padding: 10px 5px;
+	border:1px solid #0260fe;
+	transition: all 0.5s ease;
+	float: right;
+    text-align: center;
+}
+.btn-signin:hover{
+	font-family: Open Sans;
+	font-weight: 500;
+	font-size: 14px;
+	color:#fff;
+	background: #2988ca;
+	width:140px;
+	display: block;
+	padding: 10px 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	transition: all 0.5s ease;
+	float: right;
+    text-decoration: none;
+}
+.create-account{
+	width: 460px;
+	float: right;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+.desc-bottom{
+	display: block;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+@media (max-width:1196px){
+.ecn-form-title{
+	width: 430px;
+}
+.sign-area{
+	width: 430px;
+}
+.micro-account-form-holder
+{
+	min-width: 430px;
+}
+.create-account{
+	width: 430px;
+}
+}
+@media (max-width: 991px){
+.micro-account  {
+	display: block;
+	margin-top: 25px;
+	border-left:none;
+	border-top: 1px solid #eee;
+}
+.ecn-form-title{
+	float: left;
+}
+.sign-area{
+	float: left;
+	text-align: left;	
+}
+.micro-account-form-holder
+{
+	float: left;
+}
+.create-account{
+	float: left;
+}.btn-signin{
+	float: left;
+}
+.btn-signin:hover{
+	float: left;
+}
+}
+@media (max-width:767px){
+.micro-account p {
+	padding:0 45px;
+}
+.micro-account-title h2 {	
+	text-align: center;
+}
+.micro-account-title h3 {	
+	text-align: center;
+}
+.micro-account-form-holder
+{
+	margin:0 auto;
+}
+.micro-account ul li {
+	margin-left: 5%;
+}
+.ecn-detail ul li span {
+	float: none;
+}
+}
+@media (max-width:560px){
+.micro-account-title{
+	padding-top: 20px;
+}
+.micro-account p {
+	padding:0 35px;
+}
+.micro-account ul li {
+	margin-left: 1%;
+}
+.ecn-form-title{
+	width: 350px;
+}
+.sign-area{
+	width: 350px;
+}
+.micro-account-form-holder
+{
+	min-width: 350px;
+}
+.create-account{
+	width: 350px;
+}
+}
+@media (max-width:400px){
+.ecn-form-title{
+	width: 320px;
+}
+.sign-area{
+	width: 320px;
+}
+.micro-account-form-holder
+{
+	min-width: 320px;
+}
+.create-account{
+	width: 320px;
+}
+}
+@media (max-width:360px){
+.micro-account p {
+	padding:0 25px;
+}
+.micro-account ul li {
+	margin-left: 0px;
+}
+.ecn-form-title{
+	width: 300px;
+}
+.sign-area{
+	width: 300px;
+}
+.micro-account-form-holder
+{
+	min-width: 300px;
+}
+.create-account{
+	width: 300px;
+}
+}
+@media (max-width:320px){
+.ecn-form-title{
+	width: 260px;
+}
+.sign-area{
+	width: 260px;
+}
+.micro-account-form-holder
+{
+	min-width: 260px;
+}
+.create-account{
+	width: 260px;
+}
+}
+@media (max-width:300px){
+.ecn-form-title{
+	width: 230px;
+}
+.sign-area{
+	width: 230px;
+}
+.micro-account-form-holder
+{
+	min-width: 230px;
+}
+.create-account{
+	width: 230px;
+}
+}

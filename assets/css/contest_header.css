@@ -1,0 +1,4 @@
+.btn-ranking:hover, .btn-winners:hover, .btn-rules:hover, .btn-register:hover, .btn-active {
+    color: #fff;
+    background-color: #00ae00;
+}

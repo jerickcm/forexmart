@@ -1,0 +1,216 @@
+.cbheader
+    {
+        height: 720px;
+    }
+.cashback
+    {
+        width: 100%;
+        position:relative;
+    }
+ .cashback#bgheader
+    {
+      height: 720px;
+      background-image: url(../images/bgcashback.jpg);
+      background-repeat: no-repeat;
+   	  background-size: cover;
+      background-position: center center;
+      color: white;
+      z-index: -1;
+    }
+
+.btn-join-holder{
+	margin-top: -10%;
+	margin-left:30%;
+	padding: 20px 20px;
+}
+.btn-join
+{
+	background: #00a651;
+	font-size: 22px;
+	color: #fff;
+	width: 100%;
+	padding: 17px 25px;
+	max-width: 250px;
+	transition: all ease 0.3s;
+	border:none;
+}
+.btn-join:hover
+{
+	background: #03db6d;
+	transition: all ease 0.3s;
+}
+.btn-register-holder{
+	text-align: center;
+	padding: 10px 5px;
+	margin-bottom: 20px;
+}
+.btn-register
+{
+	background: #0054a6;
+	font-size: 22px;
+	color: #fff;
+	width: 100%;
+	padding: 20px 20px;
+	max-width: 280px;
+	transition: all ease 0.3s;
+	border:none;
+}
+.btn-register:hover
+{
+	background: #2988ca;
+	transition: all ease 0.3s;
+}
+
+.cashback-holder{
+	background:rgba(0,0,0,0.7);
+	padding:15px 15px;
+	margin-right: 25px;
+	margin-top: 60px;
+	width: 50%;
+}
+.cashback p {
+	margin-top: 50px;
+	font-weight: 300;
+	font-size: 22px;
+	color: #222;
+	text-align: justify;
+	padding:0;
+}
+
+.cashback ul {	
+	font-weight: 400;
+	color: #222 !important;
+	font-size: 22px;
+	text-align: left;
+}
+.cashback ul li{
+	list-style-type: none;
+}	
+
+@media screen  and (max-width: 1611px){
+.cashback#bgheader,.cbheader
+    {
+        height: 600px;
+    }
+}
+@media screen  and (max-width: 1490px){
+.cashback#bgheader,.cbheader
+    {
+        height: 560px;
+    }
+}
+@media screen  and (max-width: 1300px){
+.cashback#bgheader,.cbheader
+    {
+        height: 500px;
+    }
+.btn-join-holder{
+	margin-top:-85px;
+	margin-left:30%;
+	padding: 10px 10px;
+}
+}
+
+@media screen  and (max-width: 1078px){
+.cashback#bgheader,.cbheader
+    {
+        height: 559px;
+    }
+}
+@media (max-width:1024px){
+
+.btn-register-holder{
+	text-align: center;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+}
+.btn-register
+{
+	font-size: 17px;
+	padding: 15px 20px;
+	max-width: 260px;
+}
+.cashback p {
+	font-size: 17px;
+
+}
+.cashback ul {	
+	font-size: 17px;
+}
+}
+@media screen and (max-width: 991px) {
+.cashback#bgheader
+    {
+         background-image: url(../images/bgcashback_b.jpg);
+         background-position: center;
+    }
+
+@media screen and (max-width: 800px) {      
+.btn-join-holder{
+	margin-top:-70px;
+	padding: 10px 10px;
+	float:right;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.btn-join
+{
+	padding: 12px 30px;
+	max-width: 200px;
+}
+.cashback p {
+	margin-top: 20px;
+}
+}
+@media (max-width:767px){
+.btn-join
+{
+	font-size: 14px;
+}
+.btn-register-holder{
+	text-align: center;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+.btn-register
+{
+	font-size: 14px;
+	padding: 15px 20px;
+	max-width: 200px;
+}
+.cashback p {
+	font-size: 14px;
+
+}
+.cashback ul {	
+	font-size: 14px;
+}
+}
+@media screen and (max-width: 600px) {      
+.cashback#bgheader, .cbheader
+     {
+        height: 456px;
+    }
+.cashback#bgheader
+    {
+         background-position: 50%;
+     }
+}
+@media screen and (max-width: 467px){
+.cashback#bgheader, .cbheader
+    {
+        height: 370px;
+    }
+}
+@media screen and (max-width: 373px){
+.cashback#bgheader, .cbheader
+    {
+        height: 308px;
+    }
+}
+@media screen  and (max-width: 346px){  
+.cashback#bgheader, .cbheader
+    {
+        height: 256px;
+    }
+}

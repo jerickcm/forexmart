@@ -1,0 +1,28 @@
+
+
+    .ru-ext-margin:lang(ru){
+        margin-top: -95px;
+    }
+
+    @media screen and (max-width: 1700px){
+        .ru-ext-margin:lang(ru){
+            margin-top: 0px;
+        }
+    }
+
+    .nav-fix {
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        width: 100%;
+        transition: all ease 0.3s;
+    }
+
+    .fancybox-overlay {
+        background: url('../../assets/images/fancybox_overlay.png') !important;
+        z-index: 9999;
+    }
+
+    #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+        background-image: url('../../assets/images/fancybox_sprite.png')
+    }

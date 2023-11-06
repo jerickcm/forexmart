@@ -1,0 +1,10 @@
+.collapse.in {
+    display: block !important;
+    visibility: visible !important;
+}
+.collapse, .navbar-collapse, .navbar-ex1-collapse{
+    background-color: white!important;
+}
+.spa_lang{
+    font-weight:bold;font-family:"Open Sans"; font-size:14px;
+}

@@ -1,0 +1,358 @@
+.hideside
+{
+	height: 11px;
+	display: block;
+	position: relative;
+}
+.hideside span
+{
+	height: 11px;
+	width: 20px;
+	background: url(../images/arrow-show-hide.png) 0 0;
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	left: 0;
+}
+.side-fix-holder:hover .hideside span
+{
+	display: block;
+}
+.showside
+{
+	height: 11px;
+	display: block;
+	position: fixed;
+	right: -20px;
+	top: 31%!important;
+	transition: all ease 0.3s;
+}
+.showside span
+{
+	height: 11px;
+	width: 20px;
+	background: url(../images/arrow-show-hide.png) -20px 0;
+	display: block;
+	cursor: pointer;
+}
+.cd-top
+{
+	z-index: 9999!important;
+}
+.side-fix-landscape, .side-fix-landscape-2
+{
+	display: none;
+}
+.a-flast-child
+{
+	background: transparent url(../images/side-floating-img2.png) no-repeat scroll 0px 0px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	padding: 7px;
+	font-size: 16px;
+	transition: all ease 0.3s;
+}
+.a-flast-child:hover
+{
+	background-position: -102px 0px;
+	text-decoration: none;
+	color: #fff;
+	transition: all ease 0.3s;
+}
+.a-flast-child:focus
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.modal-text
+{
+	text-align: center;
+	font-weight: 600;
+	font-family: Open Sans;
+	font-size: 30px;
+	color: #333;
+	line-height: 41px;
+}
+.chance-bg
+{
+	background: url(../images/chance-bg.png) no-repeat;
+}
+.chance-bg h3
+{
+	font-family: Open Sans;
+	font-size: 72px;
+	font-weight: 700;
+	text-align: center;
+	color: #29a643;
+	margin-top: 0;
+}
+.chance-bg h3 small
+{
+	color: #333;
+	font-weight: 600;
+	vertical-align: middle;
+}
+.chance-btn
+{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+.chance-btn a
+{
+	display: inline-block;
+	padding: 10px 50px;
+	font-family: Open Sans;
+	font-size: 38px;
+	background: #29a643;
+	color: #fff;
+	font-weight: 600;
+	transition: all ease 0.3s;
+}
+.chance-btn a:hover
+{
+	text-decoration: none;
+	transition: all ease 0.3s;
+	background: #3ECD5C;
+}
+@media screen and (max-width: 767px) {
+	.a-flast-child
+	{
+		background: transparent url(../images/side-floating-img2-mobile.png) no-repeat scroll 0px 0px;
+		color: #fff;
+		/*display: block;*/
+		text-align: center;
+		padding: 5px!important;
+		font-size: 11px;
+		transition: all ease 0.3s;
+	}
+	.a-flast-child:hover
+	{
+		background-position: -72px 0px;
+		text-decoration: none;
+		color: #fff;
+		transition: all ease 0.3s;
+	}
+	.a-flast-child:focus
+	{
+		text-decoration: none;
+		color: #fff;
+	}
+	.hover
+	{
+		background-position: -72px 0px!important;
+		text-decoration: none;
+		color: #fff;
+		transition: all ease 0.3s;
+	}
+	.hover1 {
+		background-position: 70px 0!important;
+	}
+}
+@media screen and (max-width: 736px) {
+	.hideside span
+	{
+		display: block;
+	}
+	.side-fix-holder, .showside
+	{
+		top: 17%!important;
+	}
+	.side-fix
+	{
+		display: none;
+	}
+
+	.side-fix-landscape
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: block;
+		margin-top: 10px;
+	}
+	.side-fix-landscape li
+	{
+		margin-top: 5px;
+	}
+	.side-fix-landscape li:first-child
+	{
+		margin-top: 0px!important;
+	}
+	.side-fix-landscape a
+	{
+		display: block;
+		padding: 5px 0;
+		width: 46px;
+	}
+	.side-fix-landscape a:hover, .side-fix-landscape a:focus
+	{
+		text-decoration: none;
+		color: #fff;
+	}
+	.side-fix-landscape a p
+	{
+		font-size: 13px;
+		color: #fff;
+		margin: 0;
+		margin-left: 50px;
+	}
+	.side-fix-landscape a p span
+	{
+		font-weight: 600;
+	}
+	.ls-img1
+	{
+		background: transparent url(../images/mobile-side-teaser-img.png) no-repeat scroll 0px 0;
+		transition: all ease 0.3s;
+		height: 46px;
+	}
+	.ls-img1:hover
+	{
+		background: transparent url(../images/mobile-side-teaser-img.png) no-repeat scroll -46px 0;
+		transition: all ease 0.3s;
+	}
+	.ls-img2
+	{
+		background: transparent url(../images/mobile-side-teaser-img.png) no-repeat scroll 0 -46px;
+		transition: all ease 0.3s;
+		height: 46px;
+	}
+	.ls-img2:hover
+	{
+		background: transparent url(../images/mobile-side-teaser-img.png) no-repeat scroll -46px -46px;
+		transition: all ease 0.3s;
+	}
+	.ls-img3-2s
+	{
+		background: transparent url(../images/mobile-side-teaser-img.png) no-repeat scroll 0 -92px;
+		transition: all ease 0.3s;
+		height: 46px;
+	}
+	.ls-img3-2s:hover
+	{
+		background: transparent url(../images/mobile-side-teaser-img.png) no-repeat scroll -46px -92px;
+		transition: all ease 0.3s;
+	}
+	.ls-img3
+	{
+		background: transparent url(../images/mobile-side-teaser-img.png) no-repeat scroll 0 -138px;
+		transition: all ease 0.3s;
+		height: 46px;
+	}
+	.ls-img3:hover
+	{
+		background: transparent url(../images/mobile-side-teaser-img.png) no-repeat scroll -46px -138px;
+		transition: all ease 0.3s;
+	}
+	.auto-hover1
+	{
+		background-position: -46px 0;
+		text-decoration: none;
+		transition: all ease 0.3s;
+	}
+	.auto-hover2
+	{
+		background-position: -46px -46px;
+		text-decoration: none;
+		transition: all ease 0.3s;
+	}
+	.auto-hover3
+	{
+		background-position: -46px -138px;
+		text-decoration: none;
+		transition: all ease 0.3s;
+	}
+	.auto-hover2s
+	{
+		background-position: -46px -92px;
+		text-decoration: none;
+		transition: all ease 0.3s;
+	}
+	.auto-hover4
+	{
+		background-position: -92px -138px;
+		text-decoration: none;
+		transition: all ease 0.3s;
+	}
+	.ls-img1 div
+	{
+		width: 100%;
+		height: 46px;
+		font-family: Open Sans;
+		font-size: 11px;
+		text-align: center!important;
+		display: none;
+		color: #fff!important;
+		font-weight: 600;
+		padding: 0;
+		margin: 0;
+		line-height: 15px;
+	}
+	.ls-img2 div
+	{
+		width: 100%;
+		height: 46px;
+		font-family: Open Sans;
+		font-size: 11px;
+		text-align: center!important;
+		display: none;
+		color: #fff!important;
+		font-weight: 600;
+		padding: 0;
+		margin: 0;
+		line-height: 12px;
+	}
+	.ls-img3-2s div
+	{
+		width: 100%;
+		height: 46px;
+		font-family: Open Sans;
+		font-size: 11px;
+		text-align: center!important;
+		display: none;
+		color: #fff!important;
+		font-weight: 600;
+		padding: 0;
+		margin: 0;
+	}
+	.ls-img3 div
+	{
+		width: 100%;
+		height: 46px;
+		font-family: Open Sans;
+		font-size: 11px;
+		text-align: center!important;
+		display: none;
+		color: #fff!important;
+		font-weight: 600;
+		padding: 0;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 568px) {
+	.side-fix-holder, .showside
+	{
+		top: 7%!important;
+	}
+}
+@media screen and (max-width: 480px) {
+	.chance-btn a {
+		display:block;
+		padding: 10px 20px;
+		font-size: 28px;
+	}
+}
+@media screen and (min-height: 568px) {
+	.side-fix-holder, .showside
+	{
+		top: 25%!important;
+	}
+}
+
+/*.chance-modal-text{*/
+	/*font-size: 27px !important;*/
+/*}*/

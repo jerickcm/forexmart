@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteBase /mwp/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+# added by jcm for affiliates
+#RewriteRule register/([^/?]+) /?id=$1 [L,R=301]
+
+<Files "index.php">
+AcceptPathInfo On
+</Files>  
+
+ErrorDocument 403 /forexmart.com
+order allow,deny
+allow from all
+deny from 103.10.197.130
+#deny from 65.19.146.2 220.248.0.0/14

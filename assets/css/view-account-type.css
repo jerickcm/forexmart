@@ -1,0 +1,370 @@
+
+.contentComparison2 li span{
+    color: #000000 !important;
+}
+    /* Tue, 05 Apr 2016 10:47:44 +0000 */ .heightfix{height:50px}#comparison,#comparison ul,#comparison ul li{margin:0;padding:0;list-style:none}#accountComparison:after{content:'';display:table;clear:both}#accountComparison{zoom:1;margin:0 auto;max-width:80em}#accountComparison #comparison .compare{background:#fff;float:left;width:100%;text-align:center;margin:0 0 20px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);box-shadow:0 1px 3px rgba(0,0,0,0.5)}.comparisonContainer .titleComparison h3{background:#2988ca;color:#fff;font-size:1.5em;font-weight:500;font-family:Georgia;height:2.6em;line-height:2.6em;margin:0}.comparisonContainer .titleComparison h3.zerospread{background:#ca7017;color:#fff;font-size:1.5em;font-weight:500;font-family:Georgia;height:2.6em;line-height:2.6em;margin:0}.comparisonContainer .titleComparison p span{color:#8394ae}.comparisonContainer .contentComparison li{font-weight:700;color:#364762;height:3em;line-height:3em;border-bottom:1px solid #efeff0;padding:0 5px;font-size:15px}.comparisonContainer .contentComparison li span{font-weight:400;color:#2988ca}
+    .comparisonContainer .contentComparison2 li{font-weight:700 ;color:#364762;height:3em;line-height:3em;border-bottom:1px solid #efeff0;padding:0 5px;font-size:15px}
+    .comparisonContainer .contentComparison2 li span{font-weight:400 !important;color:#ca7017 !important}.comparisonContainer .button a{text-transform:uppercase;text-decoration:none;color:#3e4f6a;font-weight:700;letter-spacing:3px;line-height:2.8em;border:2px solid #2988ca;display:inline-block;width:80%;height:2.8em;margin:1.5em 0 1.8em}.comparisonContainer .button a.zerospreadButton{color:#3e4f6a;background:#fff;border:2px solid #ca7017}.img-center{margin:0 auto}.imgGrey img{filter:gray;filter:grayscale(1);-webkit-filter:grayscale(1)}.fa{padding-right:10px}.comparisonContainer:hover .titleComparison h3{background:#2988ca}.comparisonContainer:hover .titleComparison h3.zerospread{background:#ca7017}
+    .comparisonContainer:hover .contentComparison li span{/*color:#2988ca*/color:#000;}.comparisonContainer:hover .contentComparison2 li span{color:#0000}.gap{height:30px}
+    @media screen and (min-width: 481px) and (max-width: 768px){#accountComparison #comparison .compare{width:49%;margin:0 2% 20px 0}#accountComparison #comparison > li:nth-child(2n){margin-right:0}.comparisonContainer .button a:hover{background:#2988ca;color:#fff}
+        .comparisonContainer .button a.zerospreadButton:hover{background:#ca7017;border:2px solid #ca7017}}
+    @media screen and (max-width: 767px){.comparisonContainer .button a:hover{background:#2988ca;color:#fff}
+        .comparisonContainer .button a.zerospreadButton:hover{background:#ca7017;border:2px solid #ca7017}}
+    @media screen and (min-width: 769px) and (max-width: 1024px){#accountComparison #comparison .compare{width:49%;margin:0 2% 20px 0}
+        .comparisonContainer .button a:hover{background:#2988ca;color:#fff}
+        .comparisonContainer .button a.zerospreadButton:hover{background:#ca7017;border:2px solid #ca7017}#accountComparison #comparison > li:nth-child(2n){margin-right:0}}
+    @media screen and (min-width: 1025px){#accountComparison{margin:2em auto}#accountComparison #comparison .compare{width:35%;margin:0 1.33% 20px 0;margin-left:10%}#accountComparison #comparison > li:last-child{margin-right:0}.comparisonContainer .button a:hover{background:#2988ca;color:#fff}.comparisonContainer .button a.zerospreadButton:hover{background:#ca7017;border:2px solid #ca7017}.comparisonContainer .button a.zerospreadButton:hover{background:#ca7017;border:2px solid #ca7017}.comparisonContainer .button a.reg1:lang(ru){font-size: 15px!important;letter-spacing: 1px!important;}.comparisonContainer .button a.zerospreadButton:lang(ru){font-size: 15px!important;letter-spacing: 1px!important;}}
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 991px){.sa-null-float:lang(sa){float:none!important}}
+ 
+    @media screen and (min-width: 1025px){#accountComparison{margin:2em auto}#accountComparison #comparison .compare{width: 31%;  margin: 0 22px 20px 0;}#accountComparison #comparison > li:last-child{margin-right:0}.comparisonContainer .button a:hover{background:#2988ca;color:#fff}.comparisonContainer .button a.zerospreadButton:hover{background:#ca7017;border:2px solid #ca7017}.comparisonContainer .button a.zerospreadButton:hover{background:#ca7017;border:2px solid #ca7017}.comparisonContainer .button a.reg1:lang(ru){font-size: 15px!important;letter-spacing: 1px!important;}.comparisonContainer .button a.zerospreadButton:lang(ru){font-size: 15px!important;letter-spacing: 1px!important;}.comparisonContainer .contentComparison2 li {font-size: 12px !important;}.comparisonContainer .contentComparison li {font-size: 12px !important;}}
+ 
+/* CSS FOR MICRO ACCOUNTS */
+.comparisonContainer .button a.microButton {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 600;
+    background: #29A642;
+    padding: 20px 0px;
+    transition: all ease .3s;
+    text-decoration: none;
+    letter-spacing: 2px!important;
+    display: inline-block;
+    width: 80%;
+    margin: 1.5em 0 1.8em;
+    line-height: 0!important;
+    border: 2px solid #29a642;
+}
+.comparisonContainer .titleComparison h3.micro {
+    background: #29a642;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: Georgia;
+    height: 2.6em;
+    line-height: 2.6em;
+    margin: 0;
+}
+/* END OF CSS FOR MICRO ACCOUNTS */
+
+    /*#comparison,#comparison ul,#comparison ul li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    #accountComparison:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    #accountComparison {
+        zoom: 1;
+    }
+
+    #accountComparison {
+        margin: 0 auto;
+        max-width:80em;
+    }
+
+    #accountComparison #comparison .compare {
+        background: #fff;
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 20px 0;
+        -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    }
+
+    .comparisonContainer .titleComparison h3 {
+        background:#2988ca;
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: 500;
+        font-family: Georgia;
+        height: 2.6em;
+        line-height: 2.6em;
+        margin: 0 0 0em;
+    }
+
+    .comparisonContainer .titleComparison h3.zerospread {
+        background: #ca7017;
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: 500;
+        font-family: Georgia;
+        height: 2.6em;
+        line-height: 2.6em;
+        margin: 0 0 0em;
+    }
+
+    .comparisonContainer .titleComparison p span {
+        color: #8394ae;
+    }
+
+    .comparisonContainer .contentComparison li {
+        font-weight: 700;
+        color: #364762;
+        height: 3em;
+        line-height: 3em;
+        border-bottom: 1px solid #efeff0;
+        padding:0 5px;
+        font-size: 15px;
+    }
+
+    .comparisonContainer .contentComparison li span {
+        font-weight: 400;
+        color: #2988ca;
+    }
+
+    .comparisonContainer .contentComparison2 li {
+        font-weight: 700;
+        color: #364762;
+        height: 3em;
+        line-height: 3em;
+        border-bottom: 1px solid #efeff0;
+        padding:0 5px;
+        font-size: 15px;
+    }
+
+    .comparisonContainer .contentComparison2 li span {
+        font-weight: 400;
+        color: #ca7017;
+
+    }
+
+    .comparisonContainer .button a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #3e4f6a;
+        font-weight: 700;
+        letter-spacing: 3px;
+        line-height: 2.8em;
+        border: 2px solid #2988ca;
+        display: inline-block;
+        width: 80%;
+        height: 2.8em;
+        margin: 1.5em 0 1.8em;
+    }
+
+    .comparisonContainer .button a.zerospreadButton {
+        color: #3e4f6a;
+        background: #fff;
+        border: 2px solid #ca7017;
+    }
+
+    .img-center{
+        margin:0 auto;
+    }
+
+    .imgGrey img {
+        filter: gray;
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+    }
+    .fa{
+        padding-right: 10px;
+    }
+    .comparisonContainer:hover .titleComparison h3 {
+        background: #2988ca;
+    }
+    .comparisonContainer:hover .titleComparison h3.zerospread {
+        background: #ca7017;
+    }
+    .comparisonContainer:hover .contentComparison li span {
+        color: #2988ca;
+    }
+    .comparisonContainer:hover .contentComparison2 li span {
+        color: #ca7017;
+    }
+    .gap{
+        height:30px;
+    }
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+
+        #accountComparison #comparison .compare {
+            width: 49%;
+            margin: 0 2% 20px 0;
+        }
+
+        #accountComparison #comparison > li:nth-child(2n) {
+            margin-right: 0;
+        }
+        .comparisonContainer .button a:hover {
+            background: #2988ca;
+            color: #fff;
+        }
+
+        .comparisonContainer .button a.zerospreadButton:hover {
+            background: #ca7017;
+            border: 2px solid #ca7017;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .comparisonContainer .button a:hover {
+            background: #2988ca;
+            color: #fff;
+        }
+
+        .comparisonContainer .button a.zerospreadButton:hover {
+            background: #ca7017;
+            border: 2px solid #ca7017;
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+        #accountComparison #comparison .compare {
+            width: 49%;
+            margin: 0 2% 20px 0;
+        }
+        .comparisonContainer .button a:hover {
+            background: #2988ca;
+            color: #fff;
+        }
+
+        .comparisonContainer .button a.zerospreadButton:hover {
+            background: #ca7017;
+            border: 2px solid #ca7017;
+        }
+
+        #accountComparison #comparison > li:nth-child(2n) {
+            margin-right: 0;
+        }
+    }
+
+    @media screen and (min-width: 1025px) {
+
+        #accountComparison {
+            margin: 2em auto;
+        }
+
+        #accountComparison #comparison .compare {
+            width: 35%;
+            margin: 0 1.33% 20px 0;
+            margin-left: 10%;
+        }
+
+        #accountComparison #comparison > li:last-child {
+            margin-right: 0;
+        }
+
+
+        .comparisonContainer .button a:hover {
+            background: #2988ca;
+            color: #fff;
+        }
+
+        .comparisonContainer .button a.zerospreadButton:hover {
+            background: #ca7017;
+            border: 2px solid #ca7017;
+        }
+    }*/
+    /*RU Layout*/
+    @media screen and (max-width: 991px) and (min-width: 630px){.comparisonContainer .button a.reg1:lang(ru){font-size: 12.5px!important;letter-spacing: 1px!important;}.comparisonContainer .button a.zerospreadButton:lang(ru){font-size: 12.5px!important;letter-spacing: 1px!important;}}
+
+    @media screen and (max-width: 751px) and (min-width: 596px){.comparisonContainer .button a.reg1:lang(ru){font-size: 12.5px!important;letter-spacing: 1px!important;}.comparisonContainer .button a.zerospreadButton:lang(ru){font-size: 12.5px!important;letter-spacing: 1px!important;}}
+
+    @media screen and (max-width: 595px)  and (min-width: 481px){#mlots:lang(ru){display: inline-block;}.comparisonContainer .contentComparison li:lang(ru){height: inherit!important;}.comparisonContainer .contentComparison2 li:lang(ru){height: inherit!important;}.comparisonContainer .button a.reg1:lang(ru){font-size: 10.8px!important;letter-spacing: 1px!important;}.comparisonContainer .button a.zerospreadButton:lang(ru){font-size: 10.8px!important;letter-spacing: 1px!important;}}
+
+    @media screen and (max-width: 383px){.comparisonContainer .button a.reg1:lang(ru){font-size: 12px!important;letter-spacing: 1px!important;}.comparisonContainer .button a.zerospreadButton:lang(ru){font-size: 12px!important;letter-spacing: 1px!important;}}
+
+    @media screen and (max-width: 767px){.compare:lang(ru){ width: 100%!important; margin: 0 2% 20px 0;}}
+    /*end of RU layout*/
+
+    .comparisonContainer .button a.reg1{
+        color: #fff;
+        font-family: Open Sans;
+        font-size: 17px;
+        font-weight: 600;
+        background: #29A642;;
+        padding: 20px 0px;
+        transition: all ease .3s;
+        /*text-transform: uppercase;*/
+        text-decoration: none;
+        letter-spacing: 2px!important;
+        display: inline-block;
+        width: 80%;
+        margin: 1.5em 0 1.8em;
+        line-height: 0!important;
+        border: 2px solid #29a642;
+    }
+    .comparisonContainer .button a.zerospreadButton {
+        color: #fff;
+        font-family: Open Sans;
+        font-size: 17px;
+        font-weight: 600;
+        background: #29A642;;
+        padding: 20px 0px;
+        transition: all ease .3s;
+        /*text-transform: uppercase;*/
+        text-decoration: none;
+        letter-spacing: 2px!important;
+        display: inline-block;
+        width: 80%;
+        margin: 1.5em 0 1.8em;
+        line-height: 0!important;
+        border: 2px solid #29a642;
+    }
+    .comparisonContainer .button a.reg1:hover {
+        background: #3ecd5c;
+        border: 2px solid #3ecd5c;
+        text-decoration: none;
+    }
+    .comparisonContainer .button a.zerospreadButton:hover {
+        background: #3ecd5c;
+        border: 2px solid #3ecd5c;
+        text-decoration: none;
+    }
+  
+     
+
+
+    @media screen and (max-width: 335px) {
+        .comparisonContainer .button a.reg1{
+            padding: 15px 20px;
+            line-height: 1!important;
+        }
+
+        .comparisonContainer .button a.reg1:lang(ru) {
+            padding: 15px 0px !important;
+            line-height: 1!important;
+            text-align: center !important;
+            display: block !important;
+            margin: 20px auto !important;
+            overflow: hidden !important;
+            height: 45px !important;
+        }
+
+
+        .comparisonContainer .button a.zerospreadButton {
+            padding: 15px 20px;
+            line-height: 1!important;
+        }
+
+        .comparisonContainer .button a.zerospreadButton:lang(ru) {
+            padding: 15px 0px !important;
+            line-height: 1!important;
+            text-align: center !important;
+            display: block !important;
+            margin: 20px auto !important;
+            overflow: hidden !important;
+            height: 45px !important;
+        }
+    }
+    
+    .blurbar{ color: #2988ca !important;font-weight:400 !important;}
+
+
+@media screen and (max-width: 320px){
+    .comparisonContainer .contentComparison2 li:lang(ru){
+        font-size: 14px !important;
+        font-weight: bold !important;
+    }
+
+    .comparisonContainer .contentComparison li:lang(ru){
+        font-size: 14px !important;
+        font-weight: bold !important;
+    }
+}

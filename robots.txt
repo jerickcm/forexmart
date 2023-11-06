@@ -1,0 +1,21 @@
+# robots.txt
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Googlebot-Image
+Allow: */imagebot/
+
+User-agent: googlebot-mobile
+Disallow: /
+
+User-agent: *
+Disallow: */imagebot/
+Disallow: /images/
+Disallow:
+
+
+Sitemap: https://www.forexmart.com/sitemap.xml

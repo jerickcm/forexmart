@@ -1,0 +1,72 @@
+/* PARALLAX SCROLLING EXPERIMENT
+   Master Styles
+   Author: Jonathan Nicol (f6design.com)
+*****************************************************************/
+
+/* Extended base styles (site specific)
+*****************************************************************/
+body {
+	background: #fff;
+	font-weight:normal;
+}
+
+a, a:link,
+a:active,
+a:visited {
+	-webkit-transition: color 0.25s ease-out;
+	-moz-transition: color 0.25s ease-out;
+	-o-transition: color 0.25s ease-out;
+	transition: color 0.25s ease-out;
+	outline: none;
+	text-decoration:none;
+	}
+
+/* Nav
+*****************************************************************/
+
+nav#primary {
+	z-index: 999;
+	position: fixed;
+	top: 50%;
+	right: 16px;
+	margin-top: -40px;
+}
+nav#primary li {
+	position: relative;
+	height: 20px;
+	list-style-type:none;
+}
+nav#primary a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	text-indent: -9999px;
+	background: transparent url('../images/nav-dot.png') 4px 4px no-repeat;
+}
+
+nav#primary a:hover, nav#primary a.active {
+	background: transparent url('../images/nav-dot.png') 4px -16px no-repeat;
+}
+nav#primary h1 {
+	position: absolute;
+	right: 22px;
+	top: -20px;
+	font-size:14px;
+	display: none;
+	padding: 4px 20px 4px 7px;;
+	color: #fff!important;
+	white-space: nowrap;
+	background: transparent url('../images/nav-arrow.png') 100% 50% no-repeat;
+	}
+
+/* Parallax
+*****************************************************************/
+
+#partnership-laspalmas-content {
+	padding:100px 0;
+	padding-bottom:0!important;
+}
+
+.second-container {
+	padding:100px 0;
+}

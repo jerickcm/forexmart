@@ -1,0 +1,20 @@
+    .red{text-align: left; color: red;}
+    .form-holder h1{text-align: left;}
+    @media screen and (min-width: 317px) and (max-width: 991px){.task2163{width: 70%;margin: auto}}
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (min-width:767px) and (max-width:4000px) {.sa-demo-submit:lang(sa) {margin-right: 18%!important;}}
+    @-moz-document url-prefix() {@media screen and (min-width:767px) and (max-width:4000px) {.sa-demo-submit:lang(sa) {margin-right: 18%;}}}
+    @media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio:0) {.control-label:lang(sa){float: right!important;}}
+    @-moz-document url-prefix(){@media screen and (max-width: 767px){.control-label:lang(sa){float: right!important;}}}
+
+    @media screen and (max-width: 767px){
+        .btn-submit {
+            float: none !important;
+        }
+    }
+
+    .error{
+        color:red;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+    }

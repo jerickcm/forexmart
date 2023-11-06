@@ -1,0 +1,60 @@
+<style type="text/css">
+    .live-trading-note .note-top {
+        float: right;
+        margin-bottom: 0!important;
+    }
+
+    p {
+    margin: 0 0 10px;
+    }
+
+    .live-trading-note {
+        color: #adadad;
+        font-size: 11px;
+    }
+
+    .req {
+    color: red;
+    }
+
+    .note-group label {
+       padding-top: 22px!important;
+    }
+
+    .btn-submit {
+        color: #fff;
+        background: #29a643;
+        border: none;
+        float: right;
+        padding: 7px 30px;
+    }
+
+    .row {
+     margin-right: 0px; 
+     margin-left: 0px; 
+    }
+
+    .btn-submit, .bonus-child-container button {
+        color: #fff;
+        background: #29a643;
+        border: none;
+        float: right;
+        padding: 7px 30px;
+    }
+
+    .anchor-back-button a {
+        line-height: 34px;
+        color: #29a643;
+    }
+
+    .anchor-back-button {
+        float: left;    
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+    .offset-buttons-holder {
+        float: left !important;
+        margin-left: 50%;
+    }
+</style>

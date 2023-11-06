@@ -1,0 +1,66 @@
+ @media screen and (max-width: 767px){
+        .btn-float-none {
+            float: none !important;
+            width: 120px;
+            margin: 0px auto;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .btn-centre-reg {
+            margin: 0px auto;
+        }
+    }
+
+    .btn-centre-reg {
+        margin: 0px auto;
+    }
+
+    .fs-11{
+        font-size:11px!important;
+    }
+    div.company-field{
+        display: none;
+    }
+
+    ul#ulwebname {
+        list-style: none;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    i.fa-minus{
+        color: red;
+    }
+
+    div.intl-tel-input{
+        width: 100% !important;
+    }
+
+    ul.country-list{
+        z-index: 100 !important;
+    }
+    ul.country-list .bg{
+        min-height: 0px !important;
+    }
+    .error{
+        color:red;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+    }
+ /*FXPP-7802*/
+ @media screen and (max-width: 767px){
+     .btn-float-none:lang(en),.btn-float-none:lang(ru) {
+         float: none !important;
+         width: 200px!important;
+         margin: 0px auto;
+     }
+     .btns1:lang(en),.btns1:lang(ru),.btn-demo_custom:lang(ru){
+         width: 241px!important;
+     }
+     .btn-demo_custom:lang(en),.btn-demo_custom:lang(ru) {
+         padding: 7px 0!important;
+     }
+
+ }

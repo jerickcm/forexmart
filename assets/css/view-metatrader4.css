@@ -1,0 +1,15 @@
+    .fa_check {float: left;margin-right: 12px !important;}.first_li{float: left;width: 80%;}.fa_check:lang(sa) {float: right;margin-right: 7px !important;}.first_li:lang(sa) {float: right;}.sa-mar-10-0:lang(sa){margin:10px 0!important;}
+    @media screen and (max-width: 320px){
+        .fmobile-list-desc li{
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 390px){
+        .img-btn img{
+            height:33px;
+        }
+        .img_fmobile{
+            height: auto;
+        }
+    }
+    a.link-download{max-width: 210px!important;}

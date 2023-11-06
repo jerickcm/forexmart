@@ -1,0 +1,199 @@
+ ul.list li {
+        /*padding: 2px !important;*/
+        /*margin: 2px!important;*/
+    }
+    a.list__item{
+        padding: 6px 0px !important;
+        /*margin: 2px!important;*/
+    }
+    @media screen and (max-width: 600px){
+        .partner-tab-holder {
+            display: block!important;
+        }
+
+    }
+    .partner-tabs ul li {
+        width: 15%;
+        background: #f5f5f5;
+    }
+    .partner-tabs{
+        margin: 40px 5% 0 0%;
+    }
+
+
+    .hidden-title-partnership {
+        display:none;
+    }
+    .hidden-title-partnership h1 {
+        font-size:20px;
+        font-family:georgia,helvetica,sans-serif;
+    }
+
+    .partner-tabs ul li {
+        width: 16.667%;
+    }
+
+    .partner-tabs ul li a {
+        padding:8px 0;
+    }
+
+    @media screen and (max-width: 991px) {
+        .partner-tabs ul li {
+            width: 16.667%;
+            background:#f5f5f5;
+            height:48px;
+        }
+
+        .partner-tabs ul li:lang(my) {
+            height:72px;
+        }
+
+        .partner-tabs ul li a {
+            font-size:14px;
+            background:none;
+        }
+
+        .partner-tabs ul li a , .partner-tabs ul li a:hover {
+            padding:15px 0;
+        }
+
+        .partner-tabs ul li:nth-child(4) a , .partner-tabs ul li:nth-child(5) a {
+            padding:3px 0;
+        }
+
+        .partner-tabs ul li:nth-child(4) a:hover , .partner-tabs ul li:nth-child(5) a:hover {
+            padding:4px 0;
+        }
+    }
+
+    @media screen and (max-width: 725px) {
+
+        .partner-tabs ul li {
+            width: 16.667%;
+            background:#f5f5f5;
+            height:48px;
+        }
+
+        .partner-tabs ul li a {
+            font-size:12px;
+            background:none;
+        }
+
+        .partner-tabs ul li a , .partner-tabs ul li a:hover {
+            padding:15px 0;
+        }
+
+        .partner-tabs ul li:nth-child(4) a , .partner-tabs ul li:nth-child(5) a {
+            padding:6px 0;
+        }
+
+        .partner-tabs ul li:nth-child(4) a:hover , .partner-tabs ul li:nth-child(5) a:hover {
+            padding:7px 0;
+        }
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .partner-tabs ul li {
+            width:80%!important;
+            display:block;
+            float:none!important;
+            margin:3px auto;
+            border:#b8dffa!important;
+            /*background:#d3edff!important;*/
+            background:#d3edff;
+            height:33px;
+        }
+
+        .partner-tabs ul li a {
+            font-size:15px;
+            padding:0!important;
+            line-height:40px;
+        }
+
+        .collapsible-partners-tab {
+            display:block;
+        }
+
+        .first-partner-tab {
+            width:100%!important;
+            display:block!important;
+            float:none!important;
+        }
+
+    }
+    @media screen and (max-width: 767px) {
+        .hidden-title-partnership {
+            display:block;
+        }
+    }
+    @media screen and (max-width: 359px) {
+        #li4:lang(my){
+            height: 85px!important;
+        }
+    }
+
+
+    @media screen and (min-width: 600px) and (max-width: 1250px) and  (-webkit-min-device-pixel-ratio:0) {
+
+        .partner-tabs ul li:lang(jp) {
+            width:80%!important;
+            display:block;
+            float:none!important;
+            margin:3px auto;
+            border:#b8dffa!important;
+            background:#d3edff;
+            height:33px;
+        }
+
+        .partner-tabs ul li a:lang(jp) {
+            font-size:14px;
+            padding:0!important;
+            line-height:40px;
+            background: none!important;
+        }
+
+        .collapsible-partners-tab:lang(jp) {
+            display:block;
+        }
+
+        .first-partner-tab:lang(jp) {
+            width:100%!important;
+            display:block!important;
+            float:none!important;
+        }
+
+    }
+    @-moz-document url-prefix() {
+        @media screen and (min-width: 600px) and (max-width:5000px) {
+
+            .partner-tabs ul li:lang(jp) {
+                width:80%!important;
+                display:block;
+                float:none!important;
+                margin:3px auto;
+                border:#b8dffa!important;
+                background:#d3edff;
+                height:33px;
+            }
+
+            .partner-tabs ul li a:lang(jp) {
+                font-size:14px;
+                padding:0!important;
+                line-height:40px;
+                background: none!important;
+            }
+
+            .collapsible-partners-tab:lang(jp) {
+                display:block;
+            }
+
+            .first-partner-tab:lang(jp) {
+                width:100%!important;
+                display:block!important;
+                float:none!important;
+            }
+
+        }
+    }

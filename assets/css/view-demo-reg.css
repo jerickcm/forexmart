@@ -1,0 +1,30 @@
+    @media (min-width:1200px){
+        .forlabel:lang(pt) {
+            margin-left: 105px;
+        }
+    }
+    @media (max-width: 1199px){
+        .forlabel:lang(pt) {
+            margin-left: 23px;
+        }
+    }
+    .custome-text-center{
+        text-align: center !important;
+    }
+
+/* Thu, 07 Apr 2016 02:20:42 +0000 */.sa-spe-width:lang(sa){width:100px!important;text-align:right!important}@media screen and (min-width: 1002px) and (max-width: 1199px){#btn_submit:lang(sa){margin-right:20%}}@media screen and (min-width: 768px) and (max-width: 1001px){#btn_submit:lang(sa){margin-right:13%!important}}@media screen and (min-width: 768px) and (max-width: 767px){#btn_submit:lang(sa){margin-right:15%!important}}.nav-fix{position:inherit!important}.ext-arabic-demo-accounts{float:right!important}.pull-l{float:left!important}.pull-r{float:right!important}
+.oada{margin:30px 5px!important;padding:0!important}@media screen and (max-width: 1001px){.p_l{width:500px}.setw{width:100%}
+    .oada{text-align:left}.form-holder{text-align:left}.col-sm-2{width:16.66666667%}
+    .oada:lang(sa){margin-right:0!important}}@media screen and (max-width: 1000px){.p_l{width:300px}.setw{width:100%}}@media screen and (min-width: 768px) and (max-width: 991px){#lbl-email:lang(it),#lbl-fn:lang(it){width:25%}#div-email:lang(it),#div-fn:lang(it){width:50%}}@media screen and (max-width: 767px){.col-sm-2{width:40%}.col-sm-2:lang(sa){width:16.66666667%}}label[name=lbl_password]:lang(fr){padding:5px 9px}div[name=pwd_holder]:lang(fr){padding:0 2px}
+
+    .error{
+        color:red;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+    }
+
+
+    @media screen and (max-width: 1195px) {
+        .cstm_for_link_margin{margin: 5px;}
+    }

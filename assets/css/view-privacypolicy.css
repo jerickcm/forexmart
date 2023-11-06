@@ -1,0 +1,30 @@
+ ol {
+        counter-reset: item;
+    }
+    ol li {
+        display: block;
+        position: relative;
+    }
+    ol li:before {
+        color: #2988CA;
+        font-weight: bold;
+        content: counters(item, ".")".";
+        counter-increment: item;
+    }
+    .rootnumberheadings{
+        color: #2988CA;
+        font-weight: bold;
+        float: left;
+        margin: 0;
+    }
+    .main{
+        padding-top: 20px;
+    }
+    .primaryunits{
+        padding-bottom: 20px;
+    }
+    .email{color: #2988CA;font-weight: 600;}
+    .tradomart {
+        margin-bottom: 3px;
+        padding: 0px !important;
+    }

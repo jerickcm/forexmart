@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Montserrat|Oswald');
+.sc-terms-condition ol li{
+	font-size:17px;
+	line-height:1.5;
+	text-align:justify;
+}
+
+.sc-terms-condition{
+	padding:40px;
+}
+
+.sc-subtitle{
+	text-align:center;
+	font-size:36px;
+	text-decoration:underline;
+	font-family: 'Oswald', sans-serif;
+}
+#list-copytrade {
+    display: none;
+}
+.fm-data-overlay{
+	width:100%;
+	margin-bottom:20px;
+	position:relative;
+}
+.btnlink-graph-zoom{
+	position:absolute;
+	z-index:2;
+	top:0;
+	right:0;
+	background:#e2e2e2;	
+	padding:5px;
+	color:#333;
+}
+.btnlink-graph-zoom:hover{
+	background:#6a6a6a;
+	color:#fff;
+	text-decoration:none;
+}
+#copytrader{
+	background:#e5f0f5;
+}
+.table-trader-info-wrapper{
+	padding:40px;
+}
+.table-trader-info > tbody > tr > td{
+    padding: 20px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight:600;
+    color:#444;
+    border-color:#c0ccd2;
+}
+.table-trader-info > tbody > tr > td:nth-child(even){
+	font-size:24px;
+	font-weight:600;
+	font-family: 'Oswald', sans-serif;
+	color: #337ab7;
+}
+body {
+   counter-reset: item;
+ }
+ ol.itemlist-terms {
+   list-style: none;
+   padding:0;
+   margin:20px 0;
+ }
+ ol.itemlist-terms li {
+	counter-increment: item;
+	padding: 15px;
+	border-bottom: solid 1px #bcddf5;
+ }
+ ol.itemlist-terms li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: #2988ca;
+    border-radius: 100%;
+    color: white;
+    width: 36px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+ }
+.traderprofile{
+	position:relative;
+	min-height:212px;
+}
+.trader-bg-header{
+	height:185px;
+ 	background:url(../images/trader-bg-header.png);
+ 	position:relative;
+}
+	.bottom-overlay-bg{
+		height:60px;
+		width:100%;
+		position:absolute;
+		bottom:0;
+		background: rgba(0, 0, 0, 0.3);
+		color: #eee;
+    	font-size: 36px;
+		padding:5px 5px 5px 202px;
+		font-family: 'Oswald', sans-serif;
+	}
+
+.trader-profile-picture{
+	position:absolute;
+	bottom:0;
+	left:0;
+	/*width:100%;*/
+}
+	.trader-profile-picture>img{
+		width:150px;
+		height:150px;
+		display:block;
+		margin: 0 20px;
+		border:1px solid #fff;
+		background:#fefefe;
+		padding-top:10px;
+	}
+	.trader-profile-picture > .trader-name{
+		margin:0;
+	}
+	.trader-name{
+		text-align:center;
+		font-family: 'Oswald', sans-serif;
+		font-size:36px;
+	}
+	.trader-short-desc{
+		text-align: justify;
+	    padding: 15px;
+	    line-height: 1.5;
+	}
+	.trader-short-desc h3{
+		margin:0 0 15px;
+		text-align:center;
+		font-family: 'Oswald', sans-serif;
+		text-transform:uppercase;
+		color:#337ab7;
+	}
+.trader-accounts{
+	background:#fff;
+	margin:40px 0;
+	border: 1px solid #337ab7;
+}
+.trader-accounts .nav-pills > li {
+	border-bottom: 5px solid #c0ccd2
+}
+.trader-accounts .nav-pills > li.active{
+	border-color:#315473;
+	
+}
+/*.trader-accounts .nav-pills > li.active a{
+	background:url(../images/tab-active-bg.jpg) no-repeat;
+	background-size:cover;
+}*/
+.trader-accounts .nav-pills > li > a{
+	border-radius:0;
+	padding:20px 15px;
+	text-transform:uppercase;
+	font-size:36px;
+	font-family: 'Oswald', sans-serif;
+}
+.trader-accounts .btn{
+	box-shadow:none;
+	background:#fff;
+	border:1px solid #ddd;
+	transition: all ease .3s;
+}
+.trader-accounts .btn:hover{
+	color:#fff;
+}
+.trader-accounts .nav-pills > li:not(.active) > a{
+	background:#fff;
+	color:#444;
+}
+.trader-account-graph{
+	margin:15px auto;
+	display:block;
+}
+.multi-button-wrapper .btn{
+	border-radius:0;
+	padding:20px;
+	width:100%;
+}
+.btn-s1-success{
+	background:#29a643!important;
+    color: #fff;
+}
+.btn-s1-success:hover{
+	background: #29a643;
+}
+.btn-s1-primary{
+	background: #2988ca!important;
+    color: #fff;
+}
+.btn-s1-primary:hover{
+	background: #2988ca;
+}
+.mt-ext-bold-title{
+	font-size:24px;
+	font-weight:bold;
+}
+hr.style17 {
+	border-top: 1px solid #c0ccd2;
+	text-align: center;
+}
+hr.style17:after {
+	content: '\00a7';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	background: #e5f0f5;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+@media only screen and (max-width: 767px){
+	.trader-accounts .nav-pills > li{
+		border:0;
+	}
+	.multi-button-wrapper .btn{
+		margin-bottom:10px;
+	}
+	.trader-accounts .nav-pills > li:not(.active) > a{
+		background:#eaeaea;
+	}
+}
+
+@media only screen and (max-width: 473px){
+	.sc-subtitle{
+		font-size:24px;
+	}
+}
+@media only screen and (max-width: 560px){
+	.bottom-overlay-bg {
+	    padding: 5px 5px 5px 140px;
+	}
+	.trader-profile-picture>img{
+	    width: 100px;
+		height: 100px;
+	}
+	.table-trader-info > tbody > tr > td:nth-child(even) {
+	    font-size: 20px;
+	}
+	.trader-account-graph {
+	    overflow: auto;
+	}
+	.table-trader-info-wrapper{
+		padding:20px;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	.bottom-overlay-bg{
+		font-size:24px;
+		padding: 10px 5px 10px 140px;
+	}	
+}

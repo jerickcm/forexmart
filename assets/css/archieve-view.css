@@ -1,0 +1,50 @@
+.select2-container{
+        width:100%;
+        height: auto;
+
+    }
+    .select2-container .select2-choice{
+        border-radius: 0px!important;
+        height: 32px!important;
+    }
+    .select2-container ,.select2-choice  ,.select2-arrow{
+        border-radius: 0px!important;
+    }
+    .select2-drop-active{
+        border-width: medium 2px 2px!important;
+    }
+    .input-adjust-accoringly {
+        border-radius: 0px !important;
+    }
+    .searchlabel{
+        vertical-align: middle;
+        line-height: 34px;
+        text-align: right;
+    }
+    .setheight{
+        height: 60px;
+    }
+    .dataTables_length{
+        height: 40px;
+    }
+    /*.dataTables_filter{*/
+        /*display: none!important;*/
+    /*}*/
+    .dataTables_empty{
+        text-align: center;
+    }
+    #Contest_ArchivesTable_paginate{
+        float: right;
+    }
+    .ins-notes {
+        margin: 5px 0 30px 5px !important;
+    }
+
+    @media screen and (max-width: 767px){
+        div.dataTables_wrapper div.dataTables_filter input {
+            margin-left: 0px !important;
+            margin-top: 5px !important;
+        }
+    }
+    .hori_center{text-align: center}
+	#Contest_ArchivesTable{  border-spacing:0px;width:100%;}

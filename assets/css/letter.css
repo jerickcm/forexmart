@@ -1,0 +1,107 @@
+.ceo-letter-banner
+{
+	background: url(../images/analytic-bg.png) repeat;
+	width: 100%;
+	padding: 30px 0;
+}
+	.ceo-title
+	{
+		font-family: Georgia;
+		padding: 0;
+		margin: 0;
+		font-size: 25px;
+		color: #fff;
+	}
+.ceoletter-main-holder
+{
+	background: url(../images/letter-bg.png) repeat;
+}
+.ceo-letter-holder
+{
+	margin-top: 20px;
+	padding: 70px 100px;
+	-webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.25);
+	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.25);
+	margin-bottom: 20px;
+	background: #fff;
+}
+	.ceo-letter-holder .ceo-info
+	{
+		max-width: 210px; 
+		border: 7px solid #fff;
+		margin: 0 auto;
+		-webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.45);
+		-moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.45);
+		box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.45);
+		text-align: center;
+	}
+.ceo-name, .ceo-fx
+{
+	margin: 0;
+	padding: 0;
+}
+.ceo-name
+{
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 600;
+}
+.ceo-fx
+{
+	font-family: Open Sans;
+}
+	.ceo-fx span
+	{
+		font-weight: 600;
+		color: #2988ca;
+	}
+.ceo-letter-body
+{
+	margin-top: 20px;
+	font-family: Open Sans;
+	font-size: 14px;
+}
+	.ceo-letter-body .letter-body
+	{
+		text-align: justify;
+		line-height: 25px;
+		font-size: 14px;
+	}
+		.ceo-letter-body .letter-body span
+		{
+			font-weight: 600;
+			color: #2988ca;
+		}
+.ceo-letter-body-2
+{
+	/*margin-top: 20px;*/
+	font-family: Open Sans;
+	font-size: 14px;
+}
+	.ceo-letter-body-2 .letter-body
+	{
+		text-align: justify;
+		line-height: 25px;
+		font-size: 14px;
+	}
+		.ceo-letter-body-2 .letter-body span
+		{
+			font-weight: 600;
+			color: #2988ca;
+		}
+.letter-line
+{
+	border-bottom: 1px solid #ddd;
+	margin: 30px 0;
+}
+.ceo-sign
+{
+	width: 150px;
+}
+@media screen and (max-width: 991px) {
+	.ceo-letter-holder
+	{
+		padding: 20px;
+	}
+}

@@ -1,0 +1,16 @@
+    #tbl_calendarEvents tbody tr {
+        height: 35px;
+        border-bottom:1px solid #cecece;
+    }
+    #tbl_calendarEvents tbody tr th{
+        text-align: center;
+        border-bottom: 2px solid #cecece;
+    }
+    #tbl_calendarEvents tbody tr td{
+        text-align: center;
+        padding: 0px;
+    }
+
+    th, td{
+        text-align: center!important;
+    }

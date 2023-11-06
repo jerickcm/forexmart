@@ -1,0 +1,105 @@
+<?php
+$lang['inf_1'] = 'Informer ForexMart';
+$lang['inf_2'] = 'Tipe Informer';
+$lang['inf_3'] = 'Kalender Ekonomi';
+$lang['inf_4'] = 'Forex Major';
+$lang['inf_5'] = 'Konverter Mata uang';
+$lang['inf_6'] = 'Kalkulator Forex';
+$lang['inf_7'] = 'Berita/Analisis Perusahaan';
+$lang['inf_8'] = 'Dipersembahkan oleh ForexMart';
+$lang['inf_9'] = 'Instal Forex Major';
+$lang['inf_10'] = 'Pengaturan';
+$lang['inf_11'] = 'Lebar:';
+$lang['inf_12'] = 'Pilih tickers:';
+$lang['inf_13'] = 'EURUSD';
+$lang['inf_14'] = 'GBPUSD';
+$lang['inf_15'] = 'USDJPY';
+$lang['inf_16'] = 'USDCHF';
+$lang['inf_17'] = 'USDCAD';
+$lang['inf_18'] = 'EURJPY';
+$lang['inf_19'] = 'EURCHF';
+$lang['inf_20'] = 'GBPJPY';
+$lang['inf_21'] = 'GBPCHF';
+$lang['inf_22'] = 'Warna latar belakang header:';
+$lang['inf_23'] = 'Tulisan header:';
+$lang['inf_24'] = 'Baris Tulisan:';
+$lang['inf_25'] = 'Gunakan';
+$lang['inf_26'] = 'Ulasan Informer';
+$lang['inf_27'] = 'Kode yang dimasukkan';
+$lang['inf_28'] = 'Kutipan secara otomatis diperbarui satu kali dalam 30detik.<br>Kode Sample. Masukkan ke page body (antara < body > dan < /body >)';
+$lang['inf_29'] = 'Versi IFRAME';
+$lang['inf_30'] = 'sample';
+$lang['inf_31'] = 'Instal Kalender Ekonomi';
+$lang['inf_32'] = 'Zona waktu:';
+$lang['inf_33'] = 'Nomer artikel berita:';
+$lang['inf_34'] = 'Border:';
+$lang['inf_35'] = 'Rounding:';
+$lang['inf_36'] = 'Latar Belakang Header:';
+$lang['inf_37'] = 'Latar Belakang isi Berita:';
+$lang['inf_38'] = 'Latar Belakang Footer:';
+$lang['inf_39'] = 'Rincian acara:';
+$lang['inf_40'] = 'Warna Latar Belakang:';
+$lang['inf_41'] = 'Teks header:';
+$lang['inf_42'] = 'Teks footer:';
+$lang['inf_43'] = 'Teks isi:';
+$lang['inf_44'] = 'Instal Konverter Mata Uang';
+$lang['inf_45'] = 'Tinggi:';
+$lang['inf_46'] = 'Font:';
+$lang['inf_47'] = 'Warna:';
+$lang['inf_48'] = 'Bentuk Panah:';
+$lang['inf_49'] = 'Header';
+$lang['inf_50'] = 'Instal Kalkulator ForexMart';
+$lang['inf_51'] = 'Normal';
+$lang['inf_52'] = 'Bayangan:';
+$lang['inf_53'] = 'Teks Font:';
+$lang['inf_54'] = 'Warna Font:';
+$lang['inf_55'] = 'Latar Belakang:';
+$lang['inf_56'] = 'Ukuran Font:';
+$lang['inf_57'] = 'Berita ForexMart';
+$lang['inf_58'] = 'Berita Perusahaan';
+$lang['inf_59'] = 'Instal Berita Perusahaan';
+$lang['inf_60'] = 'Tanggal Berita:';
+$lang['inf_61'] = 'Teks Berita:';
+$lang['inf_62'] = 'Baca Selengkapnya';
+$lang['inf_63'] = 'Contoh Acara';
+$lang['inf_64'] = 'RIlis Berita Terbaru';
+$lang['inf_65'] = 'Aktual';
+$lang['inf_66'] = 'Perkiraan';
+$lang['inf_67'] = 'Sebelumnya';
+$lang['inf_68'] = 'Penting:';
+$lang['inf_69'] = 'Negara:';
+$lang['inf_70'] = 'Mata Uang:';
+$lang['inf_71'] = 'Sumber:';
+$lang['inf_72'] = 'Tanggal Rilis';
+$lang['inf_73'] = 'Waktu';
+$lang['inf_74'] = 'Nomor catatan yang ditunjukkan per halaman';
+$lang['inf_75'] = 'Mulai';
+
+//forex informers
+$lang['inf_76'] = 'Client Account';
+$lang['inf_77'] = 'Partners Account';
+$lang['inf_78'] = 'Account';
+$lang['inf_79'] = 'Chart';
+$lang['inf_80'] = 'Equity';
+$lang['inf_81'] = 'Balance';
+$lang['inf_82'] = 'Commission';
+$lang['inf_83'] = 'Showing _START_ to _END_ of _TOTAL_ entries'; //note: Do not translate the _START_ , _END_ and _TOTAL_
+$lang['inf_84'] = 'Install ForexMart Informers';
+
+//economic calendar
+$lang['ecn_cal_2'] = 'Date';
+$lang['ecn_cal_3'] = 'Event';
+$lang['ecn_cal_4'] = 'Value';
+$lang['ecn_cal_15'] = 'Links:';
+$lang['ecn_cal_16'] = 'Color Lines:';
+$lang['ecn_cal_17'] = 'Header Text:';
+$lang['ecn_cal_18'] = 'Date of News:';
+$lang['ecn_cal_19'] = 'Text News:';
+$lang['ecn_cal_20'] = 'Footer Text:';
+$lang['ecn_cal_21'] = 'Shadow:';
+
+//currency converter
+$lang['cur_conv_12'] = 'Background Color:';
+
+//Company News
+$lang['cmpny_news_6'] = 'Number of news articles:';

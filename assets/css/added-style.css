@@ -1,0 +1,70 @@
+html {
+	height:100%!important;
+}
+
+.percent-bonus {
+	position:relative;
+	width:100%;
+	background:url(../images/bonus-bg.png)!important;
+	min-height: 100%;
+}
+
+.bonus-holder-background {
+	box-shadow:none!important;
+	border-top:1px solid #00ccff;
+	background:none!important;
+}
+
+.extra-external-logo {
+	padding:5px 0;
+	background:#fff;
+}
+
+.left-bonus-container {
+	height:auto;
+	margin: 170px 0;
+}
+
+.right-bonus-container h1 {
+	font-size:25px;
+	font-family:georgia,serif;
+}
+
+.right-bonus-holder {
+	display:table;
+	padding:10px!important;
+	margin: 135px auto;
+	background:rgba(255,255,255, 0.2);
+	border:1px solid #00ccff;
+}
+
+.bonus-modal-container {
+        background:url(../images/background-modal.png);
+        width:100%;
+        min-height:210px;
+    }
+
+    .bonus-col-centered p {
+        padding-top:40px;
+        font-size:16px;
+        text-align:center;
+    }
+
+    .bonus-modal-img img {
+        margin:0 auto;
+        max-width:119.5px;
+        max-height:119.5px;
+    }
+
+
+    .bonus-title {
+        color:#fff!important;
+        margin-top:40px;
+    }
+
+    .right-bonus-container {
+        margin:0 auto;
+        display:table;
+        background:#fff;
+        padding:5px;
+    }

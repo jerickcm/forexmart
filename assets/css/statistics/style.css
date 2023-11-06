@@ -1,0 +1,107 @@
+body
+{
+	padding: 0;
+	margin: 0;
+}
+.clearfix
+{
+	clear: both;
+}
+
+.page-wrap
+{
+	width: 600px;
+	margin: 0 auto;
+}
+.graphic-container
+{
+	width: 100%;
+	border: 1px solid #ddd;
+}
+.container-header-holder
+{
+	background: #2988ca;
+	color: #fff;
+
+}
+	.container-header-holder h4
+	{
+		margin: 0;
+		display: inline-block!important;
+		font-weight: 400;
+	}
+	.graph-title
+	{
+		color: #fff;
+		padding: 7px 10px;
+		display: inline-block;
+	}
+		.graph-title:hover
+		{
+			text-decoration: none;
+			background: #1c72ad;
+			transition: all ease 0.3s;
+		}
+.header-tools
+{
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+}
+	.header-tools li
+	{
+		float: left;
+	}
+		.header-tools li a
+		{
+			color: #fff;
+			padding: 7px 10px;
+			display: inline-block;
+			transition: all ease 0.3s;
+		}
+			.header-tools li a:hover
+			{
+				background: #1c72ad;
+				transition: all ease 0.3s;
+			}
+.graph-holder
+{
+	padding: 10px;
+}
+	.graph-holder h2
+	{
+		margin: 0;
+		font-family: Open Sans;
+		text-decoration: center;
+		font-weight: 400;
+		color: #333;
+		font-size: 15px;
+		text-align: center;
+	}
+	.graph-holder .graph
+	{
+	}
+		.graph-holder .graph p
+		{
+			display: table;
+			height: 250px;
+			vertical-align: middle;
+			text-align: center;
+			border: 1px solid #aaa;
+			width: 100%;
+		}
+.container-footer-holder
+{
+	padding: 10px;
+	background: #eee;
+	border-top: 1px solid #ddd;
+}
+	.text-form-control
+	{
+		border: 1px solid #ddd;
+		width: 200px;
+		padding: 5px 10px;
+		margin-left: 7px;
+		margin-right: 10px;
+	}

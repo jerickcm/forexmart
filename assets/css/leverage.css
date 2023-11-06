@@ -1,0 +1,214 @@
+.leverage-wrapper {
+	width: 100%;
+	min-height: 596px;
+	background: url(../images/bgleverage.jpg) repeat; 
+}
+.leverage p {
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	padding:0 5px;
+}
+.leverage ul li {
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 27%;
+	padding:0 5px;
+	list-style-type: none;
+}
+.fa {
+	padding-right: 10px;
+}
+.leverage-title h1 {	
+	font-family: Impact;
+	font-weight: 700;
+	color: #fff;
+	font-size: 156px;
+	margin-top: -25px;
+	margin-bottom: 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	text-align: right;
+	text-shadow: 3px 3px #222;
+}
+.leverage-title h2 {	
+	font-family: Arial;
+	font-weight: 700;
+	color: #29a643;
+	font-size: 46px!important;
+	margin-top: 12px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	text-align: right;
+	text-shadow: 3px 3px #222;
+}
+b {
+	font-weight: 700;
+	color: #2988ca;
+}
+.bb {
+	color: #29a643 !important;
+}
+.leverage-title h3 {	
+	font-family: Open Sans;
+	font-weight: 300;
+	color: #fff !important;
+	font-size: 40px!important;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	letter-spacing: -2px;
+	text-shadow: 2px 2px #222;
+}
+
+.leverage-title h4 {	
+	font-family: Open Sans;
+	font-weight: 600;
+	color: #fff !important;
+	font-size: 32px;
+	text-align: center;
+	letter-spacing: -2px;
+}
+.leverage-title h5 {	
+	font-family: Open Sans;
+	font-weight: 400;
+	color: #fff !important;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: -1px;
+}
+.leverage-title h3 a {
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+    
+.leverage-title a:lang(my){
+font-size: 48px;
+	}
+.leverage-title h3 a:hover {	
+	color: #2988ca;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.leverage-form-holder
+{
+	padding-top: 5px;
+	background: rgba(0,0,0,0.6);
+	border: 1px solid rgba(255,255,255,0.3);
+	max-width:430px;
+	margin-bottom: 25px;
+}
+.leverage-form
+{
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+.leverage-label
+{
+	color: #fff;
+	text-align: right;
+}
+@media (max-width:1196px){
+	.leverage-title h1 {	
+	font-size: 147px;
+}
+.leverage-title h2 {	
+	font-size: 84px;
+}
+}
+@media (max-width:767px){
+.leverage p {
+	padding:0 45px;
+}
+.leverage-title h1 {	
+	text-align: center;
+}
+.leverage-title h2 {	
+	text-align: center;
+}
+.leverage-title h3 {	
+	text-align: center;
+}
+.leverage-form-holder
+{
+	margin:0 auto;
+}
+.leverage ul li {
+	margin-left: 5%;
+}
+}
+
+@media (max-width:560px){
+.leverage p {
+	padding:0 35px;
+}
+.leverage-title h1 {	
+	font-size: 110px;
+	text-align: center;
+}
+.leverage-title h2 {	
+	font-size: 65px;
+	text-align: center;
+}
+.leverage-title h3 {	
+	font-size: 40px!important;
+	text-align: center;
+}
+.leverage ul li {
+	margin-left: 1%;
+}
+}
+
+@media (max-width:360px){
+.leverage p {
+	padding:0 25px;
+}
+.leverage-title h1 {	
+	font-size: 80px;
+	text-align: center;
+}
+.leverage-title h2 {	
+	font-size: 47px;
+	text-align: center;
+}
+.leverage-title h3 {	
+	font-size: 33px;
+	text-align: center;
+}
+.leverage ul li {
+	margin-left: 0px;
+}
+}
+.leverage-title a:lang(my) {
+    font-size: 14px;
+}
+.terms:lang(my){
+    margin-bottom:25px;
+}
+.terms:lang(ru){
+    margin-bottom:25px;
+}
+.terms:lang(id), .terms:lang(de), .terms:lang(fr), .terms:lang(es){
+    margin-bottom:25px;
+}
+.leverage ul li{
+    font-size:14px;
+}
+.leverage ul li:lang(bg){
+    font-size:13px;
+}
+.red {
+    color: red;
+    font-size: 12px!important;
+    text-align: left;
+}
+.pull-r p{
+    margin-bottom: 0px!important;
+}
+.terms{text-align: center; color: white;}

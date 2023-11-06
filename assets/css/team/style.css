@@ -1,0 +1,5 @@
+.jp-container{
+    position:relative;
+    background:#fff;
+}
+@media only screen and  (max-width: 767px) and (min-width: 415px){.parent-top-margin .top-margin-member:lang(ru){ padding:0; } }  @media only screen and  (max-width: 519px){  .min-height:lang(ru){ min-height: 247px; } }  @media only screen and  (max-width: 375px){ .min-height:lang(ru){ min-height: 235px; } .min-height:lang(en){ min-height: 235px; }}  @media only screen and  (max-width: 414px){ .ceo{  width: 100%!important;  } }  .nav-fix{ position: fixed; top: 0; z-index: 9999; width: 100%; transition: all ease 0.3s; }  .member-header-holder {width: 100%;min-height: 312px;background: url('<?= $this->template->Images() ?>team_member/member-bg.jpg') no-repeat; background-size: cover; background-position: center center; padding: 45px 0; }  @media screen and (max-width: 991px) {.ceo-col-holder{margin: 40px auto 0 !important;}#searchfield { /* added */width: 120px!important;}}

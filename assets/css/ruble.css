@@ -1,0 +1,145 @@
+
+.ruble-main-holder
+{
+    width: 100%;
+    min-height: 300px;
+    background: url(../images/ruble-bg.png) repeat;
+}
+.ruble-text
+{
+    font-family: Open Sans;
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: justify;
+    color: #fff;
+    font-weight: 300;
+}
+.ruble-text span
+{
+    /*text-transform: uppercase;*/
+    color: #29a643;
+    font-weight: 600;
+}
+.ruble-img
+{
+    /*margin-top: 30px;*/
+    position: relative;
+    bottom: 0px!important;
+    margin-top: 30px;
+}
+.ruble-fxlogo
+{
+    width: 90px;
+    margin-top: -9px;
+    margin-right: 7px;
+}
+.ruble-h4
+{
+    color: #fff;
+    font-weight: 300;
+    font-family: Open Sans;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.ruble-h4 span
+{
+    color: #29a643;
+    font-weight: 600;
+}
+.ruble-h1
+{
+    font-family: Open Sans;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 27px;
+    line-height: 40px;
+}
+.ruble-h1 a
+{
+    color: #fff;
+    transition: all ease 0.3s;
+}
+.ruble-h1 a:hover
+{
+    text-decoration: none;
+    color: #2988ca;
+    transition: all ease 0.3s;
+}
+.ruble-h1 a span
+{
+    font-weight: 600;
+}
+/*.ruble-h1 span
+{
+    font-weight: 600;
+}
+.ruble-link
+{
+font-family: Open Sans;
+font-size: 20px;
+padding: 15px;
+background: #29a643;
+color: #fff;
+margin-top: 10px;
+display: inline-block;
+width: 300px;
+text-transform: uppercase;
+font-weight: 300;
+text-align: center;
+transition: all ease 0.3s;
+}
+.ruble-link:hover, .ruble-link:focus
+{
+    text-decoration: none;
+    color: #fff;
+    background: #3ecd5c;
+    transition: all ease 0.3s;
+}*/
+.ruble-form-holder
+{
+    background: rgba(255,255,255,0.1);
+    border: 1px solid #444;
+    margin-bottom: 10px;
+}
+.ruble-form
+{
+    padding: 20px 0;
+    padding-right: 10px;
+}
+.ruble-submit
+{
+    margin-bottom: 0!important;
+}
+.ruble-label
+{
+    color: #fff;
+    text-align: right;
+}
+.ruble-alert
+{
+    margin-bottom: 0!important;
+}
+@media screen and (max-width: 1199px) {
+    .ruble-form-holder
+    {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .ruble-img
+    {
+        margin: 0 auto;
+        float: none;
+    }
+    .ruble-form
+    {
+        padding-right: 70px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .ruble-form
+    {
+        padding-right: 0;
+    }
+}

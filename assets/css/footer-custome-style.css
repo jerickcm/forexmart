@@ -1,0 +1,44 @@
+
+@media only screen and (max-width: 320px){
+    .padding_for_it_lang{
+        width:100%!important;
+        padding-left: 5px!important;
+    }
+    .padding_for_it_lang:lang(it){
+        padding-left: 15px!important;
+    }
+}
+
+
+.tradomart{margin-bottom:3px;padding:0!important}.fix-lbl{color:#fff!important}
+.logoLink{
+    margin-bottom:20px;
+}
+.logoLink a{
+    display: inline-block;
+    padding: 10px 8px;
+    vertical-align: text-bottom;
+}
+.logoLink a img{
+    height: 56px;
+}
+.logoLink a img{
+    height: 70px;
+}
+.logoLink a{
+    margin-right: 40px;
+}
+.purechat-widget-preview{display: none}
+.hitside:hover{text-decoration:none!important;color:white!important}.hitside:link{text-decoration:none!important}.hitside:visited{text-decoration:none!important}.hitside:active{text-decoration:none!important}@media only screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio:0){.side-fix li{margin:10px -3px 10px 0!important}}  @-moz-document url-prefix() { @media only screen and (max-width: 4000px) and (min-width: 837px){.moz-adj{min-width:90px;font-size:14px;min-height:80px}.moz-adj:lang(sa){min-width:98px!important;font-size:14px;min-height:80px}  }@media only screen and (max-width: 836px){.moz-adj{min-width:65px;font-size:10px;min-height:42px}}}
+
+.test[style] {
+    padding-right:0 !important;
+}
+.test.modal-open {
+    overflow: auto;
+}
+
+.ext-arabic-footer-text-parent {
+    width: 100%;
+    padding-left: 5px;
+	}

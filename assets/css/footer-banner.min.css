@@ -1,0 +1,385 @@
+.footer-banner-holder
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 999;
+	display: none;
+	width: 100%;
+	min-height: 10px;
+}
+.link-banner
+{
+	background: url(../images/footer-bg-new.png) repeat;
+	display: block;
+	width: 100%;
+}
+
+
+.footer-banner
+{
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    min-height: 100px;
+    background: url(../images/bottom-banner-usd.png) no-repeat;
+}
+.footer-banner1
+{
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    min-height: 100px;
+    background: url(../images/bottom-banner-eur.png) no-repeat;
+}
+.footer-banner2
+{
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    width: 100%;
+    min-height: 100px;
+    background: url(../images/bottom-banner-gbp.png) no-repeat;
+}
+.footer-banner3
+{
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+    width: 100%;
+    min-height: 100px;
+    background: url(../images/bottom-banner-rub.png) no-repeat;
+}
+
+@media only screen and (max-width: 360px) {
+    .footer-banner
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-usd.png) no-repeat;
+    }
+    .footer-banner1
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-eur.png) no-repeat;
+    }
+    .footer-banner2
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-gbp.png) no-repeat;
+    }
+    .footer-banner3
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 100px;
+        background: url(../images/bottom-banner-rub.png) no-repeat;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .footer-banner
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-usd.png) no-repeat;
+    }
+    .footer-banner1
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-eur.png) no-repeat;
+    }
+    .footer-banner2
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-gbp.png) no-repeat;
+    }
+    .footer-banner3
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 100px;
+        background: url(../images/bottom-banner-rub.png) no-repeat;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .footer-banner
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-usd.png) no-repeat;
+    }
+    .footer-banner1
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-eur.png) no-repeat;
+    }
+    .footer-banner2
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-gbp.png) no-repeat;
+    }
+    .footer-banner3
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-rub.png) no-repeat;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .footer-banner
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-usd.png) no-repeat;
+    }
+    .footer-banner1
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-eur.png) no-repeat;
+    }
+    .footer-banner2
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-gbp.png) no-repeat;
+    }
+    .footer-banner3
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-rub.png) no-repeat;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .footer-banner
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-usd.png) no-repeat;
+    }
+    .footer-banner1
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-eur.png) no-repeat;
+    }
+    .footer-banner2
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-gbp.png) no-repeat;
+    }
+    .footer-banner3
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-rub.png) no-repeat;
+    }
+}
+@media only screen and (max-width: 678px) {
+    .footer-banner
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-usd.png) no-repeat;
+    }
+    .footer-banner1
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-eur.png) no-repeat;
+    }
+    .footer-banner2
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-gbp.png) no-repeat;
+    }
+    .footer-banner3
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-rub.png) no-repeat;
+    }
+}
+@media only screen and (max-width: 270px) {
+    .footer-banner
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-usd.png) no-repeat;
+    }
+    .footer-banner1
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-eur.png) no-repeat;
+    }
+    .footer-banner2
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-gbp.png) no-repeat;
+    }
+    .footer-banner3
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-rub.png) no-repeat;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .footer-banner
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-usd.png) no-repeat;
+    }
+    .footer-banner1
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 65px;
+        background: url(../images/bottom-banner-eur.png) no-repeat;
+    }
+    .footer-banner2
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-gbp.png) no-repeat;
+    }
+    .footer-banner3
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 65px;
+        background: url(../images/bottom-banner-rub.png) no-repeat;
+    }
+}
+@media only screen and (min-width: 980px) and (max-width: 1920px) {
+
+    .footer-banner
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 100px;
+        background: url(../images/bottom-banner-usd.png) no-repeat;
+    }
+    .footer-banner1
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        min-height: 100px;
+        background: url(../images/bottom-banner-eur.png) no-repeat;
+    }
+    .footer-banner2
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 100px;
+        background: url(../images/bottom-banner-gbp.png) no-repeat;
+    }
+    .footer-banner3
+    {
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+        width: 100%;
+        min-height: 100px;
+        background: url(../images/bottom-banner-rub.png) no-repeat;
+    }
+}
+.footer-banner-holder span
+{
+	position: absolute;
+	right: 5px;
+	cursor: pointer;
+	top: -20px;
+}

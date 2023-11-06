@@ -1,0 +1,16 @@
+<?php
+
+$lang['ceo_1'] = 'Wiadomość od CEO';
+$lang['ceo_2'] = 'Savvas Patsalides';
+$lang['ceo_3'] = 'Dyrektor generalny';
+$lang['ceo_4'] = 'ForexMart';
+$lang['ceo_5'] = 'Szanowni klienci,';
+$lang['ceo_6'] = ' kontynuuje dążenie do doskonałości i oferuje niezrównaną jakość obsługi klientów. Jest nam niezmiernie miło, że dzięki naszej ciężkiej pracy zostaliśmy uznani za <strong>Najlepszego Nowego Brokera w Europie w 2016</strong> oraz <strong>Najlepszego Brokera w Europie w 2015</strong> przez <strong>Magazyn International Finance i ShowFx World</strong> odpowiednio. Starannie szukamy sposobów na polepszenie naszych usług poprzez badania, wytwórczość i współpracę z naszą wykwalifikowaną kadrą oraz niekończącej nauki opartej o nasze doświadczenia. Potrzeby naszych klientów są dla nas na pierwszym miejscu, a więc zapewniamy im ciągłe wsparcie oraz rzetelną obsługę.';
+$lang['ceo_7'] = 'Skupiamy się na świadczeniu usług na wysokim poziomie wszystkim naszym klientom. Właśnie dlatego ściśle przestrzegamy wszystkich praw i regulacji zgodnie z <strong>CySEC</strong> oraz <strong>ESMA</strong>, ponieważ jesteśmy przekonani, że sukces idzie po należytej praktyce biznesowej.';
+$lang['ceo_8'] = 'Jestem zaszczycony możliwością podziękować wszystkim naszym klientom, których traktujemy jako partnerów.  We are grateful for giving us your trust and we hope to continue our good business relationship in the future.';
+$lang['ceo_9'] = 'Z poważaniem,';
+$lang['ceo_10'] = '<strong>Man Savvas Patsalides</strong> ma obszerne doświadczenie w sprawach Compliance (którego zadaniem jest zapobieganie występowaniu ryzyka prawnego) oraz mocne zaplecze finansowe. Pracował w kilku regulowanych i dobrze ugruntowanych organizacjach finansowych, zdobywając szeroką wiedzę w zakresie usług finansowych, w tym Zarządzania portfelem, Doradztwa inwestycyjnego, Finansów korporacyjnych, Fuzji i przejęć, Restrukturyzacji zaległości/kapitału, Handlowaniu na Forex oraz Bankowości komercyjnej.';
+$lang['ceo_11'] = 'Jego kwalifikacje naukowe oraz fachowe obejmują studia podyplomowe w zakresie Ekonomii i Finansów Organizacyjnych z Londyńskiej Wyższej Szkoły Ekonomii i Nauk Politycznych, Zaawansowany Certyfikat od Cypryjskiej Komisji Papierów Wartościowych i Giełd (CySEC). Zdał też 3-stopniowy egzamin NCFE (National Commodity Futures Examination) prygotowany przez Komisję ds. Handlu Instrumentami Pochodnymi(CFTC).';
+$lang['ceo_12'] = 'W ostatnich latach głównie skupiał się na Compliance, Przeciwdziałaniu prania pieniędzy oraz Zarządzaniu ryzykiem, zapewniając zgodność z odpowiednimi organami regulacyjnymi na całym świecie i ciągle mając do czynienia z wymaganiami dotyczącymi licencjonowania i przepisami na skalę międzynarodową. Kierował zespół fachowców z silnym zapleczem finansowym, prawnym i regulacyjnym, z których każdy miał międzynarodowe uznanie w swojej dziedzinie.';
+$lang['ceo_13'] = 'W sprawach sugestii bądź zapytań dotyczących partnerstwa potrafisz skontaktować się z Panem Patsalidesem bezpośrednio na ';
+$lang['ceo_14'] = 'ceo@forexmart.com';

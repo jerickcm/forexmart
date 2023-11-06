@@ -1,0 +1,225 @@
+ @media screen and (max-width: 320px){
+        #modal_body{padding: 0!important;}
+        .alert{padding: 6px;margin-bottom: 15px;}
+        .modal-footer{padding: 8px;}
+        .modal-header .close{margin-top: 2px;}
+        .modal-header{margin: 4px 10px;padding:0;}
+        .btn{padding: 4px 10px;}
+        .modal-backdrop{height: 611px!important;}
+        .modal-backdrop:lang(ru){height: 751px!important;}
+    }
+
+    .checkbox label, .radio label {
+        padding-left: 15px;
+    }
+    .dropdown-menu{
+        right: auto !important;
+    }
+
+    .cal-no-pad {
+        padding: 0px !important;
+    }
+
+    .datepicker{
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
+        border-radius: 0px !important;
+    }
+
+    .low
+    {
+        /*width: 33.33%;*/
+        width: 100% !important;
+    }
+
+    .no-cal-pad {
+        padding: 0px !important;
+    }
+
+    .moderate
+    {
+        /*width: 66.66%;*/
+        width: 100% !important;
+    }
+    .high
+    {
+        width: 100% !important;
+    }
+
+    .span2 {
+        vertical-align: top;
+    }
+
+    .main-legend-holder {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .country-chk {
+        white-space: nowrap;
+    }
+
+    .cal-desc {
+        padding: 10px 0 10px;
+        font-family: Open Sans;
+    }
+
+    .flag-label {
+        vertical-align: middle;
+    }
+
+    .imp {
+        width: 10%;
+        margin-bottom: 10px;
+        padding-left: 0px !important;
+    }
+
+    .modal-body .bordertop {
+        padding-bottom: 0;
+    }
+
+    @media screen and (max-width: 767px) {
+        /*.cute {*/
+        /*padding:15px;*/
+        /*}*/
+
+        .control-label {
+            float: none !important;
+        }
+
+        #div-flag-3 {
+            margin-top: 15px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .span1 {
+            margin-right: 10px !important;;
+        }
+
+        .calendar-filter-holder p {
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width: 522px) {
+        .dropdown-menu {
+            left: -120px !important;
+        }
+
+        ul.drp-zone{
+            margin-left: 120px;
+        }
+    }
+
+     @media screen and (max-width: 544px) {
+         .dropdown-menu {
+             left: 20px !important;
+         }
+     }
+
+     @media screen and (max-width: 767px) and (min-width: 545px) {
+         .dropdown-menu {
+             left: 305px !important;
+         }
+     }
+
+    ul.drp-zone li{
+        padding-left:7px;
+    }
+    ul.drp-zone li:hover{
+        background:#c2dff9;
+    }
+    ul.drp-zone{
+        min-width: 109px;
+        padding:0px;
+    }
+
+    @media screen and (max-width: 991px) {
+        .calendar-mobile-width {
+            width: 100% !important;
+        }
+
+        #div-flag-4, #div-flag-5 {
+            margin-top: 15px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .main-legend-holder {
+            width: 100% !important;
+        }
+    }
+    ul.drp-zone li {
+        padding-left: 29px;
+    }
+    .mg-l{
+        border: none!important;
+    }
+    @media screen and (max-width: 767px) and (min-width: 523px) {
+        .mg-l{
+            margin-left: 120px;
+        }
+    }
+    @media screen and (max-width: 522px) {
+        .mg-l{
+            margin-left: -16px;
+        }
+    }
+
+ .chckbox-wrapper1{
+     width: 15%;
+ }
+ .chckbox-wrapper2{
+     width: 19%;
+ }
+ .chckbox-wrapper4{
+     width: 14%;
+ }
+
+
+ .span2t {
+     float: left;
+     font-family: open sans;
+     font-size: 13px;
+     margin-left: 5.8px;
+ }
+
+ .ru-lang-cal:lang(ru){
+     white-space: normal !important;
+ }
+
+
+ @media screen and (max-width: 990px){
+     .chckbox-wrapper1{
+         width: auto;
+     }
+     .chckbox-wrapper2{
+         width: auto;
+     }
+     .chckbox-wrapper4{
+         width: auto;
+     }
+ }
+
+ @media screen and (min-width: 320px) and (max-width: 359px) {
+     .span2t {
+         font-size: 12px !important;
+     }
+
+     .span2t:lang(ru) {
+         font-size: 10.4px !important;
+     }
+ }
+
+ @media screen and (width: 360px) {
+     .span2t:lang(ru) {
+         font-size: 10.8px !important;
+     }
+ }
+
+ @media screen and (max-width: 360px){
+     #div-flag-5:lang(ru){
+         width: 100%
+     }
+ }

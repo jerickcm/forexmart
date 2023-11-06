@@ -1,0 +1,15 @@
+/*FXPP-7802*/
+@media screen and (max-width: 767px){
+    .btn-float-none:lang(en),.btn-float-none:lang(ru) {
+        float: none !important;
+        width: 200px!important;
+        margin: 0px auto;
+    }
+    .btns1:lang(en),.btns1:lang(ru),.btn-demo_custom:lang(ru){
+        width: 241px!important;
+    }
+    .btn-demo_custom:lang(en),.btn-demo_custom:lang(ru) {
+        padding: 7px 0!important;
+    }
+
+}

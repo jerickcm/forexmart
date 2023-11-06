@@ -1,0 +1,350 @@
+.footer-banner-holder
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 999;
+	display: none;
+	width: 100%;
+	min-height: 10px;
+}
+.link-banner
+{
+	background: url(../images/footer-bg-new.png) repeat;
+	display: block;
+	width: 100%;
+}
+
+.footer-banner
+{
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	min-height: 100px;
+	background: url(../images/bottom-banner-usd.png) no-repeat;
+}
+.footer-banner1
+{
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	min-height: 100px;
+	background: url(../images/bottom-banner-eur.png) no-repeat;
+}
+.footer-banner2
+{
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	width: 100%;
+	min-height: 100px;
+	background: url(../images/bottom-banner-gbp.png) no-repeat;
+}
+.footer-banner3
+{
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	width: 100%;
+	min-height: 65px;
+	background: url(../images/bottom-banner-rub.png) no-repeat;
+}
+
+.footer-banner-usd
+{
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	min-height: 100px;
+	background: url(../images/bottom-banner-usd.png) no-repeat;
+}
+.footer-banner-eur
+{
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.57);
+	min-height: 100px;
+	background: url(../images/bottom-banner-eur.png) no-repeat;
+}
+.footer-banner-holder span
+{
+	position: absolute;
+	right: 5px;
+	cursor: pointer;
+	top: -20px;
+}
+@media screen and (max-width: 1903px) {
+	.footer-banner
+	{
+		background: url(../images/bottom-banner-usd-1280.png) no-repeat center !important;
+		min-height: 100px;
+	}
+	.footer-banner-eur
+	{
+		background: url(../images/bottom-banner-eur-1280.png) no-repeat center !important;
+		min-height: 100px;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.footer-banner
+	{
+		background: url(../images/bottom-banner-usd-1280.png) no-repeat center !important;
+		min-height: 100px;
+	}
+	.footer-banner-eur
+	{
+		background: url(../images/bottom-banner-eur-1280.png) no-repeat center !important;
+		min-height: 100px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.footer-banner
+	{
+		background: url(../images/bottom-banner-usd-991.png) no-repeat center !important;
+		min-height: 100px;
+	}
+	.footer-banner-eur
+	{
+		background: url(../images/bottom-banner-eur-991.png) no-repeat center !important;
+		min-height: 100px;
+	}
+
+}
+@media screen and (max-width: 800px) {
+	.footer-banner
+	{
+		background: url(../images/bottom-banner-usd-800.png) no-repeat center !important;
+		min-height: 65px;
+	}
+	.footer-banner-eur
+	{
+		background: url(../images/bottom-banner-eur-800.png) no-repeat center !important;
+		min-height: 65px;
+	}
+}
+
+/*footer banner with less height*/
+@media screen and (max-width: 736px) {
+	.footer-banner
+	{
+
+	}
+}
+@media screen and (max-width: 590px){
+	.footer-banner
+	{
+		background: url(../images/bottom-banner-usd-590.png) no-repeat center !important;
+	}
+	.footer-banner-eur
+	{
+		background: url(../images/bottom-banner-eur-590.png) no-repeat center !important;
+	}
+}
+@media screen and (max-width: 481px) {
+	.footer-banner
+	{
+		background: url(../images/bottom-banner-usd-481.png) no-repeat center!important;
+	}
+	.footer-banner-eur
+	{
+		background: url(../images/bottom-banner-eur-481.png) no-repeat center !important;
+	}
+}
+@media screen and (max-width: 390px) {
+
+}
+@media screen and (max-width: 360px) {
+	.footer-banner
+	{
+		background: url(../images/bottom-banner-usd-360.png) no-repeat center !important;
+	}
+	.footer-banner-eur
+	{
+		background: url(../images/bottom-banner-eur-360.png) no-repeat center !important;
+	}
+}
+@media screen and (max-width: 320px) {
+	.footer-banner
+	{
+		background: url(../images/bottom-banner-usd-320.png) no-repeat center !important;
+	}
+	.footer-banner-eur
+	{
+		background: url(../images/bottom-banner-eur-320.png) no-repeat center !important;
+	}
+}
+
+@media screen and (max-width: 560px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-590.png) no-repeat!important;
+                width: 105%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-590.png) no-repeat!important;
+                width: 105%;
+            }
+        }
+
+        @media screen and (max-width: 530px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-590.png) no-repeat!important;
+                width: 111%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-590.png) no-repeat!important;
+                width: 111%;
+            }
+        }
+
+        @media screen and (max-width: 505px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-590.png) no-repeat!important;
+                width: 117%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-590.png) no-repeat!important;
+                width: 117%;
+            }
+        }
+        @media screen and (max-width: 481px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-481.png) no-repeat!important;
+                width: 100%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-481.png) no-repeat!important;
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 460px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-481.png) no-repeat!important;
+                width: 104%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-481.png) no-repeat!important;
+                width: 104%;
+            }
+        }
+        @media screen and (max-width: 445px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-481.png) no-repeat!important;
+                width: 108%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-481.png) no-repeat!important;
+                width: 108%;
+            }
+        }
+        @media screen and (max-width: 430px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-481.png) no-repeat!important;
+                width: 112%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-481.png) no-repeat!important;
+                width: 112%;
+            }
+        }
+        @media screen and (max-width: 415px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-481.png) no-repeat!important;
+                width: 116%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-481.png) no-repeat!important;
+                width: 116%;
+            }
+        }
+        @media screen and (max-width: 400px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-481.png) no-repeat!important;
+                width: 120%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-481.png) no-repeat!important;
+                width: 120%;
+            }
+        }
+        @media screen and (max-width: 385px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-481.png) no-repeat!important;
+                width: 125%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-481.png) no-repeat!important;
+                width: 125%;
+            }
+        }
+        @media screen and (max-width: 370px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-481.png) no-repeat!important;
+                width: 130%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-481.png) no-repeat!important;
+                width: 130%;
+            }
+        }
+        @media screen and (max-width: 360px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-360.png) no-repeat!important;
+                width: 100%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-360.png) no-repeat!important;
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 345px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-360.png) no-repeat!important;
+                width: 104%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-360.png) no-repeat!important;
+                width: 104%;
+            }
+        }
+
+        @media screen and (max-width: 334px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-360.png) no-repeat!important;
+                width: 107%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-360.png) no-repeat!important;
+                width: 107%;
+            }
+        }
+
+        @media screen and (max-width: 334px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-360.png) no-repeat!important;
+                width: 107.5%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-360.png) no-repeat!important;
+                width: 107.5%;
+            }
+        }
+
+        @media screen and (max-width: 320px){
+            .footer-banner{
+                background: url(../images/bottom-banner-usd-320.png) no-repeat!important;
+                width: 100%;
+            }
+            .footer-banner-eur{
+                background: url(../images/bottom-banner-eur-320.png) no-repeat!important;
+                width: 100%;
+            }
+        }
+.side-fix-holder .side-fix li .a-flast-child:lang(fr){
+    font-size: 13px !important;
+}
+#botnav_left:lang(fr){
+    width: 55%;
+}
+#botnav_right:lang(fr){
+    width: 45%;
+}

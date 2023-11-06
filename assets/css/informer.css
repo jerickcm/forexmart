@@ -1,0 +1,37 @@
+ .informer-converter-holder .converter-drp, .informer-converter-holder .amount-label
+{
+	text-align: left!important;
+}
+.informer-btn-switch-holder
+{
+	margin-top: 0!important;
+}
+.informer-tab-holder .informer-tabs a span
+{
+	position: absolute;
+	font-family: Georgia;
+	font-size: 17px;
+	margin-left: 5px;
+	color: #fff;
+}
+.calendar-table tr th
+{
+	font-size: 11px;
+}
+.calendar-event
+{
+	width: 40%;
+}
+
+.IframeLoderImg {
+ 
+ width: 120px; height: 100px;
+}
+
+.IframeLoder{
+  border: 1px solid #777777;
+    box-shadow: 0 0 10px #777777;
+    display: block;
+    position: absolute;
+    width: 100%;
+}

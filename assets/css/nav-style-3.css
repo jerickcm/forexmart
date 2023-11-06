@@ -1,0 +1,77 @@
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .hidden-main-header:lang(ru){
+        border-bottom: solid 1px #ddd;
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .hidden-reg-holder:lang(ru){
+        display: block!important;
+        text-align: center;
+    }
+    .mobile-ryt:lang(ru){
+        display: inline-block;
+        float: none!important;
+    }
+    .ryt li:last-child:lang(ru){
+        width:auto;
+    }
+    .reg-holder:lang(ru){
+        display: none;
+    }
+    .hidden-reg-holder .nav > li > a:lang(ru){
+        padding: 10px!important;
+    }
+    #searchfield:lang(ru){
+        display: none!important;
+    }
+}
+
+/***********************************************************************************************************/
+
+/*Nav layout for CZ*/
+@media screen and (max-width: 991px){
+    .hidden-reg-holder:lang(cs) {
+        width: 800px;
+    }
+    #mysearchfieldt:lang(cs){
+        width: 120px;
+    }
+
+    /*for removal*/
+
+    .hidden-reg-holder:lang(cz) {
+        width: 800px;
+    }
+    #mysearchfieldt:lang(cz){
+        width: 120px;
+    }
+    /*for removal*/
+}
+
+/*Nav layout for RU*/
+@media screen and (max-width: 991px)and (min-width: 768px){
+    #flag_btn:lang(ru){padding: 3px 2px !important}.reg-holder:lang(ru){display:none!important}.hidden-reg-holder:lang(ru){ width: 100%;}.btn-partner-reg2:lang(ru){padding: 6px 5px!important;}.btn-reg2:lang(ru){margin: 0 8px;}.btn-reg-btn-tgl:lang(ru){padding: 3px 2px!important; margin-left: 6px!important; margin-right: 0px!important;}.ryt li:last-child:lang(ru){width: 100px}#mysearchfieldt:lang(ru){height: 33px!important; width: 145px; margin-left: -6px; font-size: 12px;}.ryt li:lang(ru) {margin-right: 0px!important;}.btn-flag-reg:lang(ru){margin: 0px 6px!important;}.nav:lang(ru){width: 100%}.mobile-ryt:lang(ru){padding-left: 20px!important;}.hidden-reg-holder .nav li a:lang(ru){padding: 6px 12px!important;}.nav li a:lang(ru){padding: 10px 3px!important;}
+}
+@media screen and (max-width: 1024px){
+    .row:lang(ru) {margin-right: 0!important;margin-left: 0!important;}
+}
+
+/*Nav layout for JP*/
+@media screen and (max-width: 2100px){.nav>li>a:lang(jp){font-size:14px!important;}}
+
+/***********************************************************************************************************/
+
+/*Nav layout for RU*/
+@media screen and (max-width: 991px)and (min-width: 768px){
+    #flag_btn:lang(ru){padding: 3px 2px !important}.reg-holder:lang(ru){display:none!important}.hidden-reg-holder:lang(ru){ width: 100%;}.btn-partner-reg2:lang(ru){padding: 6px 5px!important;}.btn-reg2:lang(ru){margin: 0 8px;}.btn-reg-btn-tgl:lang(ru){padding: 3px 2px!important; margin-left: 6px!important; margin-right: 0px!important;}.ryt li:last-child:lang(ru){width: 100px}#mysearchfieldt:lang(ru){height: 33px!important; width: 145px; margin-left: -6px; font-size: 12px;}.ryt li:lang(ru) {margin-right: 0px!important;}.btn-flag-reg:lang(ru){margin: 0px 6px!important;}.nav:lang(ru){width: 100%}.mobile-ryt:lang(ru){padding-left: 20px!important;}.hidden-reg-holder .nav li a:lang(ru){padding: 6px 12px!important;}.nav li a:lang(ru){padding: 10px 3px!important;}
+}
+@media screen and (max-width: 1024px){
+    .row:lang(ru) {margin-right: 0!important;margin-left: 0!important;}
+}
+
+/*Nav layout for JP*/
+@media screen and (max-width: 2100px){.nav>li>a:lang(jp){font-size:14px!important;}}
+
+/***********************************************************************************************************/
+

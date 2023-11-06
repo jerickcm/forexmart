@@ -1,0 +1,297 @@
+
+.navbar-brand-internal {
+	margin-top:4px!important;
+}
+
+.calculate-section {
+	display:table;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+
+.calculate-saldo-container {
+	margin:20px auto;
+	width:100%;
+	position:relative;
+}
+
+.calculate-saldo-content {
+	display:table;
+	margin:0 auto;
+	float:none;
+	padding:0;
+}
+
+.calculate-saldo-input {
+	padding:10px;
+	background:#f7f7f7;
+	border:1px solid #dadada;
+	display:table;
+	width:100%;
+	margin:5px auto;
+}
+
+.calculate-saldo-selection {
+	width:100%;
+	display:table;
+}
+
+.calculate-saldo-selection input[type=checkbox] {
+	margin-top:0;
+	height:25px;
+	margin-bottom:5px;
+}
+
+.calculate-saldo-selection input[type=checkbox] , .calculate-saldo-input span {
+	float:left;
+}
+
+.calculate-saldo-selection span {
+	margin-left:5px;
+	line-height:24px;
+	color:#626262;
+}
+
+.calculate-saldo-input table {
+	width:100%;
+}
+
+.calculate-saldo-input input {
+	border-radius:0;
+	height:40px;
+	background:#fdfdfd;
+	border:1px solid #dadada;
+}
+
+.calculate-saldo-input input[type=text] {
+	margin:3px auto;
+}
+
+.calculate-saldo-input label {
+	margin-bottom:0;
+	color:#626262;
+}
+
+.calculate-add-button {
+	border:none;
+	background:#2988ca;
+	color:#fff;
+	padding:7px 25px;
+	float:right;
+	margin-top:5px;
+	outline:none;
+	transition: all ease 0.3s;
+}
+
+.calculate-add-button:hover {
+	background:#1b78b9;
+}
+
+.calculate-saldo-date {
+	padding:0;
+}
+
+.calculate-saldo-date:first-child {
+	padding-right:5px;
+}
+
+.calculate-saldo-date:last-child {
+	padding-left:5px;
+}
+
+.calculate-saldo-date input[type=text] {
+	margin:0;
+}
+
+.calculate-main-button {
+	background:#29a643;
+	color:#fff;
+	border:none;
+	font-size:18px;
+	width:100%;
+	padding:13px 0;
+	margin:0 auto;
+	transition: all ease 0.3s;
+	outline:none;
+}
+
+.calculate-main-button:hover {
+	background:#188e30;
+}
+.calculate-result-container {
+	width:100%;
+	margin:0 auto;
+}
+
+.calculate-result-container-header {
+	margin-top:30px;
+}
+
+.calculate-result-container-body {
+	height:212px;
+	overflow-y:auto;
+}
+
+.calculate-result-container table {
+	width:100%;
+}
+
+.calculate-result-container table thead {
+	background: #eee;
+    border:1px solid #dadada;
+}
+
+.calculate-result-container table thead th {
+	padding:7px 5px;
+	color: #707071;
+	text-align:center;
+}
+
+.calculate-result-container table tr td {
+	padding:7px 5px;
+}
+
+.calculate-result-container table tr td {
+	border:1px solid #dadada;
+}
+
+.calculate-result-container table tr td:first-child {
+	text-align:center;
+}
+
+.calculate-result-container table tr td:last-child {
+	text-align:right;
+}
+
+.calculate-result-container table tr:nth-child(odd) td {
+	background: #fff;
+}
+
+.calculate-result-container table tr:nth-child(even) td {
+	background: #f6f6f6;
+}
+
+.total-comm {
+	font-weight:bold;
+}
+
+.calculate-saldo-input-number {
+	margin-top:10px;
+}
+
+.inputed-account-number {
+	width:100%;
+	display:table;
+}
+
+.inputed-account-number ul {
+	padding:0;
+	height:185px;
+	overflow-y:auto;
+}
+
+.inputed-account-number ul li {
+	width:100%;
+	list-style-type:none;
+	padding:7px 0;
+	border-bottom:1px solid #eaeaea;
+	display:table;
+	height:34px;
+}
+
+.edit-input-account {
+	display:table;
+	width:100%;
+}
+
+.edit-input-account input[type=text] {
+	height:auto;
+	width:85%;
+	float:left;
+}
+
+.edit-button-holder {
+	float:right;
+	margin-right:5px;
+}
+
+.edit-button-holder button {
+	margin:8px 1px;
+	float:left;
+}
+
+.account-no-edit-icon , .account-no-check-icon , .account-no-uncheck-icon {
+	display:block;
+	border:none;outline:none;
+	transition: all ease 0.3s;
+}
+
+.account-no-edit-icon {
+	width:20px;
+	height:20px;
+	float:right;
+	margin-right:5px;
+}
+
+.account-no-edit-icon {
+	background:url(../images/calculate-edit-account.png);
+}
+
+.account-no-edit-icon:hover {
+	background:url(../images/calculate-edit-account-hover.png);
+}
+
+.account-no-check-icon , .account-no-uncheck-icon {
+	width:24px;
+	height:24px;
+}
+
+.account-no-check-icon {
+	background:url(../images/calculate-check-account.png);
+}
+
+.account-no-check-icon:hover {
+	background:url(../images/calculate-check-account-hover.png);
+}
+
+.account-no-uncheck-icon {
+	background:url(../images/calculate-uncheck-account.png);
+}
+
+.account-no-uncheck-icon:hover {
+	background:url(../images/calculate-uncheck-account-hover.png);
+}
+
+@media screen and (max-width: 450px) {
+
+	.calculate-saldo-date {
+		float:none;
+		width:100%;
+	}
+
+	.calculate-saldo-date:first-child {
+		padding-right:0;
+		margin:0 auto;
+	}
+
+	.calculate-saldo-date:last-child {
+		padding-left:0;
+		margin:7px auto;
+	}
+
+	.edit-input-account input[type=text] {
+		height:auto;
+		width:70%;
+		float:left;
+	}
+
+}
+
+@media screen and (max-width: 282px) {
+
+	.calculate-saldo-selection span {
+		font-size: 11px;
+    	line-height: 25px;
+	}
+
+}

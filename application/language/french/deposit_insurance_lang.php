@@ -1,0 +1,12 @@
+<?php
+$lang['di_tit'] = 'Assurance et Sécurité des Fonds | ForexMart';
+$lang['di_kew'] = 'Assurance et Sécurité des Fonds | ForexMart';
+$lang['di_dsc'] = 'Assurance et Sécurité des Fonds | ForexMart';
+
+$lang['di-1'] = '<h1 class="license-title">Assurance des Fonds</h1> ';
+
+
+$lang['di-5']='<p class="content-text">Votre sécurité et la transparence dans les opérations de trading sont au centre de nos préoccupations et ForexMart est largement engagé sur cette voie.</p><p class="content-text">ForexMart est membre du Fonds d’Indemnisation des Investisseurs, agissant en vertu de l’article 17 de la Loi de 2007 sur les Services et les Activités d’Invesissement et les Marchés Réglementés. Conformément à cette loi chaque entreprise d’investissement chypriote doit être membre du Fonds. Notre Société a mis en place une politique de communication ouverte avec les traders concernant les litiges et la résolution de ceux derniers et l’objectif principal du Fonds est de couvrir les réclamations des clients protégés face à la société dans des situations où cette dernière n’est pas en mesure de respecter ses obligations contractuelles, à savoir:</p><ul class="content-list"><li><span>Remettre aux clients protégés les fonds leur appartenant</span></li>                        <li><span>Faire retourner aux clients les instruments financiers confiés à la société-membre.</span></li>                 </ul>         <p class="content-text">Le Fonds doit verser une indemnité au client concerné, sous réserve des conditions légales et contractuelles existantes. Cependant, l’indemnisation sera refusée aux personnes contre lesquelles une affaire criminelle est engagée conformément à la loi de 2007 sur la Prévention et la Lutte contre la Légalisation des Revenus provenant de l’Activité Criminelle.</p><p class="content-text">Le montant de l’indemnité payée au client couvert dépendra des règles en vigueur. Il est calculé conformémént aux conditions légales et contractuelles en additionnant toutes les réclamations établies du client contre l’entreprise, provenant de tous les services rendus par l’entité. A présent, le montant versé aux clients couverts ne peut pas dépasser la somme de 20.000 €.</p> ';
+
+
+?>
