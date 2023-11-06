@@ -63,8 +63,8 @@ $active_group = 'logs';
 $query_builder = TRUE;
 
 $hostname='136.243.104.88';
-//$password='F*_P4CBV=j?Hu\Xd';
-$password='DUvU_xp$f5]sjFgZ';
+
+$password='';
 
 $db['logs'] = array(
     'dsn'   => '',
@@ -140,7 +140,7 @@ $db['copytrade'] = array(
     'dsn' => '',
     'hostname' => '85.10.202.114',
     'username' => 'mini_FC_2',
-    'password' => 'S2k3ErBcvXXx43Yw',
+    'password' => '',
     'database' => 'mini_FC',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',

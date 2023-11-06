@@ -4,7 +4,7 @@
 
 $servername = "localhost";
 $username = "fxpp_admin";
-$password = "DUvU_xp$f5]sjFgU";
+$password = "";
 
 // Create connection
 $conn = new mysqli_connect($servername, $username, $password);
